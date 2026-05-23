@@ -224,6 +224,14 @@ export default function Home() {
   const [copiedResponse, setCopiedResponse] = useState(null)
   const [showShareModal, setShowShareModal] = useState(false)
   const [loadingStep, setLoadingStep] = useState(0)
+  const inputCardRef = useRef(null)
+  const [inputHeight, setInputHeight] = useState(null)
+
+  useEffect(() => {
+    if (inputCardRef.current) {
+      setInputHeight(inputCardRef.current.offsetHeight)
+    }
+  }, [message, messageB, compareMode, roastMode])
 
   async function analyzeMessage(msg) {
     const res = await fetch("/api/analyze", {
@@ -572,12 +580,12 @@ export default function Home() {
             </div>
 
             {/* Two column layout on desktop */}
-            <div className="flex flex-col lg:flex-row gap-6 items-start">
+            <div className="flex flex-col lg:flex-row gap-6 items-stretch">
 
               {/* Left column — input */}
-              <div className="w-full lg:w-1/2">
-                <div style={{ ...gradientBorder, borderRadius: "16px", padding: "1px" }}>
-                  <div style={{ ...cardStyle, borderRadius: "15px", padding: "24px" }}>
+              <div className="w-full lg:w-1/2 flex flex-col">
+                <div ref={inputCardRef} style={{ ...gradientBorder, borderRadius: "16px", padding: "1px", flex: 1 }}>
+                  <div style={{ ...cardStyle, borderRadius: "15px", padding: "24px", height: "100%" }}>
 
                     <div className="flex items-center justify-between mb-4 pb-4"
                       style={{ borderBottom: "1px solid rgba(168,85,247,0.12)" }}>
@@ -689,10 +697,15 @@ export default function Home() {
               {/* Right column — results */}
               <div className="w-full lg:w-1/2 flex flex-col gap-4">
 
-                {/* Placeholder / Loading state */}
+                {/* Placeholder / Loading — matches input card height */}
                 {!result && (
-                  <div className="hidden lg:flex flex-col items-center justify-center rounded-2xl p-8 text-center"
-                    style={{ ...cardStyle, borderRadius: "16px", minHeight: "300px" }}>
+                  <div className="hidden lg:flex flex-col items-center justify-center rounded-2xl"
+                    style={{
+                      ...cardStyle,
+                      borderRadius: "16px",
+                      minHeight: inputHeight ? `${inputHeight}px` : "500px",
+                      border: "1px solid rgba(168,85,247,0.25)",
+                    }}>
                     {loading ? (
                       <>
                         <span className="animate-spin h-10 w-10 border-4 border-purple-400 border-t-transparent rounded-full mb-4 inline-block" />
