@@ -20,6 +20,13 @@ const RELATIONSHIP_TYPES = [
 
 const EMOJI_REACTIONS = ["😱", "🤢", "😤", "💀", "🙄"]
 
+const LOADING_STEPS = [
+  "Reading message...",
+  "Detecting patterns...",
+  "Analyzing behavior...",
+  "Generating report...",
+]
+
 function Confetti({ active }) {
   const [particles, setParticles] = useState([])
 
@@ -133,7 +140,6 @@ function ShareModal({ result, onClose }) {
       onClick={onClose}>
       <div className="w-full max-w-sm flex flex-col items-center gap-4" onClick={e => e.stopPropagation()}>
 
-        {/* Share card */}
         <div ref={cardRef} style={{
           width: "100%",
           background: "linear-gradient(135deg, #1a0533 0%, #2d1b4e 50%, #1e1235 100%)",
@@ -141,7 +147,6 @@ function ShareModal({ result, onClose }) {
           padding: "32px",
           fontFamily: "system-ui, sans-serif",
         }}>
-          {/* Header */}
           <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "24px" }}>
             <span style={{ fontSize: "24px" }}>🚩</span>
             <span style={{ fontSize: "18px", fontWeight: "700", background: "linear-gradient(90deg, #e879f9, #f472b6)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
@@ -149,7 +154,6 @@ function ShareModal({ result, onClose }) {
             </span>
           </div>
 
-          {/* Verdict */}
           <div style={{
             fontSize: "36px",
             fontWeight: "800",
@@ -159,7 +163,6 @@ function ShareModal({ result, onClose }) {
             {result.verdict === "TOXIC" ? "🚩 TOXIC" : "✅ NOT TOXIC"}
           </div>
 
-          {/* Score bar */}
           <div style={{ marginBottom: "20px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "6px" }}>
               <span style={{ fontSize: "12px", color: "rgba(216,180,254,0.6)" }}>Toxicity score</span>
@@ -170,7 +173,6 @@ function ShareModal({ result, onClose }) {
             </div>
           </div>
 
-          {/* Flags */}
           {flags.length > 0 && (
             <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", marginBottom: "20px" }}>
               {flags.slice(0, 4).map((flag, i) => (
@@ -188,19 +190,16 @@ function ShareModal({ result, onClose }) {
             </div>
           )}
 
-          {/* Summary */}
           <p style={{ fontSize: "13px", color: "rgba(216,180,254,0.85)", lineHeight: "1.6", marginBottom: "24px" }}>
             {result.summary}
           </p>
 
-          {/* Footer */}
           <div style={{ borderTop: "1px solid rgba(168,85,247,0.2)", paddingTop: "16px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <span style={{ fontSize: "11px", color: "rgba(168,85,247,0.5)" }}>toxicornot.ai</span>
             <span style={{ fontSize: "11px", color: "rgba(168,85,247,0.5)" }}>powered by AI</span>
           </div>
         </div>
 
-        {/* Buttons */}
         <div className="flex gap-3 w-full">
           <button onClick={download} disabled={downloading}
             className="flex-1 py-3 rounded-xl font-semibold text-sm transition-all disabled:opacity-50"
@@ -244,6 +243,7 @@ export default function Home() {
   const [loadingResponses, setLoadingResponses] = useState(false)
   const [copiedResponse, setCopiedResponse] = useState(null)
   const [showShareModal, setShowShareModal] = useState(false)
+  const [loadingStep, setLoadingStep] = useState(0)
 
   async function analyzeMessage(msg) {
     const res = await fetch("/api/analyze", {
@@ -267,6 +267,11 @@ export default function Home() {
     setShowConfetti(false)
     setResponses(null)
     setShowShareModal(false)
+    setLoadingStep(0)
+
+    const stepInterval = setInterval(() => {
+      setLoadingStep(prev => prev < LOADING_STEPS.length - 1 ? prev + 1 : prev)
+    }, 700)
 
     try {
       if (compareMode && messageB.trim()) {
@@ -277,7 +282,14 @@ export default function Home() {
         setResult(dataA)
         setResultB(dataB)
       } else {
-        const data = await analyzeMessage(message)
+        const res = await fetch("/api/analyze", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message, relationshipType, roastMode }),
+        })
+        const data = await res.json()
+        if (data.error) throw new Error(data.error)
+        data.originalMessage = message
         setResult(data)
         if (data.verdict === "NOT TOXIC") setShowConfetti(true)
         setHistory(prev => [{
@@ -291,6 +303,7 @@ export default function Home() {
     } catch (err) {
       setError("Something went wrong. Please try again.")
     } finally {
+      clearInterval(stepInterval)
       setLoading(false)
     }
   }
@@ -372,7 +385,6 @@ export default function Home() {
 
           <ToxicityGauge score={data.score} animate={revealed} darkMode={darkMode} />
 
-          {/* Red flags */}
           {data.flags && data.flags.length > 0 && (
             <div className="mb-4">
               <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: textFaint }}>🚩 Red flags</p>
@@ -397,7 +409,6 @@ export default function Home() {
             </div>
           )}
 
-          {/* Green flags */}
           {data.greenFlags && data.greenFlags.length > 0 && (
             <div className="mb-4">
               <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: textFaint }}>✅ Green flags</p>
@@ -417,7 +428,6 @@ export default function Home() {
             </div>
           )}
 
-          {/* Highlights */}
           {data.highlights && data.highlights.length > 0 && (
             <div className="mb-4">
               <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: textFaint }}>🔍 Problematic phrases</p>
@@ -433,13 +443,11 @@ export default function Home() {
             </div>
           )}
 
-          {/* Summary */}
           <p className="text-sm leading-relaxed py-4"
             style={{ color: textBody, borderTop: "1px solid rgba(168,85,247,0.15)" }}>
             {data.summary}
           </p>
 
-          {/* Roast */}
           {roastMode && data.roast && (
             <div className="rounded-xl p-4 mb-4"
               style={{ background: darkMode ? "rgba(219,39,119,0.12)" : "#fdf2f8", border: "1px solid rgba(219,39,119,0.25)" }}>
@@ -448,7 +456,6 @@ export default function Home() {
             </div>
           )}
 
-          {/* Tips */}
           {data.tips && data.tips.length > 0 && (
             <div className="rounded-xl p-4 mb-4"
               style={{ background: darkMode ? "rgba(124,58,237,0.1)" : "#faf5ff", border: "1px solid rgba(124,58,237,0.2)" }}>
@@ -459,7 +466,6 @@ export default function Home() {
             </div>
           )}
 
-          {/* Glossary */}
           {data.glossary && Object.keys(data.glossary).length > 0 && (
             <div className="mb-4">
               <button onClick={() => setGlossaryOpen(!glossaryOpen)}
@@ -480,7 +486,6 @@ export default function Home() {
             </div>
           )}
 
-          {/* Emoji reactions */}
           {!compareMode && (
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xs font-medium" style={{ color: textMuted }}>React:</span>
@@ -503,7 +508,6 @@ export default function Home() {
       <Confetti active={showConfetti} />
       {showShareModal && result && <ShareModal result={result} onClose={() => setShowShareModal(false)} />}
 
-      {/* Glow blob — reduced opacity */}
       <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[600px] h-[150px] rounded-full opacity-10 blur-3xl pointer-events-none"
         style={{ background: "radial-gradient(ellipse, #c084fc 0%, #f472b6 100%)" }} />
 
@@ -544,7 +548,6 @@ export default function Home() {
       {tab === "analyze" && (
         <div className="w-full max-w-xl relative z-10 flex flex-col gap-4">
 
-          {/* Examples */}
           <div className="flex gap-2 flex-wrap">
             {EXAMPLES.map((ex) => (
               <button key={ex.label}
@@ -556,11 +559,9 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Input card */}
           <div style={{ ...gradientBorder, borderRadius: "16px", padding: "1px" }}>
             <div style={{ ...cardStyle, borderRadius: "15px", padding: "24px" }}>
 
-              {/* Compare mode */}
               <div className="flex items-center justify-between mb-4 pb-4"
                 style={{ borderBottom: "1px solid rgba(168,85,247,0.12)" }}>
                 <div>
@@ -575,7 +576,6 @@ export default function Home() {
                 </button>
               </div>
 
-              {/* Relationship type */}
               <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: textFaint }}>Message type</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {RELATIONSHIP_TYPES.map((r) => (
@@ -592,17 +592,20 @@ export default function Home() {
               </div>
 
               <textarea
-                className="w-full rounded-xl p-4 text-sm resize-none focus:outline-none transition-colors"
+                className="w-full rounded-xl p-4 resize-none focus:outline-none transition-colors"
                 style={{
                   background: darkMode ? "rgba(255,255,255,0.04)" : "#faf5ff",
                   border: "1px solid rgba(168,85,247,0.25)",
                   color: textPrimary,
-                  lineHeight: "1.6"
+                  lineHeight: "1.6",
+                  fontSize: "16px",
+                  WebkitAppearance: "none",
                 }}
                 rows={compareMode ? 4 : 6}
                 placeholder={compareMode ? "Paste message A here..." : "Paste a text, DM, email, or message here..."}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
+                onInput={(e) => setMessage(e.target.value)}
               />
               <div className="flex justify-end mt-1 mb-3">
                 <span className="text-xs" style={{ color: textFaint }}>{message.length} characters</span>
@@ -611,17 +614,20 @@ export default function Home() {
               {compareMode && (
                 <>
                   <textarea
-                    className="w-full rounded-xl p-4 text-sm resize-none focus:outline-none transition-colors mt-2"
+                    className="w-full rounded-xl p-4 resize-none focus:outline-none transition-colors mt-2"
                     style={{
                       background: darkMode ? "rgba(255,255,255,0.04)" : "#faf5ff",
                       border: "1px solid rgba(168,85,247,0.25)",
                       color: textPrimary,
-                      lineHeight: "1.6"
+                      lineHeight: "1.6",
+                      fontSize: "16px",
+                      WebkitAppearance: "none",
                     }}
                     rows={4}
                     placeholder="Paste message B here..."
                     value={messageB}
                     onChange={(e) => setMessageB(e.target.value)}
+                    onInput={(e) => setMessageB(e.target.value)}
                   />
                   <div className="flex justify-end mt-1 mb-3">
                     <span className="text-xs" style={{ color: textFaint }}>{messageB.length} characters</span>
@@ -629,7 +635,6 @@ export default function Home() {
                 </>
               )}
 
-              {/* Roast mode */}
               <div className="flex items-center justify-between mb-4 pt-2"
                 style={{ borderTop: "1px solid rgba(168,85,247,0.12)" }}>
                 <div>
@@ -650,7 +655,7 @@ export default function Home() {
                 {loading ? (
                   <>
                     <span className="animate-spin h-4 w-4 border-2 border-white border-t-transparent rounded-full inline-block" />
-                    Analyzing...
+                    {LOADING_STEPS[loadingStep]}
                   </>
                 ) : compareMode ? "Compare →" : "Analyze →"}
               </button>
@@ -663,7 +668,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Single result */}
           {result && !compareMode && (
             <div style={{ opacity: revealed ? 1 : 0, transform: revealed ? "translateY(0)" : "translateY(16px)", transition: "opacity 0.5s ease, transform 0.5s ease" }}>
               <ResultCard data={result} />
@@ -686,7 +690,6 @@ export default function Home() {
                 </button>
               </div>
 
-              {/* AI Response Suggester */}
               {result?.verdict === "TOXIC" && (
                 <div className="mt-3">
                   {!responses && (
@@ -742,7 +745,6 @@ export default function Home() {
             </div>
           )}
 
-          {/* Compare results */}
           {compareMode && result && resultB && (
             <div style={{ opacity: revealed ? 1 : 0, transition: "opacity 0.5s ease" }}>
               <div className="grid grid-cols-2 gap-3">

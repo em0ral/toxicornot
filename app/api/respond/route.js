@@ -6,7 +6,7 @@ const client = new Anthropic({
 
 export async function POST(request) {
   try {
-    const { message, relationshipType, flags } = await request.json()
+    const { message, relationshipType, roastMode } = await request.json()
 
     if (!message || message.trim().length === 0) {
       return Response.json({ error: "No message provided" }, { status: 400 })
@@ -14,41 +14,48 @@ export async function POST(request) {
 
     const response = await client.messages.create({
       model: "claude-sonnet-4-5",
-      max_tokens: 1024,
+      max_tokens: 2048,
       messages: [
         {
           role: "user",
-          content: `You are an expert communication coach. Someone received this toxic ${relationshipType || "personal"} message and needs help responding.
+          content: `You are a red flag detector analyzing a ${relationshipType || "personal"} message.
 
-Detected red flags: ${flags?.join(", ") || "toxic behavior"}
+${roastMode ? `You are in ROAST MODE. Be snarky, witty, and darkly funny in your summary and roast fields.` : "Be direct and empathetic."}
 
-The message they received:
-"${message}"
-
-Return ONLY a valid JSON object with no markdown:
+Return ONLY a valid JSON object with this exact structure, no markdown, no extra text:
 {
-  "responses": [
+  "verdict": "TOXIC" or "NOT TOXIC",
+  "score": number from 0 to 100,
+  "confidence": number from 0 to 100,
+  "flags": [
     {
-      "type": "boundary",
-      "label": "Set a boundary",
-      "emoji": "🛑",
-      "text": "a firm but calm response that sets a clear boundary"
-    },
-    {
-      "type": "deescalate",
-      "label": "De-escalate",
-      "emoji": "🕊️",
-      "text": "a calm response that reduces tension without accepting bad behavior"
-    },
-    {
-      "type": "exit",
-      "label": "Exit the conversation",
-      "emoji": "🚪",
-      "text": "a short response that ends the conversation respectfully"
+      "label": "short flag name",
+      "severity": "low", "medium", or "high",
+      "explanation": "one sentence explaining why this applies"
     }
   ],
-  "advice": "one sentence of coaching advice for handling this situation"
-}`,
+  "greenFlags": [
+    {
+      "label": "short positive label",
+      "explanation": "one sentence explaining why this is healthy"
+    }
+  ],
+  "highlights": [
+    {
+      "quote": "exact short phrase from message (max 6 words)",
+      "reason": "one sentence why this is a red flag"
+    }
+  ],
+  "summary": "1-2 sentence plain English explanation",
+  "roast": "${roastMode ? "1-2 sentence snarky roast" : ""}",
+  "tips": ["3 short actionable tips"],
+  "glossary": {
+    "flagName": "plain English definition"
+  }
+}
+
+Message to analyze:
+"${message}"`,
         },
       ],
     })
@@ -60,7 +67,7 @@ Return ONLY a valid JSON object with no markdown:
     return Response.json(parsed)
 
   } catch (error) {
-    console.error("Respond API error:", error)
+    console.error("API error:", error)
     return Response.json({ error: error.message }, { status: 500 })
   }
 }
