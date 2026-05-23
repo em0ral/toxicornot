@@ -852,8 +852,10 @@ export default function Home() {
         </section>
 
         <p className="mt-6 text-xs text-center" style={{ color: textFaint }}>
-          toxicornot.ai · powered by AI · not a substitute for professional advice
-        </p>
+  toxicornot.ai · powered by AI · not a substitute for professional advice
+  {" · "}
+  <a href="/privacy" style={{ color: textFaint, textDecoration: "underline" }}>Privacy Policy</a>
+</p>
       </div>
     </main>
   )
