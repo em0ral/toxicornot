@@ -139,7 +139,6 @@ function ShareModal({ result, onClose }) {
       style={{ background: "rgba(0,0,0,0.7)" }}
       onClick={onClose}>
       <div className="w-full max-w-sm flex flex-col items-center gap-4" onClick={e => e.stopPropagation()}>
-
         <div ref={cardRef} style={{
           width: "100%",
           background: "linear-gradient(135deg, #1a0533 0%, #2d1b4e 50%, #1e1235 100%)",
@@ -153,16 +152,9 @@ function ShareModal({ result, onClose }) {
               toxicornot.ai
             </span>
           </div>
-
-          <div style={{
-            fontSize: "36px",
-            fontWeight: "800",
-            color: result.verdict === "TOXIC" ? "#f472b6" : "#34d399",
-            marginBottom: "8px",
-          }}>
+          <div style={{ fontSize: "36px", fontWeight: "800", color: result.verdict === "TOXIC" ? "#f472b6" : "#34d399", marginBottom: "8px" }}>
             {result.verdict === "TOXIC" ? "🚩 TOXIC" : "✅ NOT TOXIC"}
           </div>
-
           <div style={{ marginBottom: "20px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "6px" }}>
               <span style={{ fontSize: "12px", color: "rgba(216,180,254,0.6)" }}>Toxicity score</span>
@@ -172,34 +164,23 @@ function ShareModal({ result, onClose }) {
               <div style={{ background: scoreColor, borderRadius: "99px", height: "8px", width: `${result.score}%` }} />
             </div>
           </div>
-
           {flags.length > 0 && (
             <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", marginBottom: "20px" }}>
               {flags.slice(0, 4).map((flag, i) => (
-                <span key={i} style={{
-                  fontSize: "11px",
-                  padding: "4px 10px",
-                  borderRadius: "99px",
-                  background: "rgba(236,72,153,0.2)",
-                  border: "1px solid rgba(236,72,153,0.4)",
-                  color: "#f9a8d4",
-                }}>
+                <span key={i} style={{ fontSize: "11px", padding: "4px 10px", borderRadius: "99px", background: "rgba(236,72,153,0.2)", border: "1px solid rgba(236,72,153,0.4)", color: "#f9a8d4" }}>
                   🚩 {flag}
                 </span>
               ))}
             </div>
           )}
-
           <p style={{ fontSize: "13px", color: "rgba(216,180,254,0.85)", lineHeight: "1.6", marginBottom: "24px" }}>
             {result.summary}
           </p>
-
           <div style={{ borderTop: "1px solid rgba(168,85,247,0.2)", paddingTop: "16px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <span style={{ fontSize: "11px", color: "rgba(168,85,247,0.5)" }}>toxicornot.ai</span>
             <span style={{ fontSize: "11px", color: "rgba(168,85,247,0.5)" }}>powered by AI</span>
           </div>
         </div>
-
         <div className="flex gap-3 w-full">
           <button onClick={download} disabled={downloading}
             className="flex-1 py-3 rounded-xl font-semibold text-sm transition-all disabled:opacity-50"
@@ -212,7 +193,6 @@ function ShareModal({ result, onClose }) {
             Close
           </button>
         </div>
-
         <p className="text-xs text-center" style={{ color: "rgba(255,255,255,0.3)" }}>
           Tap outside to close · Screenshot or download to share
         </p>
@@ -386,14 +366,11 @@ export default function Home() {
           {label && (
             <p className="text-xs font-semibold mb-3 uppercase tracking-wide" style={{ color: textFaint }}>{label}</p>
           )}
-
           <div className={`text-3xl font-bold mb-1 ${data.verdict === "TOXIC" ? "text-pink-500" : "text-emerald-600"}`}
             style={{ opacity: revealed ? 1 : 0, transform: revealed ? "scale(1)" : "scale(0.8)", transition: "opacity 0.6s ease 0.2s, transform 0.6s cubic-bezier(0.34,1.56,0.64,1) 0.2s" }}>
             {data.verdict === "TOXIC" ? "🚩 TOXIC" : "✅ NOT TOXIC"}
           </div>
-
           {data.confidence !== undefined && <ConfidenceBadge confidence={data.confidence} darkMode={darkMode} />}
-
           <ToxicityGauge score={data.score} animate={revealed} darkMode={darkMode} />
 
           {data.flags && data.flags.length > 0 && (
@@ -515,327 +492,369 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen flex flex-col items-center px-4 py-12" style={{ background: bg }}>
+    <main className="min-h-screen flex flex-col items-center px-4" style={{ background: bg }}>
       <Confetti active={showConfetti} />
       {showShareModal && result && <ShareModal result={result} onClose={() => setShowShareModal(false)} />}
 
       <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[600px] h-[150px] rounded-full opacity-10 blur-3xl pointer-events-none"
         style={{ background: "radial-gradient(ellipse, #c084fc 0%, #f472b6 100%)" }} />
 
-      {/* Header */}
-      <div className="text-center mb-8 relative z-10 w-full max-w-xl">
-        <div className="flex justify-end mb-2">
+      {/* SEO Landing Section */}
+      <section className="w-full max-w-2xl relative z-10 pt-12 pb-8 text-center">
+        <div className="flex justify-end mb-4">
           <button onClick={() => setDarkMode(!darkMode)}
             className="text-xs px-3 py-1.5 rounded-full transition-all font-medium"
             style={{ background: "rgba(168,85,247,0.12)", border: "1px solid rgba(168,85,247,0.3)", color: textMuted }}>
             {darkMode ? "☀️ Light" : "🌙 Dark"}
           </button>
         </div>
+
         <span className="text-5xl">🚩</span>
-        <h1 className="text-5xl font-bold mt-2 mb-2" style={gradientText}>toxicornot.ai</h1>
-        <p className="text-base" style={{ color: textBody }}>Paste a message. We'll tell you if it's toxic.</p>
-      </div>
+        <h1 className="text-5xl font-bold mt-3 mb-3" style={gradientText}>toxicornot.ai</h1>
+        <p className="text-xl font-medium mb-3" style={{ color: textPrimary }}>
+          AI-Powered Toxic Message Detector
+        </p>
+        <p className="text-base mb-6 max-w-lg mx-auto" style={{ color: textBody }}>
+          Paste any text, DM, email, or message and our AI instantly detects toxic behavior — gaslighting, manipulation, love bombing, emotional abuse, and more. Free to use, no signup required.
+        </p>
 
-      {/* Tabs */}
-      <div className="flex gap-1 mb-6 relative z-10 rounded-xl p-1"
-        style={{ background: darkMode ? "rgba(255,255,255,0.06)" : "rgba(168,85,247,0.08)" }}>
-        {[
-          ["analyze", "Analyze"],
-          ["history", `History${history.length > 0 ? ` (${history.length})` : ""}`],
-          ["about", "About"]
-        ].map(([key, label]) => (
-          <button key={key} onClick={() => setTab(key)}
-            className="px-5 py-2 rounded-lg text-sm font-medium transition-all"
-            style={{
-              background: tab === key ? "linear-gradient(90deg, #a855f7, #ec4899)" : "transparent",
-              color: tab === key ? "white" : textMuted
-            }}>
-            {label}
-          </button>
-        ))}
-      </div>
+        {/* Feature pills */}
+        <div className="flex flex-wrap justify-center gap-2 mb-8">
+          {[
+            "🧠 Gaslighting Detection",
+            "💔 Love Bombing",
+            "😤 Manipulation",
+            "🛑 Emotional Abuse",
+            "👥 Any Relationship Type",
+            "⚡ Instant Results",
+          ].map((pill) => (
+            <span key={pill} className="text-xs px-3 py-1.5 rounded-full font-medium"
+              style={{ background: darkMode ? "rgba(168,85,247,0.15)" : "rgba(168,85,247,0.1)", border: "1px solid rgba(168,85,247,0.25)", color: darkMode ? "#d4bfff" : "#6d28d9" }}>
+              {pill}
+            </span>
+          ))}
+        </div>
+      </section>
 
-      {/* ANALYZE TAB */}
-      {tab === "analyze" && (
-        <div className="w-full max-w-xl relative z-10 flex flex-col gap-4">
+      {/* App */}
+      <div className="w-full max-w-xl relative z-10 pb-12 flex flex-col gap-4">
 
-          <div className="flex gap-2 flex-wrap">
-            {EXAMPLES.map((ex) => (
-              <button key={ex.label}
-                onClick={() => { setMessage(ex.text); setResult(null); setResponses(null) }}
-                className="text-xs px-3 py-1.5 rounded-full transition-all font-medium"
-                style={{ background: darkMode ? "rgba(168,85,247,0.15)" : "rgba(168,85,247,0.1)", border: "1px solid rgba(168,85,247,0.3)", color: darkMode ? "#d4bfff" : "#6d28d9" }}>
-                Try: {ex.label}
-              </button>
-            ))}
-          </div>
+        {/* Tabs */}
+        <div className="flex gap-1 rounded-xl p-1"
+          style={{ background: darkMode ? "rgba(255,255,255,0.06)" : "rgba(168,85,247,0.08)" }}>
+          {[
+            ["analyze", "Analyze"],
+            ["history", `History${history.length > 0 ? ` (${history.length})` : ""}`],
+            ["about", "About"]
+          ].map(([key, label]) => (
+            <button key={key} onClick={() => setTab(key)}
+              className="px-5 py-2 rounded-lg text-sm font-medium transition-all"
+              style={{
+                background: tab === key ? "linear-gradient(90deg, #a855f7, #ec4899)" : "transparent",
+                color: tab === key ? "white" : textMuted
+              }}>
+              {label}
+            </button>
+          ))}
+        </div>
 
-          <div style={{ ...gradientBorder, borderRadius: "16px", padding: "1px" }}>
-            <div style={{ ...cardStyle, borderRadius: "15px", padding: "24px" }}>
+        {/* ANALYZE TAB */}
+        {tab === "analyze" && (
+          <div className="flex flex-col gap-4">
 
-              <div className="flex items-center justify-between mb-4 pb-4"
-                style={{ borderBottom: "1px solid rgba(168,85,247,0.12)" }}>
-                <div>
-                  <p className="text-sm font-semibold" style={{ color: textPrimary }}>⚖️ Compare Mode</p>
-                  <p className="text-xs mt-0.5" style={{ color: textMuted }}>Compare two messages side by side</p>
-                </div>
-                <button onClick={() => setCompareMode(!compareMode)}
-                  className="relative w-12 h-6 rounded-full transition-all flex-shrink-0"
-                  style={{ background: compareMode ? "linear-gradient(90deg, #a855f7, #ec4899)" : (darkMode ? "rgba(255,255,255,0.1)" : "#e5e7eb") }}>
-                  <span className="absolute top-1 w-4 h-4 bg-white rounded-full transition-all shadow"
-                    style={{ left: compareMode ? "28px" : "4px" }} />
+            <div className="flex gap-2 flex-wrap">
+              {EXAMPLES.map((ex) => (
+                <button key={ex.label}
+                  onClick={() => { setMessage(ex.text); setResult(null); setResponses(null) }}
+                  className="text-xs px-3 py-1.5 rounded-full transition-all font-medium"
+                  style={{ background: darkMode ? "rgba(168,85,247,0.15)" : "rgba(168,85,247,0.1)", border: "1px solid rgba(168,85,247,0.3)", color: darkMode ? "#d4bfff" : "#6d28d9" }}>
+                  Try: {ex.label}
                 </button>
-              </div>
-
-              <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: textFaint }}>Message type</p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {RELATIONSHIP_TYPES.map((r) => (
-                  <button key={r.key} onClick={() => setRelationshipType(r.key)}
-                    className="text-xs px-3 py-1.5 rounded-full transition-all font-medium"
-                    style={{
-                      background: relationshipType === r.key ? "linear-gradient(90deg, #a855f7, #ec4899)" : (darkMode ? "rgba(168,85,247,0.1)" : "#f5f3ff"),
-                      border: relationshipType === r.key ? "none" : "1px solid rgba(168,85,247,0.2)",
-                      color: relationshipType === r.key ? "white" : (darkMode ? "#d4bfff" : "#6d28d9")
-                    }}>
-                    {r.label}
-                  </button>
-                ))}
-              </div>
-
-              <textarea
-                className="w-full rounded-xl p-4 resize-none focus:outline-none transition-colors"
-                style={{
-                  background: darkMode ? "rgba(255,255,255,0.04)" : "#faf5ff",
-                  border: "1px solid rgba(168,85,247,0.25)",
-                  color: textPrimary,
-                  lineHeight: "1.6",
-                  fontSize: "16px",
-                  WebkitAppearance: "none",
-                }}
-                rows={compareMode ? 4 : 6}
-                placeholder={compareMode ? "Paste message A here..." : "Paste a text, DM, email, or message here..."}
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                onInput={(e) => setMessage(e.target.value)}
-              />
-              <div className="flex justify-end mt-1 mb-3">
-                <span className="text-xs" style={{ color: textFaint }}>{message.length} characters</span>
-              </div>
-
-              {compareMode && (
-                <>
-                  <textarea
-                    className="w-full rounded-xl p-4 resize-none focus:outline-none transition-colors mt-2"
-                    style={{
-                      background: darkMode ? "rgba(255,255,255,0.04)" : "#faf5ff",
-                      border: "1px solid rgba(168,85,247,0.25)",
-                      color: textPrimary,
-                      lineHeight: "1.6",
-                      fontSize: "16px",
-                      WebkitAppearance: "none",
-                    }}
-                    rows={4}
-                    placeholder="Paste message B here..."
-                    value={messageB}
-                    onChange={(e) => setMessageB(e.target.value)}
-                    onInput={(e) => setMessageB(e.target.value)}
-                  />
-                  <div className="flex justify-end mt-1 mb-3">
-                    <span className="text-xs" style={{ color: textFaint }}>{messageB.length} characters</span>
-                  </div>
-                </>
-              )}
-
-              <div className="flex items-center justify-between mb-4 pt-2"
-                style={{ borderTop: "1px solid rgba(168,85,247,0.12)" }}>
-                <div>
-                  <p className="text-sm font-semibold" style={{ color: textPrimary }}>🔥 Roast Mode</p>
-                  <p className="text-xs mt-0.5" style={{ color: textMuted }}>Snarky, funny commentary</p>
-                </div>
-                <button onClick={() => setRoastMode(!roastMode)}
-                  className="relative w-12 h-6 rounded-full transition-all flex-shrink-0"
-                  style={{ background: roastMode ? "linear-gradient(90deg, #a855f7, #ec4899)" : (darkMode ? "rgba(255,255,255,0.1)" : "#e5e7eb") }}>
-                  <span className="absolute top-1 w-4 h-4 bg-white rounded-full transition-all shadow"
-                    style={{ left: roastMode ? "28px" : "4px" }} />
-                </button>
-              </div>
-
-              <button onClick={analyze} disabled={loading || !message.trim()}
-                className="w-full font-semibold py-3 rounded-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed"
-                style={{ background: "linear-gradient(90deg, #a855f7, #ec4899)", color: "white", fontSize: "15px" }}>
-                {loading ? (
-                  <>
-                    <span className="animate-spin h-4 w-4 border-2 border-white border-t-transparent rounded-full inline-block" />
-                    {LOADING_STEPS[loadingStep]}
-                  </>
-                ) : compareMode ? "Compare →" : "Analyze →"}
-              </button>
-
-              {error && <p className="mt-4 text-red-500 text-sm text-center font-medium">{error}</p>}
-
-              <p className="mt-3 text-xs text-center" style={{ color: textFaint }}>
-                Results are AI-generated and may not be accurate. Use your own judgment.
-              </p>
+              ))}
             </div>
-          </div>
 
-          {result && !compareMode && (
-            <div style={{ opacity: revealed ? 1 : 0, transform: revealed ? "translateY(0)" : "translateY(16px)", transition: "opacity 0.5s ease, transform 0.5s ease" }}>
-              <ResultCard data={result} />
+            <div style={{ ...gradientBorder, borderRadius: "16px", padding: "1px" }}>
+              <div style={{ ...cardStyle, borderRadius: "15px", padding: "24px" }}>
 
-              {/* Action buttons */}
-              <div className="flex gap-2 mt-3">
-                <button onClick={copyResult}
-                  className="flex-1 font-semibold rounded-xl transition-all"
-                  style={{ background: "linear-gradient(90deg, #a855f7, #ec4899)", color: "white", padding: "10px 12px", fontSize: "13px" }}>
-                  {copied ? "✓ Copied!" : "Copy Result"}
+                <div className="flex items-center justify-between mb-4 pb-4"
+                  style={{ borderBottom: "1px solid rgba(168,85,247,0.12)" }}>
+                  <div>
+                    <p className="text-sm font-semibold" style={{ color: textPrimary }}>⚖️ Compare Mode</p>
+                    <p className="text-xs mt-0.5" style={{ color: textMuted }}>Compare two messages side by side</p>
+                  </div>
+                  <button onClick={() => setCompareMode(!compareMode)}
+                    className="relative w-12 h-6 rounded-full transition-all flex-shrink-0"
+                    style={{ background: compareMode ? "linear-gradient(90deg, #a855f7, #ec4899)" : (darkMode ? "rgba(255,255,255,0.1)" : "#e5e7eb") }}>
+                    <span className="absolute top-1 w-4 h-4 bg-white rounded-full transition-all shadow"
+                      style={{ left: compareMode ? "28px" : "4px" }} />
+                  </button>
+                </div>
+
+                <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: textFaint }}>Message type</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {RELATIONSHIP_TYPES.map((r) => (
+                    <button key={r.key} onClick={() => setRelationshipType(r.key)}
+                      className="text-xs px-3 py-1.5 rounded-full transition-all font-medium"
+                      style={{
+                        background: relationshipType === r.key ? "linear-gradient(90deg, #a855f7, #ec4899)" : (darkMode ? "rgba(168,85,247,0.1)" : "#f5f3ff"),
+                        border: relationshipType === r.key ? "none" : "1px solid rgba(168,85,247,0.2)",
+                        color: relationshipType === r.key ? "white" : (darkMode ? "#d4bfff" : "#6d28d9")
+                      }}>
+                      {r.label}
+                    </button>
+                  ))}
+                </div>
+
+                <textarea
+                  className="w-full rounded-xl p-4 resize-none focus:outline-none transition-colors"
+                  style={{
+                    background: darkMode ? "rgba(255,255,255,0.04)" : "#faf5ff",
+                    border: "1px solid rgba(168,85,247,0.25)",
+                    color: textPrimary,
+                    lineHeight: "1.6",
+                    fontSize: "16px",
+                    WebkitAppearance: "none",
+                  }}
+                  rows={compareMode ? 4 : 6}
+                  placeholder={compareMode ? "Paste message A here..." : "Paste a text, DM, email, or message here..."}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  onInput={(e) => setMessage(e.target.value)}
+                />
+                <div className="flex justify-end mt-1 mb-3">
+                  <span className="text-xs" style={{ color: textFaint }}>{message.length} characters</span>
+                </div>
+
+                {compareMode && (
+                  <>
+                    <textarea
+                      className="w-full rounded-xl p-4 resize-none focus:outline-none transition-colors mt-2"
+                      style={{
+                        background: darkMode ? "rgba(255,255,255,0.04)" : "#faf5ff",
+                        border: "1px solid rgba(168,85,247,0.25)",
+                        color: textPrimary,
+                        lineHeight: "1.6",
+                        fontSize: "16px",
+                        WebkitAppearance: "none",
+                      }}
+                      rows={4}
+                      placeholder="Paste message B here..."
+                      value={messageB}
+                      onChange={(e) => setMessageB(e.target.value)}
+                      onInput={(e) => setMessageB(e.target.value)}
+                    />
+                    <div className="flex justify-end mt-1 mb-3">
+                      <span className="text-xs" style={{ color: textFaint }}>{messageB.length} characters</span>
+                    </div>
+                  </>
+                )}
+
+                <div className="flex items-center justify-between mb-4 pt-2"
+                  style={{ borderTop: "1px solid rgba(168,85,247,0.12)" }}>
+                  <div>
+                    <p className="text-sm font-semibold" style={{ color: textPrimary }}>🔥 Roast Mode</p>
+                    <p className="text-xs mt-0.5" style={{ color: textMuted }}>Snarky, funny commentary</p>
+                  </div>
+                  <button onClick={() => setRoastMode(!roastMode)}
+                    className="relative w-12 h-6 rounded-full transition-all flex-shrink-0"
+                    style={{ background: roastMode ? "linear-gradient(90deg, #a855f7, #ec4899)" : (darkMode ? "rgba(255,255,255,0.1)" : "#e5e7eb") }}>
+                    <span className="absolute top-1 w-4 h-4 bg-white rounded-full transition-all shadow"
+                      style={{ left: roastMode ? "28px" : "4px" }} />
+                  </button>
+                </div>
+
+                <button onClick={analyze} disabled={loading || !message.trim()}
+                  className="w-full font-semibold py-3 rounded-xl transition-all flex items-center justify-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed"
+                  style={{ background: "linear-gradient(90deg, #a855f7, #ec4899)", color: "white", fontSize: "15px" }}>
+                  {loading ? (
+                    <>
+                      <span className="animate-spin h-4 w-4 border-2 border-white border-t-transparent rounded-full inline-block" />
+                      {LOADING_STEPS[loadingStep]}
+                    </>
+                  ) : compareMode ? "Compare →" : "Analyze →"}
                 </button>
-                <button onClick={() => setShowShareModal(true)}
-                  className="rounded-xl transition-all font-medium"
-                  style={{ background: darkMode ? "rgba(168,85,247,0.2)" : "#f5f3ff", border: "1px solid rgba(168,85,247,0.3)", color: darkMode ? "#d4bfff" : "#6d28d9", padding: "10px 12px", fontSize: "12px" }}>
-                  📸 Share
-                </button>
+
+                {error && <p className="mt-4 text-red-500 text-sm text-center font-medium">{error}</p>}
+
+                <p className="mt-3 text-xs text-center" style={{ color: textFaint }}>
+                  Results are AI-generated and may not be accurate. Use your own judgment.
+                </p>
+              </div>
+            </div>
+
+            {result && !compareMode && (
+              <div style={{ opacity: revealed ? 1 : 0, transform: revealed ? "translateY(0)" : "translateY(16px)", transition: "opacity 0.5s ease, transform 0.5s ease" }}>
+                <ResultCard data={result} />
+
+                <div className="flex gap-2 mt-3">
+                  <button onClick={copyResult}
+                    className="flex-1 font-semibold rounded-xl transition-all"
+                    style={{ background: "linear-gradient(90deg, #a855f7, #ec4899)", color: "white", padding: "10px 12px", fontSize: "13px" }}>
+                    {copied ? "✓ Copied!" : "Copy Result"}
+                  </button>
+                  <button onClick={() => setShowShareModal(true)}
+                    className="rounded-xl transition-all font-medium"
+                    style={{ background: darkMode ? "rgba(168,85,247,0.2)" : "#f5f3ff", border: "1px solid rgba(168,85,247,0.3)", color: darkMode ? "#d4bfff" : "#6d28d9", padding: "10px 12px", fontSize: "12px" }}>
+                    📸 Share
+                  </button>
+                  <button onClick={reset}
+                    className="rounded-xl transition-all font-medium"
+                    style={{ border: "1px solid rgba(168,85,247,0.3)", color: textMuted, background: "transparent", padding: "10px 12px", fontSize: "12px" }}>
+                    🔄 Reset
+                  </button>
+                </div>
+
+                {result?.verdict === "TOXIC" && (
+                  <div className="mt-3">
+                    {!responses && (
+                      <button onClick={fetchResponses} disabled={loadingResponses}
+                        className="w-full text-sm py-3 rounded-xl font-medium transition-all flex items-center justify-center gap-2 disabled:opacity-40"
+                        style={{ background: darkMode ? "rgba(168,85,247,0.15)" : "#faf5ff", border: "1px solid rgba(168,85,247,0.3)", color: darkMode ? "#d4bfff" : "#6d28d9" }}>
+                        {loadingResponses ? (
+                          <>
+                            <span className="animate-spin h-4 w-4 border-2 border-purple-500 border-t-transparent rounded-full inline-block" />
+                            Generating responses...
+                          </>
+                        ) : "🤖 How should I respond?"}
+                      </button>
+                    )}
+
+                    {responses && (
+                      <div style={{ ...gradientBorder, borderRadius: "16px", padding: "1px" }}>
+                        <div style={{ ...cardStyle, borderRadius: "15px", padding: "24px" }}>
+                          <p className="text-sm font-semibold mb-1" style={{ color: textPrimary }}>🤖 Suggested Responses</p>
+                          {responses.advice && (
+                            <p className="text-xs mb-4 pb-3" style={{ color: textBody, borderBottom: "1px solid rgba(168,85,247,0.15)" }}>
+                              💡 {responses.advice}
+                            </p>
+                          )}
+                          <div className="flex flex-col gap-3">
+                            {responses.responses?.map((r, i) => (
+                              <div key={i} className="rounded-xl p-4"
+                                style={{ background: darkMode ? "rgba(168,85,247,0.08)" : "#faf5ff", border: "1px solid rgba(168,85,247,0.2)" }}>
+                                <div className="flex items-center justify-between mb-2">
+                                  <span className="text-xs font-semibold" style={{ color: darkMode ? "#c084fc" : "#6d28d9" }}>
+                                    {r.emoji} {r.label}
+                                  </span>
+                                  <button onClick={() => copyResponse(r.text, i)}
+                                    className="text-xs px-2 py-1 rounded-lg transition-all font-medium"
+                                    style={{ background: "rgba(168,85,247,0.15)", color: textMuted }}>
+                                    {copiedResponse === i ? "✓ Copied!" : "Copy"}
+                                  </button>
+                                </div>
+                                <p className="text-sm" style={{ color: textBody }}>{r.text}</p>
+                              </div>
+                            ))}
+                          </div>
+                          <button onClick={() => setResponses(null)}
+                            className="mt-4 w-full text-xs py-2 rounded-xl transition-all font-medium"
+                            style={{ border: "1px solid rgba(168,85,247,0.2)", color: textMuted, background: "transparent" }}>
+                            Hide responses
+                          </button>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {compareMode && result && resultB && (
+              <div style={{ opacity: revealed ? 1 : 0, transition: "opacity 0.5s ease" }}>
+                <div className="grid grid-cols-2 gap-3">
+                  <ResultCard data={result} label="Message A" />
+                  <ResultCard data={resultB} label="Message B" />
+                </div>
+                <div className="mt-3 rounded-2xl p-4" style={cardStyle}>
+                  <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: textFaint }}>⚖️ Verdict</p>
+                  <p className="text-sm font-medium" style={{ color: textBody }}>
+                    {result.score > resultB.score
+                      ? `Message A is more toxic by ${result.score - resultB.score} points.`
+                      : result.score < resultB.score
+                      ? `Message B is more toxic by ${resultB.score - result.score} points.`
+                      : "Both messages scored equally."}
+                  </p>
+                </div>
                 <button onClick={reset}
-                  className="rounded-xl transition-all font-medium"
-                  style={{ border: "1px solid rgba(168,85,247,0.3)", color: textMuted, background: "transparent", padding: "10px 12px", fontSize: "12px" }}>
+                  className="mt-3 w-full text-sm py-2.5 rounded-xl transition-all font-medium"
+                  style={{ border: "1px solid rgba(168,85,247,0.3)", color: textMuted, background: "transparent" }}>
                   🔄 Reset
                 </button>
               </div>
+            )}
+          </div>
+        )}
 
-              {result?.verdict === "TOXIC" && (
-                <div className="mt-3">
-                  {!responses && (
-                    <button onClick={fetchResponses} disabled={loadingResponses}
-                      className="w-full text-sm py-3 rounded-xl font-medium transition-all flex items-center justify-center gap-2 disabled:opacity-40"
-                      style={{ background: darkMode ? "rgba(168,85,247,0.15)" : "#faf5ff", border: "1px solid rgba(168,85,247,0.3)", color: darkMode ? "#d4bfff" : "#6d28d9" }}>
-                      {loadingResponses ? (
-                        <>
-                          <span className="animate-spin h-4 w-4 border-2 border-purple-500 border-t-transparent rounded-full inline-block" />
-                          Generating responses...
-                        </>
-                      ) : "🤖 How should I respond?"}
-                    </button>
-                  )}
-
-                  {responses && (
-                    <div style={{ ...gradientBorder, borderRadius: "16px", padding: "1px" }}>
-                      <div style={{ ...cardStyle, borderRadius: "15px", padding: "24px" }}>
-                        <p className="text-sm font-semibold mb-1" style={{ color: textPrimary }}>🤖 Suggested Responses</p>
-                        {responses.advice && (
-                          <p className="text-xs mb-4 pb-3" style={{ color: textBody, borderBottom: "1px solid rgba(168,85,247,0.15)" }}>
-                            💡 {responses.advice}
-                          </p>
-                        )}
-                        <div className="flex flex-col gap-3">
-                          {responses.responses?.map((r, i) => (
-                            <div key={i} className="rounded-xl p-4"
-                              style={{ background: darkMode ? "rgba(168,85,247,0.08)" : "#faf5ff", border: "1px solid rgba(168,85,247,0.2)" }}>
-                              <div className="flex items-center justify-between mb-2">
-                                <span className="text-xs font-semibold" style={{ color: darkMode ? "#c084fc" : "#6d28d9" }}>
-                                  {r.emoji} {r.label}
-                                </span>
-                                <button onClick={() => copyResponse(r.text, i)}
-                                  className="text-xs px-2 py-1 rounded-lg transition-all font-medium"
-                                  style={{ background: "rgba(168,85,247,0.15)", color: textMuted }}>
-                                  {copiedResponse === i ? "✓ Copied!" : "Copy"}
-                                </button>
-                              </div>
-                              <p className="text-sm" style={{ color: textBody }}>{r.text}</p>
-                            </div>
-                          ))}
-                        </div>
-                        <button onClick={() => setResponses(null)}
-                          className="mt-4 w-full text-xs py-2 rounded-xl transition-all font-medium"
-                          style={{ border: "1px solid rgba(168,85,247,0.2)", color: textMuted, background: "transparent" }}>
-                          Hide responses
-                        </button>
-                      </div>
-                    </div>
-                  )}
-                </div>
-              )}
-            </div>
-          )}
-
-          {compareMode && result && resultB && (
-            <div style={{ opacity: revealed ? 1 : 0, transition: "opacity 0.5s ease" }}>
-              <div className="grid grid-cols-2 gap-3">
-                <ResultCard data={result} label="Message A" />
-                <ResultCard data={resultB} label="Message B" />
+        {/* HISTORY TAB */}
+        {tab === "history" && (
+          <div className="flex flex-col gap-3">
+            {history.length === 0 ? (
+              <div className="text-center py-16" style={{ color: textMuted }}>
+                <p className="text-4xl mb-3">🕐</p>
+                <p className="text-sm">No analyses yet this session.</p>
               </div>
-              <div className="mt-3 rounded-2xl p-4" style={cardStyle}>
-                <p className="text-xs font-semibold mb-2 uppercase tracking-wide" style={{ color: textFaint }}>⚖️ Verdict</p>
-                <p className="text-sm font-medium" style={{ color: textBody }}>
-                  {result.score > resultB.score
-                    ? `Message A is more toxic by ${result.score - resultB.score} points.`
-                    : result.score < resultB.score
-                    ? `Message B is more toxic by ${resultB.score - result.score} points.`
-                    : "Both messages scored equally."}
-                </p>
-              </div>
-              <button onClick={reset}
-                className="mt-3 w-full text-sm py-2.5 rounded-xl transition-all font-medium"
-                style={{ border: "1px solid rgba(168,85,247,0.3)", color: textMuted, background: "transparent" }}>
-                🔄 Reset
-              </button>
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* HISTORY TAB */}
-      {tab === "history" && (
-        <div className="w-full max-w-xl relative z-10 flex flex-col gap-3">
-          {history.length === 0 ? (
-            <div className="text-center py-16" style={{ color: textMuted }}>
-              <p className="text-4xl mb-3">🕐</p>
-              <p className="text-sm">No analyses yet this session.</p>
-            </div>
-          ) : history.map((item, i) => (
-            <div key={i} className="rounded-2xl p-4" style={cardStyle}>
-              <div className="flex items-center justify-between mb-2">
-                <span className={`text-sm font-semibold ${item.result.verdict === "TOXIC" ? "text-pink-500" : "text-emerald-600"}`}>
-                  {item.result.verdict === "TOXIC" ? "🚩 TOXIC" : "✅ NOT TOXIC"} · {item.result.score}/100
-                </span>
-                <div className="flex items-center gap-2">
-                  <span className="text-xs px-2 py-0.5 rounded-full font-medium"
-                    style={{ background: darkMode ? "rgba(168,85,247,0.15)" : "#f5f3ff", color: darkMode ? "#d4bfff" : "#6d28d9" }}>
-                    {item.type}
+            ) : history.map((item, i) => (
+              <div key={i} className="rounded-2xl p-4" style={cardStyle}>
+                <div className="flex items-center justify-between mb-2">
+                  <span className={`text-sm font-semibold ${item.result.verdict === "TOXIC" ? "text-pink-500" : "text-emerald-600"}`}>
+                    {item.result.verdict === "TOXIC" ? "🚩 TOXIC" : "✅ NOT TOXIC"} · {item.result.score}/100
                   </span>
-                  <span className="text-xs" style={{ color: textFaint }}>{item.time}</span>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs px-2 py-0.5 rounded-full font-medium"
+                      style={{ background: darkMode ? "rgba(168,85,247,0.15)" : "#f5f3ff", color: darkMode ? "#d4bfff" : "#6d28d9" }}>
+                      {item.type}
+                    </span>
+                    <span className="text-xs" style={{ color: textFaint }}>{item.time}</span>
+                  </div>
                 </div>
+                <p className="text-sm" style={{ color: textBody }}>{item.message}</p>
               </div>
-              <p className="text-sm" style={{ color: textBody }}>{item.message}</p>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {/* ABOUT TAB */}
-      {tab === "about" && (
-        <div className="w-full max-w-xl relative z-10 rounded-2xl p-6" style={cardStyle}>
-          <h2 className="text-xl font-bold mb-4" style={gradientText}>What is toxicornot.ai?</h2>
-          <p className="text-sm leading-relaxed mb-4" style={{ color: textBody }}>
-            toxicornot.ai uses AI to analyze messages, texts, DMs, and emails for toxic, manipulative, or unhealthy behavior patterns — across romantic, work, family, and friend relationships.
-          </p>
-          <h3 className="text-xs font-semibold mb-3 uppercase tracking-wide" style={{ color: textFaint }}>What we detect</h3>
-          <div className="flex flex-wrap gap-2 mb-5">
-            {["Gaslighting", "Manipulation", "Guilt tripping", "Love bombing", "Passive aggression", "Narcissistic behavior", "Emotional abuse", "Coercive control"].map((tag) => (
-              <span key={tag} className="text-xs px-3 py-1 rounded-full font-medium"
-                style={{ background: darkMode ? "rgba(168,85,247,0.15)" : "#f5f3ff", border: "1px solid rgba(168,85,247,0.25)", color: darkMode ? "#d4bfff" : "#6d28d9" }}>
-                {tag}
-              </span>
             ))}
           </div>
-          <p className="text-xs leading-relaxed pt-4" style={{ color: textMuted, borderTop: "1px solid rgba(168,85,247,0.15)" }}>
-            ⚠️ toxicornot.ai is not a substitute for professional mental health advice. Results are AI-generated and may not be accurate. If you are in an abusive situation, please reach out to a qualified professional or helpline.
-          </p>
-        </div>
-      )}
+        )}
 
-      <p className="mt-10 text-xs text-center relative z-10" style={{ color: textFaint }}>
-        toxicornot.ai · powered by AI · not a substitute for professional advice
-      </p>
+        {/* ABOUT TAB */}
+        {tab === "about" && (
+          <div className="rounded-2xl p-6" style={cardStyle}>
+            <h2 className="text-xl font-bold mb-4" style={gradientText}>What is toxicornot.ai?</h2>
+            <p className="text-sm leading-relaxed mb-4" style={{ color: textBody }}>
+              toxicornot.ai uses AI to analyze messages, texts, DMs, and emails for toxic, manipulative, or unhealthy behavior patterns — across romantic, work, family, and friend relationships.
+            </p>
+            <h3 className="text-xs font-semibold mb-3 uppercase tracking-wide" style={{ color: textFaint }}>What we detect</h3>
+            <div className="flex flex-wrap gap-2 mb-5">
+              {["Gaslighting", "Manipulation", "Guilt tripping", "Love bombing", "Passive aggression", "Narcissistic behavior", "Emotional abuse", "Coercive control"].map((tag) => (
+                <span key={tag} className="text-xs px-3 py-1 rounded-full font-medium"
+                  style={{ background: darkMode ? "rgba(168,85,247,0.15)" : "#f5f3ff", border: "1px solid rgba(168,85,247,0.25)", color: darkMode ? "#d4bfff" : "#6d28d9" }}>
+                  {tag}
+                </span>
+              ))}
+            </div>
+            <p className="text-xs leading-relaxed pt-4" style={{ color: textMuted, borderTop: "1px solid rgba(168,85,247,0.15)" }}>
+              ⚠️ toxicornot.ai is not a substitute for professional mental health advice. Results are AI-generated and may not be accurate. If you are in an abusive situation, please reach out to a qualified professional or helpline.
+            </p>
+          </div>
+        )}
+
+        {/* SEO Footer Content */}
+        <section className="rounded-2xl p-6 mt-4" style={cardStyle}>
+          <h2 className="text-base font-bold mb-3" style={gradientText}>How does the toxic message detector work?</h2>
+          <p className="text-sm leading-relaxed mb-4" style={{ color: textBody }}>
+            toxicornot.ai uses advanced AI to analyze the language patterns, tone, and intent behind any message. Simply paste the text and our AI scans for over 20 known toxic behavior patterns including gaslighting, manipulation, love bombing, guilt tripping, passive aggression, coercive control, and emotional abuse.
+          </p>
+          <h2 className="text-base font-bold mb-3" style={gradientText}>Who is this for?</h2>
+          <p className="text-sm leading-relaxed mb-4" style={{ color: textBody }}>
+            Anyone who has received a message that felt off but couldn't explain why. Whether it's a text from a romantic partner, a DM from a friend, an email from a coworker, or a message from a family member — toxicornot.ai helps you see the patterns clearly.
+          </p>
+          <h2 className="text-base font-bold mb-3" style={gradientText}>Is it free?</h2>
+          <p className="text-sm leading-relaxed" style={{ color: textBody }}>
+            Yes — toxicornot.ai is completely free to use with no account required. Just paste your message and get instant AI-powered analysis.
+          </p>
+        </section>
+
+        <p className="mt-6 text-xs text-center" style={{ color: textFaint }}>
+          toxicornot.ai · powered by AI · not a substitute for professional advice
+        </p>
+      </div>
     </main>
   )
 }
