@@ -345,6 +345,17 @@ export default function Home() {
     setTimeout(() => setCopiedResponse(null), 2000)
   }
 
+  function reset() {
+    setResult(null)
+    setResultB(null)
+    setMessage("")
+    setMessageB("")
+    setResponses(null)
+    setReaction(null)
+    setGlossaryOpen(false)
+    setShowShareModal(false)
+  }
+
   const bg = darkMode
     ? "linear-gradient(135deg, #1a0533 0%, #2d1b4e 30%, #1e1235 60%, #2a0d3e 100%)"
     : "linear-gradient(135deg, #f3e8ff 0%, #fce7f3 50%, #ede9fe 100%)"
@@ -672,21 +683,22 @@ export default function Home() {
             <div style={{ opacity: revealed ? 1 : 0, transform: revealed ? "translateY(0)" : "translateY(16px)", transition: "opacity 0.5s ease, transform 0.5s ease" }}>
               <ResultCard data={result} />
 
-              <div className="flex gap-3 mt-3">
+              {/* Action buttons */}
+              <div className="flex gap-2 mt-3">
                 <button onClick={copyResult}
-                  className="flex-1 text-sm py-2.5 rounded-xl font-semibold transition-all"
-                  style={{ background: "linear-gradient(90deg, #a855f7, #ec4899)", color: "white" }}>
+                  className="flex-1 font-semibold rounded-xl transition-all"
+                  style={{ background: "linear-gradient(90deg, #a855f7, #ec4899)", color: "white", padding: "10px 12px", fontSize: "13px" }}>
                   {copied ? "✓ Copied!" : "Copy Result"}
                 </button>
                 <button onClick={() => setShowShareModal(true)}
-                  className="flex-1 text-sm py-2.5 rounded-xl font-semibold transition-all"
-                  style={{ background: darkMode ? "rgba(168,85,247,0.2)" : "#f5f3ff", border: "1px solid rgba(168,85,247,0.3)", color: darkMode ? "#d4bfff" : "#6d28d9" }}>
-                  📸 Share Card
+                  className="rounded-xl transition-all font-medium"
+                  style={{ background: darkMode ? "rgba(168,85,247,0.2)" : "#f5f3ff", border: "1px solid rgba(168,85,247,0.3)", color: darkMode ? "#d4bfff" : "#6d28d9", padding: "10px 12px", fontSize: "12px" }}>
+                  📸 Share
                 </button>
-                <button onClick={() => { setResult(null); setMessage(""); setResponses(null) }}
-                  className="text-sm py-2.5 px-4 rounded-xl transition-all font-medium"
-                  style={{ border: "1px solid rgba(168,85,247,0.3)", color: textMuted, background: "transparent" }}>
-                  ✕
+                <button onClick={reset}
+                  className="rounded-xl transition-all font-medium"
+                  style={{ border: "1px solid rgba(168,85,247,0.3)", color: textMuted, background: "transparent", padding: "10px 12px", fontSize: "12px" }}>
+                  🔄 Reset
                 </button>
               </div>
 
@@ -761,6 +773,11 @@ export default function Home() {
                     : "Both messages scored equally."}
                 </p>
               </div>
+              <button onClick={reset}
+                className="mt-3 w-full text-sm py-2.5 rounded-xl transition-all font-medium"
+                style={{ border: "1px solid rgba(168,85,247,0.3)", color: textMuted, background: "transparent" }}>
+                🔄 Reset
+              </button>
             </div>
           )}
         </div>
