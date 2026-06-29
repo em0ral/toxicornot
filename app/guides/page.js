@@ -81,6 +81,10 @@ export default function GuidesIndex() {
         <p style={{ marginTop: "40px", textAlign: "center", fontSize: "12px", color: "#9ca3af" }}>
           toxicornot.ai · powered by AI · not a substitute for professional advice
           {" · "}
+          <a href="/resources" style={{ color: "#9ca3af", textDecoration: "underline" }}>
+            Help & Resources
+          </a>
+          {" · "}
           <a href="/privacy" style={{ color: "#9ca3af", textDecoration: "underline" }}>
             Privacy Policy
           </a>

@@ -925,6 +925,8 @@ export default function Home() {
           {" · "}
           <a href="/guides" style={{ color: textFaint, textDecoration: "underline" }}>Guides</a>
           {" · "}
+          <a href="/resources" style={{ color: textFaint, textDecoration: "underline" }}>Help & Resources</a>
+          {" · "}
           <a href="/privacy" style={{ color: textFaint, textDecoration: "underline" }}>Privacy Policy</a>
         </p>
       </div>
