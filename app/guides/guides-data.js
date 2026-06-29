@@ -208,7 +208,7 @@ export const guides = [
         ],
       },
     ],
-    related: ["how-to-respond-to-toxic-messages", "recognizing-manipulation"],
+    related: ["toxic-or-rough-patch", "how-to-respond-to-toxic-messages"],
   },
 
   {
@@ -263,7 +263,260 @@ export const guides = [
         ],
       },
     ],
+    related: ["setting-boundaries", "recognizing-manipulation"],
+  },
+
+  {
+    slug: "stonewalling-silent-treatment",
+    emoji: "🧱",
+    title: "Stonewalling and the Silent Treatment: What They Are and How to Respond",
+    description:
+      "Withdrawal and silence can be self-protection — or a way to punish and control. Learn to tell the difference and how to respond to the silent treatment.",
+    readingTime: "6 min read",
+    intro:
+      "Stonewalling is shutting down and refusing to engage — going silent, walking out, or answering everything with a wall of indifference. Sometimes it is a genuine attempt to cool off when emotions run high. Other times it is the silent treatment: withdrawal used deliberately as punishment to make you anxious, apologetic, and willing to do anything to restore contact. The behavior can look identical from the outside, so the difference is in the intent and the pattern.",
+    sections: [
+      {
+        heading: "Healthy withdrawal vs. the silent treatment",
+        body: [
+          "Not all silence is hostile. When someone is flooded with emotion, stepping away can be the responsible thing to do — provided they say so and come back. The silent treatment is different: it is silence weaponized to control, with no intention of returning to resolve anything.",
+        ],
+        list: [
+          "Healthy: \"I need a break, let's pick this up in an hour\" — and they return",
+          "Silent treatment: vanishing with no explanation, sometimes for days",
+          "Healthy: the goal is to calm down so you can talk",
+          "Silent treatment: the goal is to make you feel the absence and cave",
+          "Healthy: the relationship feels safe again afterward",
+          "Silent treatment: you are left to guess what you did wrong",
+        ],
+      },
+      {
+        heading: "Why the silent treatment hurts so much",
+        body: [
+          "Social rejection registers in the brain much like physical pain, which is why being frozen out by someone close can feel genuinely distressing rather than merely annoying. When a person controls all contact and withholds it, they hold real power over your emotional state.",
+          "That is exactly what makes it effective as a control tactic. The discomfort pushes you to apologize, chase, and concede — often for things you did not actually do wrong — just to make the silence end.",
+        ],
+      },
+      {
+        heading: "How to respond without chasing",
+        body: [
+          "The instinct is to pursue: to text again, to apologize, to fix it. But chasing rewards the behavior and teaches the other person that withdrawal works. The stronger move is to stay calm and refuse to be destabilized by the silence.",
+          "Name it without accusation — \"I notice you've gone quiet; I'm here when you're ready to talk\" — and then genuinely go on with your day. You are allowed to ask for a timeline once. After that, fill your time with other people and activities rather than waiting by the phone. You are not obligated to grovel your way back into someone's good graces.",
+        ],
+      },
+      {
+        heading: "When it's a pattern, not a moment",
+        body: [
+          "An occasional shutdown during a heated fight is human. A repeated cycle — where silence is the standard punishment whenever you assert a need or disagree — is a form of emotional control, and it tends to escalate if it keeps working.",
+          "If you find yourself constantly walking on eggshells to avoid triggering the freeze-out, that is worth taking seriously. Talking it through with a trusted friend or a licensed therapist can help you see the pattern clearly and decide what you are willing to accept.",
+        ],
+      },
+    ],
     related: ["recognizing-manipulation", "healthy-vs-toxic-communication"],
+  },
+
+  {
+    slug: "toxic-or-rough-patch",
+    emoji: "🤔",
+    title: "Is It Toxic or Just a Rough Patch? How to Tell the Difference",
+    description:
+      "Every relationship has hard stretches. Some are temporary, some are a pattern. A clear-eyed framework for telling a rough patch from genuine toxicity.",
+    readingTime: "7 min read",
+    intro:
+      "Almost everyone in a long relationship eventually asks some version of the question this whole site is named for: is this actually toxic, or are we just going through a hard time? It is one of the most painful questions to sit with, partly because the honest answer is rarely obvious from inside it. A rough patch and a toxic dynamic can feel similar day to day. The difference shows up in the pattern, the direction, and how you feel over time.",
+    sections: [
+      {
+        heading: "What a rough patch usually looks like",
+        body: [
+          "Rough patches are real and common. Stress, grief, money trouble, new parenthood, or illness can strain even strong relationships for months at a stretch. What makes it a rough patch rather than something worse is that the foundation underneath stays intact.",
+        ],
+        list: [
+          "There's an identifiable cause — and it's usually external or temporary",
+          "Both people still treat each other with basic respect, even tired and short-tempered",
+          "You can name specific good moments alongside the hard ones",
+          "When you raise a problem, your partner can hear it — eventually",
+          "After conflict, you reconnect rather than drift further apart",
+        ],
+      },
+      {
+        heading: "What points toward something more than a rough patch",
+        body: [
+          "Toxicity is less about any single bad week and more about the underlying direction of the relationship. The signals tend to be consistent rather than circumstantial, and they leave a mark on how you see yourself.",
+        ],
+        list: [
+          "You feel smaller, more anxious, or less yourself than you used to",
+          "Contempt, blame, or control show up regardless of what's happening externally",
+          "Raising a concern reliably backfires onto you",
+          "The good periods feel like relief from the bad ones, not genuine ease",
+          "You're editing yourself constantly to keep the peace",
+        ],
+      },
+      {
+        heading: "Three questions that cut through the fog",
+        body: [
+          "When the day-to-day is too noisy to read, stepping back to a few honest questions can clarify a lot. Sit with each one as truthfully as you can.",
+          "First: am I generally better or worse — calmer or more anxious, more or less myself — than I was before this relationship? Second: when I picture this exact pattern continuing for five more years, what happens in my body? Third: if a close friend described this situation to me, what would I tell them? We are often far clearer about other people's relationships than our own, and that gap is information.",
+        ],
+      },
+      {
+        heading: "Why hope can keep you stuck",
+        body: [
+          "One reason this question is so hard is that toxic dynamics rarely feel bad all the time. The intermittent return of warmth and the memory of how good it once was give you reasons to keep hoping the rough patch is about to end. That hope is human and not foolish — but it can also keep you waiting on a turnaround that the pattern itself argues against.",
+          "There is no formula that settles this for you, and you do not have to decide everything today. If you keep circling the same question, talking it through with a trusted friend or a licensed therapist can help you weigh what you are actually experiencing against what you are hoping for.",
+        ],
+      },
+    ],
+    related: ["healthy-vs-toxic-communication", "going-no-contact"],
+  },
+
+  {
+    slug: "setting-boundaries",
+    emoji: "🚧",
+    title: "Setting Boundaries with a Toxic Person: A Practical Guide",
+    description:
+      "Boundaries aren't about controlling someone else — they're about what you'll do. How to set limits that actually hold with a difficult or manipulative person.",
+    readingTime: "7 min read",
+    intro:
+      "A boundary is not a demand you place on another person; it is a limit you set for yourself and are willing to enforce. That distinction is everything when you are dealing with someone manipulative, because you cannot control what they do — but you can control what you accept and how you respond. Boundaries are how you stay yourself in a relationship that would otherwise pull you off center.",
+    sections: [
+      {
+        heading: "A boundary is about you, not them",
+        body: [
+          "The most common reason boundaries fail is that they are secretly demands in disguise. \"Stop talking to me like that\" depends entirely on the other person cooperating. \"If you talk to me like that, I'll end the conversation\" depends only on you — and that is what makes it enforceable.",
+          "This reframing is freeing. You stop trying to win agreement from someone who benefits from disagreeing, and you start deciding what you will and won't participate in. A boundary describes your own next action, not their required behavior.",
+        ],
+      },
+      {
+        heading: "How to state a boundary clearly",
+        body: [
+          "Effective boundaries are short, specific, and free of over-explanation. The more justification you offer, the more material you hand someone to argue with. State the limit and the consequence, then stop talking.",
+        ],
+        list: [
+          "\"I'm not going to discuss this over text. We can talk in person or not at all.\"",
+          "\"If you raise your voice, I'm going to leave and we'll try again later.\"",
+          "\"I won't be available for calls after 9pm.\"",
+          "\"I'm happy to help with X. I'm not able to do Y.\"",
+          "\"That doesn't work for me.\" — a complete sentence, no addendum required",
+        ],
+      },
+      {
+        heading: "Expect a reaction — and hold anyway",
+        body: [
+          "Here is the part people are least prepared for: someone who has benefited from your lack of boundaries will often escalate when you set one. Guilt-tripping, anger, sudden charm, or accusations that you've changed are not signs you did it wrong — they are the resistance you should expect when you stop a pattern that was working for them.",
+          "This pushback is sometimes called an extinction burst: the behavior spikes right before it fades, because the old approach is being tested harder before it's abandoned. The boundary only works if you hold it through that spike. Caving once teaches that enough pressure makes you fold.",
+        ],
+      },
+      {
+        heading: "Boundaries you keep, not announce",
+        body: [
+          "Not every boundary needs to be declared out loud. With genuinely manipulative people, announcing limits can simply hand them a roadmap of what to push against. Often the most durable boundaries are ones you quietly enforce: you stop sharing information that gets used against you, you decline invitations that drain you, you let calls go to voicemail.",
+          "And remember that boundaries can be about distance as much as rules. Limiting contact, or stepping back entirely, is itself a boundary. If enforcing your limits leaves you exhausted or unsafe, that is meaningful information, and a licensed therapist or counselor can help you think through next steps.",
+        ],
+      },
+    ],
+    related: ["how-to-respond-to-toxic-messages", "going-no-contact"],
+  },
+
+  {
+    slug: "toxic-texting-signs",
+    emoji: "📱",
+    title: "Toxic Texting: How to Spot Manipulation in Messages",
+    description:
+      "Manipulation reads differently on a screen. Learn the texting patterns — guilt by emoji, walls of text, the read-and-ignore — that signal a toxic dynamic.",
+    readingTime: "6 min read",
+    intro:
+      "Text and DMs strip away tone, facial expression, and timing — the cues we normally use to read intent — and that missing context is fertile ground for manipulation. The same tactics that show up in person take on a particular shape on a screen, and learning to recognize them is exactly what toxicornot.ai is built to help with. This guide covers the patterns to watch for in your messages.",
+    sections: [
+      {
+        heading: "Why text amplifies manipulation",
+        body: [
+          "On a screen, the other person controls far more of the frame than they do face to face. They choose when to reply, what to screenshot, how to punctuate, and which of your words to quote back at you. Without tone of voice, a neutral message can be read as cold and a controlling one can be dressed up as caring.",
+          "Messages are also a permanent, editable-looking record. That permanence gets weaponized: your words get saved, recontextualized, and thrown back weeks later, while the other person's intent stays conveniently unwritten.",
+        ],
+      },
+      {
+        heading: "Texting patterns worth noticing",
+        body: [
+          "No single message proves anything — people have bad days and clumsy thumbs. It is the repeated pattern that tells the story.",
+        ],
+        list: [
+          "The read-and-ignore: deliberately leaving you on read as punishment",
+          "Walls of text: overwhelming you with paragraphs until you give up",
+          "Rapid-fire follow-ups demanding an instant reply, then anger when you're slow",
+          "Guilt by emoji — the single \"...\" or passive-aggressive 🙂 meant to unsettle you",
+          "Screenshotting and forwarding your words to pull others in (triangulation)",
+          "Bringing up an old saved message to derail the current conversation",
+        ],
+      },
+      {
+        heading: "The instant-reply trap",
+        body: [
+          "Messaging creates an artificial expectation of immediacy, and manipulative people exploit it. The pressure to reply right now — before you've thought, before you've calmed down — works in their favor, because a fast emotional reply is easier to provoke and easier to use against you.",
+          "You are allowed to be slow. \"Seen\" does not obligate you to respond, and a measured reply an hour later is almost always stronger than an instant one fired off in anger or anxiety. Reclaiming your own timing is one of the simplest ways to defuse pressure on a screen.",
+        ],
+      },
+      {
+        heading: "Protecting yourself in writing",
+        body: [
+          "A few habits make manipulative texting much harder to land. Don't match escalation — a calm, brief reply denies the back-and-forth its fuel. Keep your own messages short and free of over-explanation, since long justifications just hand over more to argue with. And when something feels off but you can't name it, paste the exchange into toxicornot.ai or run it past a trusted friend; an outside read often catches what the moment obscures.",
+          "If messages become threatening or abusive, save them rather than deleting them — a record can matter — and step back from the conversation. Your safety and peace of mind outrank any reply.",
+        ],
+      },
+    ],
+    related: ["how-to-respond-to-toxic-messages", "recognizing-manipulation"],
+  },
+
+  {
+    slug: "going-no-contact",
+    emoji: "🚪",
+    title: "When to Walk Away: Going No-Contact or Low-Contact",
+    description:
+      "Sometimes the healthiest response to a toxic relationship is distance. How to know when it's time, the difference between no-contact and low-contact, and how to hold it.",
+    readingTime: "7 min read",
+    intro:
+      "Most guides about toxic relationships focus on how to stay and cope. This one is about the exit. Sometimes, after the boundaries and the careful responses and the benefit of the doubt, the healthiest thing you can do is create distance — either cutting contact entirely or reducing it to the bare minimum. Walking away is not failure, and it is not cruelty. For some relationships it is the only thing that finally works.",
+    sections: [
+      {
+        heading: "No-contact vs. low-contact",
+        body: [
+          "Walking away is not all-or-nothing. There are two broad approaches, and the right one depends on the relationship and your circumstances — particularly whether the person is family, a co-parent, or otherwise impossible to fully avoid.",
+        ],
+        list: [
+          "No-contact: ending communication entirely — no calls, texts, or social media",
+          "Low-contact: sharply limiting contact to essential, often logistical, exchanges",
+          "Grey rock: when contact is unavoidable, becoming deliberately boring and unreactive",
+          "Each is a tool, not a verdict — you can adjust as your situation changes",
+        ],
+      },
+      {
+        heading: "Signs it may be time",
+        body: [
+          "There is no universal threshold, but certain patterns suggest that distance may serve you better than continued effort. These are not a checklist to be met fully — even a few, persisting over time, are worth weighing seriously.",
+        ],
+        list: [
+          "Nothing changes despite repeated, honest attempts to address the problem",
+          "You consistently leave interactions feeling worse about yourself",
+          "Your health, sleep, or other relationships are suffering",
+          "Boundaries are ignored or punished no matter how clearly you set them",
+          "You feel unsafe, intimidated, or genuinely afraid",
+        ],
+      },
+      {
+        heading: "It will probably feel worse before it feels better",
+        body: [
+          "Cutting off a toxic relationship rarely brings instant relief, and people are often blindsided by how hard it is. You may grieve the person — or the version of them you hoped they'd become — even though you know leaving was right. Expect guilt, doubt, and an urge to reach back out, especially in low moments.",
+          "Expect, too, that the other person may escalate when they sense you pulling away: a wave of apologies, promises, charm, or anger meant to pull you back in. This is common, and it is not evidence that you were wrong. Deciding in advance how you'll respond — and leaning on supportive people when the urge to reconnect hits — makes the distance much easier to hold.",
+        ],
+      },
+      {
+        heading: "Doing it as safely as you can",
+        body: [
+          "If the relationship has involved any controlling or abusive behavior, the period of leaving can be the most volatile, and it deserves planning rather than improvisation. Line up your support system, think through practical and financial logistics, and consider talking to a professional before you act.",
+          "You do not have to do this alone or figure it out perfectly. A licensed therapist can help you plan and process it. And if you are dealing with abuse or feel unsafe, reach out for specialized help — in the United States, the National Domestic Violence Hotline is available at 1-800-799-7233, or text START to 88788. If you are in immediate danger, contact your local emergency services.",
+        ],
+      },
+    ],
+    related: ["setting-boundaries", "toxic-or-rough-patch"],
   },
 ]
 
