@@ -1,10 +1,35 @@
+import { guides } from "./guides/guides-data"
+
 export default function sitemap() {
-  return [
+  const now = new Date()
+
+  const staticPages = [
     {
       url: "https://toxicornot.ai",
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
       priority: 1,
     },
+    {
+      url: "https://toxicornot.ai/guides",
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: "https://toxicornot.ai/privacy",
+      lastModified: now,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
   ]
+
+  const guidePages = guides.map((g) => ({
+    url: `https://toxicornot.ai/guides/${g.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }))
+
+  return [...staticPages, ...guidePages]
 }

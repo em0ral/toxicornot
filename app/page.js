@@ -893,8 +893,37 @@ export default function Home() {
           </p>
         </section>
 
+        {/* Guides — internal links to editorial content */}
+        <section className="rounded-2xl p-6 mt-6" style={cardStyle}>
+          <h2 className="text-base font-bold mb-1" style={gradientText}>Learn the patterns</h2>
+          <p className="text-sm leading-relaxed mb-4" style={{ color: textBody }}>
+            Free, plain-English guides to the behaviors this tool detects — what they are, why they work, and how to respond.
+          </p>
+          <div className="flex flex-col gap-2">
+            {[
+              ["🧠", "What Is Gaslighting? Signs, Examples, and How to Respond", "/guides/what-is-gaslighting"],
+              ["💔", "Love Bombing: Why It Feels Amazing and Why It Can Be a Red Flag", "/guides/love-bombing-signs"],
+              ["🎭", "Recognizing Manipulation: 10 Tactics and How to Counter Them", "/guides/recognizing-manipulation"],
+              ["⚖️", "Healthy vs. Toxic Communication: How to Tell the Difference", "/guides/healthy-vs-toxic-communication"],
+              ["🛡️", "How to Respond to a Toxic Message Without Making It Worse", "/guides/how-to-respond-to-toxic-messages"],
+            ].map(([emoji, label, href]) => (
+              <a key={href} href={href}
+                className="flex items-center gap-3 rounded-xl p-3 transition-all"
+                style={{ background: darkMode ? "rgba(168,85,247,0.08)" : "#faf5ff", border: "1px solid rgba(168,85,247,0.2)" }}>
+                <span className="text-lg">{emoji}</span>
+                <span className="text-sm font-medium" style={{ color: textBody }}>{label}</span>
+              </a>
+            ))}
+          </div>
+          <a href="/guides" className="inline-block mt-4 text-sm font-semibold" style={{ color: darkMode ? "#d4bfff" : "#7c3aed" }}>
+            Browse all guides →
+          </a>
+        </section>
+
         <p className="mt-6 text-xs text-center" style={{ color: textFaint }}>
           toxicornot.ai · powered by AI · not a substitute for professional advice
+          {" · "}
+          <a href="/guides" style={{ color: textFaint, textDecoration: "underline" }}>Guides</a>
           {" · "}
           <a href="/privacy" style={{ color: textFaint, textDecoration: "underline" }}>Privacy Policy</a>
         </p>
