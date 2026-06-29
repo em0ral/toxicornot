@@ -320,15 +320,16 @@ export const guides = [
     emoji: "🤔",
     title: "Is It Toxic or Just a Rough Patch? How to Tell the Difference",
     description:
-      "Every relationship has hard stretches. Some are temporary, some are a pattern. A clear-eyed framework for telling a rough patch from genuine toxicity.",
-    readingTime: "7 min read",
+      "Every relationship has hard stretches. Some pass, some are a pattern. A clear-eyed framework for telling a rough patch from genuine toxicity.",
+    readingTime: "11 min read",
     intro:
       "Almost everyone in a long relationship eventually asks some version of the question this whole site is named for: is this actually toxic, or are we just going through a hard time? It is one of the most painful questions to sit with, partly because the honest answer is rarely obvious from inside it. A rough patch and a toxic dynamic can feel similar day to day. The difference shows up in the pattern, the direction, and how you feel over time.",
     sections: [
       {
         heading: "What a rough patch usually looks like",
         body: [
-          "Rough patches are real and common. Stress, grief, money trouble, new parenthood, or illness can strain even strong relationships for months at a stretch. What makes it a rough patch rather than something worse is that the foundation underneath stays intact.",
+          "Rough patches are real and common. Stress, grief, money trouble, new parenthood, illness, or a brutal stretch at work can strain even strong relationships for months at a time. What makes it a rough patch rather than something worse is that the foundation underneath stays intact — you are two people struggling against a hard situation, not one person struggling against the other.",
+          "In a rough patch, the bad days are about circumstances you could both point to and name. You might be snippier, more distant, or more easily hurt than usual, but you still fundamentally read each other as being on the same team. The warmth hasn't disappeared; it's buried under stress, and it surfaces when the pressure lets up.",
         ],
         list: [
           "There's an identifiable cause — and it's usually external or temporary",
@@ -336,12 +337,14 @@ export const guides = [
           "You can name specific good moments alongside the hard ones",
           "When you raise a problem, your partner can hear it — eventually",
           "After conflict, you reconnect rather than drift further apart",
+          "You still picture a 'we' on the other side of the hard part",
         ],
       },
       {
         heading: "What points toward something more than a rough patch",
         body: [
-          "Toxicity is less about any single bad week and more about the underlying direction of the relationship. The signals tend to be consistent rather than circumstantial, and they leave a mark on how you see yourself.",
+          "Toxicity is less about any single bad week and more about the underlying direction of the relationship. The signals tend to be consistent rather than circumstantial, and they leave a mark on how you see yourself. A rough patch dents your week; a toxic dynamic slowly reshapes who you are.",
+          "Pay particular attention to anything that shows up no matter what is happening externally. If a calm, low-stress month still leaves you anxious and editing yourself, the problem probably isn't the stressor — it's the dynamic. That independence from circumstances is one of the clearest tells.",
         ],
         list: [
           "You feel smaller, more anxious, or less yourself than you used to",
@@ -349,20 +352,48 @@ export const guides = [
           "Raising a concern reliably backfires onto you",
           "The good periods feel like relief from the bad ones, not genuine ease",
           "You're editing yourself constantly to keep the peace",
+          "You've started hiding ordinary things to avoid a reaction",
+          "Friends or family who love you have quietly grown worried",
+        ],
+      },
+      {
+        heading: "The role of repair attempts",
+        body: [
+          "If you want one thing to watch instead of a dozen, watch what happens after conflict. Researchers who study couples call the small gestures that interrupt a fight 'repair attempts' — a joke, a softened tone, a hand on the shoulder, an 'okay, this is getting out of hand, can we start over?' They are bids to stop the spiral and reconnect.",
+          "In a relationship that is fundamentally sound, repair attempts get received. They don't have to be graceful; one person reaches, the other takes the hand, and the temperature drops. The fight ends and the bond is still there. That single mechanic does more to predict whether a couple makes it than the frequency or volume of their arguments.",
+          "In a toxic dynamic, repair attempts get rejected or punished. You try to soften and you're told you're not taking it seriously; you apologize and it's used as a confession to hold over you; you reach out a hand and it's slapped away to keep the upper hand. When repair consistently fails — when nothing you do can bring the conflict to a clean close — that is a louder signal than the conflict itself.",
+        ],
+      },
+      {
+        heading: "What therapists actually look for",
+        body: [
+          "Couples therapists rarely judge a relationship by whether two people fight. Everyone fights. They watch how the fighting happens, and they pay close attention to a handful of patterns that reliably predict trouble — most famously contempt, which is criticism laced with disgust: eye-rolling, mockery, sarcasm, name-calling, the sneer behind the words. Contempt communicates 'I am above you,' and it corrodes a relationship faster than almost anything else.",
+          "They also look at whether each person can take responsibility, or whether every conversation collapses into defensiveness and blame. They look at whether one person's needs consistently disappear so the other's can be met. And they look at the balance of the small stuff — whether there is still affection, curiosity, and goodwill underneath the conflict, or whether that reservoir has run dry.",
+          "You can borrow that lens without a degree. Ask yourself: across a typical month, is there still respect, repair, and goodwill in the system — even imperfectly? Or has the relationship reorganized itself around managing one person's moods, avoiding one person's anger, and earning back one person's approval?",
+        ],
+      },
+      {
+        heading: "The 'is it me?' self-doubt trap",
+        body: [
+          "Almost everyone asking this question wonders whether they are the problem. That self-doubt is worth naming, because in genuinely toxic dynamics it is often manufactured. When someone reliably reframes your concerns as your oversensitivity, your memory issues, your craziness, you slowly absorb the idea that the trouble lives in you — and you stop trusting your own read.",
+          "Here is a useful distinction. People who are willing to examine themselves, who worry they're the problem, and who try to repair are usually not the source of a toxic pattern — that very willingness is the opposite of how the pattern works. People who are genuinely toxic rarely sit up at night wondering if they're toxic. So the fact that you are asking, sincerely, is itself meaningful information.",
+          "None of this means you have no part to play; both people shape a relationship, and your reactions are worth honest examination too. But 'we both contribute' and 'this is all my fault' are very different claims. If you can name plenty of times you tried to do right and were met with blame anyway, take that seriously rather than explaining it away.",
         ],
       },
       {
         heading: "Three questions that cut through the fog",
         body: [
-          "When the day-to-day is too noisy to read, stepping back to a few honest questions can clarify a lot. Sit with each one as truthfully as you can.",
-          "First: am I generally better or worse — calmer or more anxious, more or less myself — than I was before this relationship? Second: when I picture this exact pattern continuing for five more years, what happens in my body? Third: if a close friend described this situation to me, what would I tell them? We are often far clearer about other people's relationships than our own, and that gap is information.",
+          "When the day-to-day is too noisy to read, stepping back to a few honest questions can clarify a lot. Sit with each one as truthfully as you can, and notice your body's answer, not just the one you wish were true.",
+          "First: am I generally better or worse — calmer or more anxious, more or less myself — than I was before this relationship? Second: when I picture this exact pattern continuing for five more years, what happens in my body? Third: if a close friend described this situation to me, in these exact words, what would I tell them? We are often far clearer about other people's relationships than our own, and that gap is information.",
+          "A fourth question helps when warmth keeps muddying the picture: am I describing how things actually are, or how they are on their best days? Toxic dynamics are usually judged by their highlight reel. Try to weigh the average week, not the rare good one.",
         ],
       },
       {
         heading: "Why hope can keep you stuck",
         body: [
-          "One reason this question is so hard is that toxic dynamics rarely feel bad all the time. The intermittent return of warmth and the memory of how good it once was give you reasons to keep hoping the rough patch is about to end. That hope is human and not foolish — but it can also keep you waiting on a turnaround that the pattern itself argues against.",
-          "There is no formula that settles this for you, and you do not have to decide everything today. If you keep circling the same question, talking it through with a trusted friend or a licensed therapist can help you weigh what you are actually experiencing against what you are hoping for.",
+          "One reason this question is so hard is that toxic dynamics rarely feel bad all the time. The intermittent return of warmth and the memory of how good it once was give you reasons to keep hoping the rough patch is about to end. Psychologists note that unpredictable rewards — affection that comes and goes without warning — are among the most powerful at keeping someone attached, which is part of why these dynamics can be so sticky.",
+          "That hope is human and not foolish, but it can quietly become a strategy for never having to decide. If you've been telling yourself 'things will get better once [the move, the new job, the baby, the apology]' for years, notice that the goalpost keeps moving while the pattern stays the same. Hope aimed at a turnaround the evidence doesn't support is a kind of waiting that can cost you years.",
+          "There is no formula that settles this for you, and you do not have to decide everything today. This guide is informational and not a substitute for professional support. If you keep circling the same question, talking it through with a trusted friend or a licensed therapist can help you weigh what you are actually experiencing against what you are hoping for. And if any part of this involves fear, intimidation, or abuse, that changes the picture entirely — in the United States you can reach the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788, and if you are in immediate danger, contact your local emergency services.",
         ],
       },
     ],
@@ -375,7 +406,7 @@ export const guides = [
     title: "Setting Boundaries with a Toxic Person: A Practical Guide",
     description:
       "Boundaries aren't about controlling someone else — they're about what you'll do. How to set limits that actually hold with a difficult or manipulative person.",
-    readingTime: "7 min read",
+    readingTime: "11 min read",
     intro:
       "A boundary is not a demand you place on another person; it is a limit you set for yourself and are willing to enforce. That distinction is everything when you are dealing with someone manipulative, because you cannot control what they do — but you can control what you accept and how you respond. Boundaries are how you stay yourself in a relationship that would otherwise pull you off center.",
     sections: [
@@ -384,18 +415,21 @@ export const guides = [
         body: [
           "The most common reason boundaries fail is that they are secretly demands in disguise. \"Stop talking to me like that\" depends entirely on the other person cooperating. \"If you talk to me like that, I'll end the conversation\" depends only on you — and that is what makes it enforceable.",
           "This reframing is freeing. You stop trying to win agreement from someone who benefits from disagreeing, and you start deciding what you will and won't participate in. A boundary describes your own next action, not their required behavior.",
+          "It also lowers the stakes of every conversation. You no longer need the other person to admit they were wrong, agree they crossed a line, or promise to change. You just need to know, in advance, what you will do — which means the outcome stops depending on winning an argument you were never going to win.",
         ],
       },
       {
         heading: "How to state a boundary clearly",
         body: [
           "Effective boundaries are short, specific, and free of over-explanation. The more justification you offer, the more material you hand someone to argue with. State the limit and the consequence, then stop talking.",
+          "Notice that each line below names a behavior you can actually control. You can leave a room, hang up a phone, decline a request, or end a conversation. You cannot make someone calm down, stop yelling, or be reasonable — so don't write a boundary that depends on them doing any of those things.",
         ],
         list: [
           "\"I'm not going to discuss this over text. We can talk in person or not at all.\"",
           "\"If you raise your voice, I'm going to leave and we'll try again later.\"",
           "\"I won't be available for calls after 9pm.\"",
           "\"I'm happy to help with X. I'm not able to do Y.\"",
+          "\"I'm not going to keep talking about this. I've said where I stand.\"",
           "\"That doesn't work for me.\" — a complete sentence, no addendum required",
         ],
       },
@@ -403,14 +437,41 @@ export const guides = [
         heading: "Expect a reaction — and hold anyway",
         body: [
           "Here is the part people are least prepared for: someone who has benefited from your lack of boundaries will often escalate when you set one. Guilt-tripping, anger, sudden charm, or accusations that you've changed are not signs you did it wrong — they are the resistance you should expect when you stop a pattern that was working for them.",
-          "This pushback is sometimes called an extinction burst: the behavior spikes right before it fades, because the old approach is being tested harder before it's abandoned. The boundary only works if you hold it through that spike. Caving once teaches that enough pressure makes you fold.",
+          "This pushback is sometimes called an extinction burst: the behavior spikes right before it fades, because the old approach is being tested harder before it's abandoned. The boundary only works if you hold it through that spike. Caving once teaches that enough pressure makes you fold — and effectively trains the other person to push harder next time.",
+          "The most important word here is 'consistency.' A boundary you enforce nine times out of ten isn't a boundary; it's a negotiation with a known escape hatch. You don't have to be harsh about it, and you don't have to argue. You just have to do the thing you said you'd do, calmly, every time.",
+        ],
+      },
+      {
+        heading: "Boundaries with family, partners, and coworkers",
+        body: [
+          "The principle is the same everywhere, but the texture changes a lot depending on the relationship — and a boundary that works with a partner can land very differently with a parent or a colleague.",
+          "With family, the pull of history and guilt is strongest. You may be up against decades of roles ('you're the responsible one,' 'don't upset your mother') and a chorus of relatives invested in keeping the peace. Boundaries with family often have to be quieter and more behavioral than spoken — shorter visits, neutral topics only, leaving when a line is crossed — because announcing them can trigger a whole-family backlash. Try: \"I'm not going to talk about my marriage with you. If it comes up again, I'm going to head out.\"",
+          "With a partner, you share a life, which means there is real room to negotiate logistics — but never your basic dignity or safety. Healthy partners may push back at first but ultimately respect a clearly stated limit; chronic, punishing resistance to reasonable boundaries is itself a serious sign. Try: \"I'm not going to keep having this conversation after midnight. Let's pick it up tomorrow when we've both slept.\"",
+          "With coworkers and bosses, the leverage is different and the stakes can be financial, so lean on documentation, clarity, and your role rather than your feelings. Keep it about the work, put agreements in writing, and loop in HR or a manager when a pattern crosses into harassment. Try: \"I'm not able to take work calls on weekends. I'll get to it first thing Monday.\"",
+        ],
+      },
+      {
+        heading: "When a boundary is ignored",
+        body: [
+          "A boundary that has no follow-through is just a wish said out loud. If you've stated a limit and the other person rolls right over it, the question is no longer whether they'll respect it — they've answered that — but what you're going to do now. The power was never in the announcement; it's in your response.",
+          "So follow through on the consequence you named, immediately and without a fresh lecture. If you said you'd leave when the yelling started, leave when the yelling starts. If you said you wouldn't answer calls after 9pm, let them go to voicemail. The consequence is not a punishment you're inflicting; it's simply you keeping your word to yourself.",
+          "If you find that you're stating the same boundary over and over and it's always ignored, that repetition is itself the information. At some point the realistic question shifts from 'how do I get them to respect this?' to 'how much access does someone get who has shown they won't?' Sometimes the answer is more distance — and that, too, is a boundary.",
+        ],
+      },
+      {
+        heading: "The guilt that comes after",
+        body: [
+          "Almost no one feels triumphant the first time they hold a hard boundary. More often you feel guilty, mean, selfish, or sick to your stomach — especially if you were raised to keep the peace or taught that your job was to manage everyone else's comfort. That guilt is real, but it is not proof you did something wrong.",
+          "It helps to separate two feelings that get tangled together: the discomfort of doing something unfamiliar, and the genuine signal that you've violated your own values. Setting a reasonable limit usually produces the first, not the second. The guilt tends to fade as the boundary becomes normal — and as you notice you're sleeping better, dreading the relationship less, and recognizing yourself again.",
+          "Be wary, too, of guilt that gets actively manufactured. \"After everything I've done for you,\" \"I guess I'm just a terrible person then,\" and the sudden silent treatment are all ways of making a boundary feel like cruelty so you'll drop it. Feeling guilty in the face of that pressure doesn't mean you owe anyone your old, boundaryless self.",
         ],
       },
       {
         heading: "Boundaries you keep, not announce",
         body: [
           "Not every boundary needs to be declared out loud. With genuinely manipulative people, announcing limits can simply hand them a roadmap of what to push against. Often the most durable boundaries are ones you quietly enforce: you stop sharing information that gets used against you, you decline invitations that drain you, you let calls go to voicemail.",
-          "And remember that boundaries can be about distance as much as rules. Limiting contact, or stepping back entirely, is itself a boundary. If enforcing your limits leaves you exhausted or unsafe, that is meaningful information, and a licensed therapist or counselor can help you think through next steps.",
+          "And remember that boundaries can be about distance as much as rules. Limiting contact, or stepping back entirely, is itself a boundary. This guide is informational and not a substitute for professional advice; if enforcing your limits leaves you exhausted, anxious, or unsafe, that is meaningful information, and a licensed therapist or counselor can help you think through next steps.",
+          "Finally, a word on safety. Setting a boundary with someone who has been controlling or abusive can be the moment things escalate, and the usual advice about calm follow-through assumes a difficult but fundamentally safe situation. If you feel afraid, trust that. In the United States, you can reach the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788, and if you are in immediate danger, contact your local emergency services.",
         ],
       },
     ],
