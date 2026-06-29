@@ -110,6 +110,10 @@ export default function Glossary() {
             Guides
           </a>
           {" · "}
+          <a href="/quiz" style={{ color: "#9ca3af", textDecoration: "underline" }}>
+            Quiz
+          </a>
+          {" · "}
           <a href="/resources" style={{ color: "#9ca3af", textDecoration: "underline" }}>
             Help & Resources
           </a>

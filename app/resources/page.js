@@ -182,6 +182,10 @@ export default function Resources() {
             Guides
           </a>
           {" · "}
+          <a href="/quiz" style={{ color: "#9ca3af", textDecoration: "underline" }}>
+            Quiz
+          </a>
+          {" · "}
           <a href="/glossary" style={{ color: "#9ca3af", textDecoration: "underline" }}>
             Glossary
           </a>

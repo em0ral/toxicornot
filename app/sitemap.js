@@ -17,6 +17,12 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
+      url: "https://toxicornot.ai/quiz",
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: "https://toxicornot.ai/glossary",
       lastModified: now,
       changeFrequency: "monthly",
