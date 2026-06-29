@@ -89,6 +89,10 @@ export default function GuidesIndex() {
             Glossary
           </a>
           {" · "}
+          <a href="/faq" style={{ color: "#9ca3af", textDecoration: "underline" }}>
+            FAQ
+          </a>
+          {" · "}
           <a href="/resources" style={{ color: "#9ca3af", textDecoration: "underline" }}>
             Help & Resources
           </a>

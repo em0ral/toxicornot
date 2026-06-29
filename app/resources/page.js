@@ -190,6 +190,10 @@ export default function Resources() {
             Glossary
           </a>
           {" · "}
+          <a href="/faq" style={{ color: "#9ca3af", textDecoration: "underline" }}>
+            FAQ
+          </a>
+          {" · "}
           <a href="/privacy" style={{ color: "#9ca3af", textDecoration: "underline" }}>
             Privacy Policy
           </a>

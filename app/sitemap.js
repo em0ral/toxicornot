@@ -29,6 +29,12 @@ export default function sitemap() {
       priority: 0.6,
     },
     {
+      url: "https://toxicornot.ai/faq",
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
       url: "https://toxicornot.ai/resources",
       lastModified: now,
       changeFrequency: "monthly",

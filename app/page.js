@@ -929,6 +929,8 @@ export default function Home() {
           {" · "}
           <a href="/glossary" style={{ color: textFaint, textDecoration: "underline" }}>Glossary</a>
           {" · "}
+          <a href="/faq" style={{ color: textFaint, textDecoration: "underline" }}>FAQ</a>
+          {" · "}
           <a href="/resources" style={{ color: textFaint, textDecoration: "underline" }}>Help & Resources</a>
           {" · "}
           <a href="/privacy" style={{ color: textFaint, textDecoration: "underline" }}>Privacy Policy</a>
