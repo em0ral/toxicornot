@@ -483,44 +483,82 @@ export const guides = [
     emoji: "📱",
     title: "Toxic Texting: How to Spot Manipulation in Messages",
     description:
-      "Manipulation reads differently on a screen. Learn the texting patterns — guilt by emoji, walls of text, the read-and-ignore — that signal a toxic dynamic.",
-    readingTime: "6 min read",
+      "Manipulation reads differently on a screen. Learn the texting patterns — guilt by emoji, walls of text, the read-and-ignore — and how to read a thread clearly.",
+    readingTime: "10 min read",
     intro:
-      "Text and DMs strip away tone, facial expression, and timing — the cues we normally use to read intent — and that missing context is fertile ground for manipulation. The same tactics that show up in person take on a particular shape on a screen, and learning to recognize them is exactly what toxicornot.ai is built to help with. This guide covers the patterns to watch for in your messages.",
+      "Text and DMs strip away tone, facial expression, and timing — the cues we normally use to read intent — and that missing context is fertile ground for manipulation. The same tactics that show up in person take on a particular shape on a screen, where every word is recorded, screenshot-able, and easy to quote back out of context. Learning to read a thread clearly is exactly what toxicornot.ai is built to help with. This guide covers the patterns to watch for, with real examples of how they look in practice — and what to do once you've spotted them.",
     sections: [
       {
         heading: "Why text amplifies manipulation",
         body: [
-          "On a screen, the other person controls far more of the frame than they do face to face. They choose when to reply, what to screenshot, how to punctuate, and which of your words to quote back at you. Without tone of voice, a neutral message can be read as cold and a controlling one can be dressed up as caring.",
-          "Messages are also a permanent, editable-looking record. That permanence gets weaponized: your words get saved, recontextualized, and thrown back weeks later, while the other person's intent stays conveniently unwritten.",
+          "On a screen, the other person controls far more of the frame than they do face to face. They choose when to reply, what to screenshot, how to punctuate, and which of your words to quote back at you. Without tone of voice, a neutral message can be read as cold and a controlling one can be dressed up as caring — and the gap between what was meant and what was felt becomes something a manipulative person can exploit at will.",
+          "Messages are also a permanent, selectively-quotable record. That permanence gets weaponized: your words get saved, recontextualized, and thrown back weeks later, while the other person's intent stays conveniently unwritten. A heated thing you typed at midnight becomes Exhibit A; the provocation that prompted it quietly disappears from the retelling.",
+          "Finally, text removes the natural friction that slows a fight down in person. There's no pause while someone takes a breath, no softening glance, no body language saying 'okay, we've gone too far.' A spiral that would have run out of steam in a room can keep escalating for hours on a screen, because the only limit is how fast two people can type.",
         ],
       },
       {
         heading: "Texting patterns worth noticing",
         body: [
-          "No single message proves anything — people have bad days and clumsy thumbs. It is the repeated pattern that tells the story.",
+          "No single message proves anything — people have bad days and clumsy thumbs. It is the repeated pattern that tells the story. Watch for these showing up again and again, especially when they cluster together:",
         ],
         list: [
-          "The read-and-ignore: deliberately leaving you on read as punishment",
-          "Walls of text: overwhelming you with paragraphs until you give up",
-          "Rapid-fire follow-ups demanding an instant reply, then anger when you're slow",
-          "Guilt by emoji — the single \"...\" or passive-aggressive 🙂 meant to unsettle you",
+          "The read-and-ignore: deliberately leaving you on read as punishment, then replying the instant you give up",
+          "Walls of text: overwhelming you with paragraphs until you can't track the argument and just concede",
+          "Rapid-fire follow-ups demanding an instant reply, then anger when you're slow — but silence is fine when it suits them",
+          "Guilt by emoji — the lone \"...\", the passive-aggressive 🙂, the bare \"k\" engineered to unsettle you",
           "Screenshotting and forwarding your words to pull others in (triangulation)",
+          "Quoting a single line of yours out of context while ignoring everything around it",
           "Bringing up an old saved message to derail the current conversation",
+          "Demanding you respond on their schedule while never honoring yours",
+        ],
+      },
+      {
+        heading: "Annotated exchanges: before and after",
+        body: [
+          "It's easier to recognize these patterns when you see them play out. Here are three short exchanges, with the toxic version followed by what a fairer version of the same conversation sounds like.",
+          "Guilt-tripping a boundary. Toxic: You write, \"I can't make it tonight, I'm wiped.\" They reply, \"Wow. Okay. I guess I know where I rank. Don't worry about me, I'll just be here alone like always 🙂\" — turning a simple no into proof that you've wounded them. Healthier: \"That's a bummer, but I get it. Rest up — let's find another night.\" The difference isn't disappointment; it's whether your no is allowed to exist without punishment.",
+          "Manufacturing an emergency out of timing. Toxic: They text four times in ten minutes — \"Hello?\" / \"Are you seriously ignoring me\" / \"Unbelievable\" / \"Wow ok\" — while you were simply driving. Healthier: \"Hey, no rush, but give me a shout when you're free.\" One creates an artificial crisis around your silence; the other treats your time as your own.",
+          "Rewriting what just happened. Toxic: After an hour of insults, they send, \"You always make me the bad guy. I never said anything mean, you're just looking for a reason to be upset.\" Healthier: \"I got heated and said some things I shouldn't have. I'm sorry — can we start over?\" One denies the record that's literally sitting in the thread above it; the other owns it.",
+        ],
+      },
+      {
+        heading: "The weaponized screenshot and the out-of-context quote",
+        body: [
+          "Because text is so easy to capture and crop, one of the most common manipulations isn't a message at all — it's how your messages get reused. A single line of yours, lifted out of a long exchange, can be made to mean almost anything. \"So you admit you were wrong\" rests on a screenshot that conveniently stops one message before their own apology, or one message after your sarcasm but before the wink that framed it.",
+          "The same trick scales up socially. Your private words get screenshotted and shown to mutual friends, family, or a group chat, edited down to whatever makes you look worst. You end up defending a version of yourself you don't recognize, assembled from fragments you did technically write.",
+          "You can't stop someone from screenshotting, but you can make the tactic less effective. Assume anything you type could be shown to anyone, and let that steer you toward calm, plain messages you'd be comfortable having read aloud. When you're shown an out-of-context quote, resist arguing the fragment — \"That's one line from a much longer conversation, and you know it\" names the move without getting dragged into defending the crop.",
+        ],
+      },
+      {
+        heading: "Group chats, mutual friends, and triangulation",
+        body: [
+          "Manipulation that struggles one-on-one often thrives with an audience. In a group chat, a manipulative person can perform for the room — making a cutting remark sound like a joke, then framing your reaction as you 'can't take a joke.' The presence of other people raises the social cost of pushing back, so you swallow it, and the pattern repeats.",
+          "Triangulation is the deliberate version: pulling a third person in to pressure, compare, or outnumber you. It shows up as \"Everyone in the group thinks you overreacted,\" as private screenshots circulated to recruit allies, or as a partner relaying what a friend supposedly said about you. The third party may not even have said it — what matters is that you now feel you're arguing against a crowd.",
+          "A few responses help. Don't try to win the group; take the real conversation private, where the performance has no audience. Be wary of secondhand consensus — \"everyone agrees\" is a claim you're rarely allowed to verify. And notice if someone routinely makes you look bad to people you both know; that's not a series of accidents, it's a strategy.",
+        ],
+      },
+      {
+        heading: "How an outside read helps",
+        body: [
+          "The hardest part of toxic texting is that you're never a neutral reader of your own thread. You're tired, you're hurt, you remember the history behind every line, and the message was engineered to hit your specific buttons. That's exactly why an outside perspective so often catches what the moment obscures — it can see the pattern without the emotional fog.",
+          "That outside read is the core of what toxicornot.ai does: you paste in an exchange and get a calm, structured assessment of the dynamics at play — which tactics are present, what's manipulation versus an ordinary bad moment, and how the back-and-forth is actually functioning. It isn't a verdict on a person and it doesn't replace your own judgment or a professional's; it's a second set of eyes for the moments when you can't trust your own.",
+          "A trusted friend can do the same job, and it's worth using both. The goal isn't to outsource your decision — it's to break the spell of a message that was designed to make you doubt yourself, long enough to respond from a clearer place.",
         ],
       },
       {
         heading: "The instant-reply trap",
         body: [
           "Messaging creates an artificial expectation of immediacy, and manipulative people exploit it. The pressure to reply right now — before you've thought, before you've calmed down — works in their favor, because a fast emotional reply is easier to provoke and easier to use against you.",
-          "You are allowed to be slow. \"Seen\" does not obligate you to respond, and a measured reply an hour later is almost always stronger than an instant one fired off in anger or anxiety. Reclaiming your own timing is one of the simplest ways to defuse pressure on a screen.",
+          "You are allowed to be slow. \"Seen\" does not obligate you to respond, and a measured reply an hour later is almost always stronger than an instant one fired off in anger or anxiety. If the rapid-fire follow-ups start, you don't have to ride them in real time; a single \"I'll reply when I've had a chance to think\" is a complete answer. Reclaiming your own timing is one of the simplest ways to defuse pressure on a screen.",
         ],
       },
       {
         heading: "Protecting yourself in writing",
         body: [
-          "A few habits make manipulative texting much harder to land. Don't match escalation — a calm, brief reply denies the back-and-forth its fuel. Keep your own messages short and free of over-explanation, since long justifications just hand over more to argue with. And when something feels off but you can't name it, paste the exchange into toxicornot.ai or run it past a trusted friend; an outside read often catches what the moment obscures.",
-          "If messages become threatening or abusive, save them rather than deleting them — a record can matter — and step back from the conversation. Your safety and peace of mind outrank any reply.",
+          "A few habits make manipulative texting much harder to land. Don't match escalation — a calm, brief reply denies the back-and-forth its fuel. Keep your own messages short and free of over-explanation, since long justifications just hand over more to argue with. Move serious conversations off text when you can, since tone-free arguments tend to spiral. And when something feels off but you can't name it, paste the exchange into toxicornot.ai or run it past a trusted friend; an outside read often catches what the moment obscures.",
+          "Crucially, save, don't delete. The instinct after an ugly exchange is to clear it out of your sight, but those messages can matter later — as a record for yourself when gaslighting makes you doubt what was said, and as documentation if the situation ever escalates. Screenshot or back up threatening messages somewhere they can't be deleted from, and note dates. You can mute or archive a conversation to get it out of view without destroying the record.",
+          "There's a line where toxic texting stops being a relationship problem and becomes a safety one. Repeated unwanted contact after you've asked it to stop, threats, intimidation, tracking your whereabouts, or messages that frighten you are harassment, and they may be against the law. At that point the goal is no longer a better reply — it's documentation and distance. Most phones let you block and report a number or account, and you can take that record to people who can help. Your safety and peace of mind outrank any reply.",
+          "This guide is informational and not a substitute for professional advice. If messages involve threats, abuse, or make you fear for your safety, reach out for specialized help — in the United States, the National Domestic Violence Hotline is available at 1-800-799-7233, or text START to 88788. If you are in immediate danger, contact your local emergency services.",
         ],
       },
     ],
@@ -532,20 +570,21 @@ export const guides = [
     emoji: "🚪",
     title: "When to Walk Away: Going No-Contact or Low-Contact",
     description:
-      "Sometimes the healthiest response to a toxic relationship is distance. How to know when it's time, the difference between no-contact and low-contact, and how to hold it.",
-    readingTime: "7 min read",
+      "Sometimes the healthiest response to a toxic relationship is distance. When it's time, no-contact vs. low-contact, grey rock, and how to hold it when it's hard.",
+    readingTime: "11 min read",
     intro:
-      "Most guides about toxic relationships focus on how to stay and cope. This one is about the exit. Sometimes, after the boundaries and the careful responses and the benefit of the doubt, the healthiest thing you can do is create distance — either cutting contact entirely or reducing it to the bare minimum. Walking away is not failure, and it is not cruelty. For some relationships it is the only thing that finally works.",
+      "Most guides about toxic relationships focus on how to stay and cope. This one is about the exit. Sometimes, after the boundaries and the careful responses and the benefit of the doubt, the healthiest thing you can do is create distance — either cutting contact entirely or reducing it to the bare minimum. Walking away is not failure, and it is not cruelty. For some relationships it is the only thing that finally works. This guide covers how to know when it's time, the practical mechanics, what to do when full distance isn't possible, and how to hold the line through the inevitable pull to go back.",
     sections: [
       {
         heading: "No-contact vs. low-contact",
         body: [
-          "Walking away is not all-or-nothing. There are two broad approaches, and the right one depends on the relationship and your circumstances — particularly whether the person is family, a co-parent, or otherwise impossible to fully avoid.",
+          "Walking away is not all-or-nothing. There are a few broad approaches, and the right one depends on the relationship and your circumstances — particularly whether the person is family, a co-parent, or otherwise impossible to fully avoid.",
         ],
         list: [
           "No-contact: ending communication entirely — no calls, texts, or social media",
           "Low-contact: sharply limiting contact to essential, often logistical, exchanges",
           "Grey rock: when contact is unavoidable, becoming deliberately boring and unreactive",
+          "Information diet: staying in contact but no longer sharing anything that can be used against you",
           "Each is a tool, not a verdict — you can adjust as your situation changes",
         ],
       },
@@ -559,21 +598,57 @@ export const guides = [
           "You consistently leave interactions feeling worse about yourself",
           "Your health, sleep, or other relationships are suffering",
           "Boundaries are ignored or punished no matter how clearly you set them",
+          "You spend significant energy managing, anticipating, or recovering from this person",
           "You feel unsafe, intimidated, or genuinely afraid",
+        ],
+      },
+      {
+        heading: "The practical mechanics of going no-contact",
+        body: [
+          "Deciding to go no-contact is one thing; actually engineering it is another, and the logistics are where people get tripped up. The aim is to close the channels methodically so you're not left with a back door you'll be tempted to use, or one the other person can use to reach you at a weak moment.",
+          "Work through the channels one by one. Block their number for calls and texts rather than just muting it, so a 2 a.m. message can't catch you off guard. Block or unfollow across every platform — and remember the easy-to-forget ones like email, payment apps, gaming, old shared streaming logins, and the 'people you may know' feeds that keep resurfacing them. Change shared passwords and turn off any location sharing that's still switched on. If you share finances, accounts, a lease, or pets, separate or formalize those deliberately rather than leaving loose ends that force contact later.",
+          "Mutual friends are the channel people underestimate. You don't owe anyone a detailed explanation, but it helps to ask the people closest to you not to pass along messages or updates, and to decline being a go-between — a simple \"I'm not discussing them, and please don't relay anything\" usually does it. Expect that some people will stay in both camps, and decide in advance that that's allowed; you're managing your own access, not policing everyone else's.",
+        ],
+      },
+      {
+        heading: "When you can't fully walk away: co-parenting and grey rock",
+        body: [
+          "Full no-contact is a luxury many people don't have. If you share children, a workplace, a family, or a tangled set of obligations, some contact is going to continue whether you want it or not. The goal then shifts from zero contact to contact that can't be used to hook you — and that's where low-contact and grey rock come in.",
+          "Grey rock means becoming as interesting as a grey rock: calm, brief, neutral, and unreactive, so there's nothing to provoke and no reaction to feed on. You answer what's necessary and nothing more. You don't share your feelings, your plans, your wins, or your wounds, because each of those is a handle. \"Okay.\" \"That works.\" \"I'll have her ready at five.\" The flatness is the point — manipulation runs on your reaction, and grey rock starves it.",
+          "For co-parenting specifically, structure protects you. Keep communication in writing and on the record; many people route everything through a co-parenting app or a single email thread so there's documentation and no real-time ambush. Keep every exchange strictly about the logistics of the kids — pickup times, school, medical — and refuse to be drawn into anything else. Use a businesslike, almost customer-service tone (some call it the BIFF approach: brief, informative, friendly, firm). And hold a hard line on never using the children as messengers or audience, however the other side behaves.",
+          "Grey rock is a tool, not a personality, and it has limits. It can be draining to maintain, and with someone genuinely abusive, suddenly going flat can occasionally escalate things — so weigh your safety, and don't treat it as a substitute for professional or legal support when contact is genuinely unsafe.",
         ],
       },
       {
         heading: "It will probably feel worse before it feels better",
         body: [
-          "Cutting off a toxic relationship rarely brings instant relief, and people are often blindsided by how hard it is. You may grieve the person — or the version of them you hoped they'd become — even though you know leaving was right. Expect guilt, doubt, and an urge to reach back out, especially in low moments.",
-          "Expect, too, that the other person may escalate when they sense you pulling away: a wave of apologies, promises, charm, or anger meant to pull you back in. This is common, and it is not evidence that you were wrong. Deciding in advance how you'll respond — and leaning on supportive people when the urge to reconnect hits — makes the distance much easier to hold.",
+          "Cutting off a toxic relationship rarely brings instant relief, and people are often blindsided by how hard it is. You may grieve the person — or, more often, the version of them you hoped they'd become — even though you know leaving was right. Expect guilt, doubt, loneliness, and an urge to reach back out, especially in low moments and especially when the bad memories conveniently fade and only the good ones replay.",
+          "Some of this is brain chemistry, not weakness. Intermittent affection — warmth that came and went unpredictably — is one of the most powerful ways a bond gets reinforced, which is part of why leaving can feel like withdrawal. Knowing that the pull is partly mechanical, and not a sign you've made a mistake, makes it easier to ride out.",
+          "It helps to have a few anchors ready for the hard hours: a written list of why you left (read it back when the good memories start arguing with you), one or two people you can call instead of reaching out to them, and a flat rule for yourself about what you'll do when the urge hits. The distance gets easier, but rarely on a straight line — expect good weeks and sudden bad days, and don't take a bad day as proof you were wrong.",
+        ],
+      },
+      {
+        heading: "Surviving the hoover and the urge to break contact",
+        body: [
+          "Pulling away often triggers a comeback attempt — sometimes called a 'hoover,' because it's designed to vacuum you back in. It can arrive as a flood of apologies and promises, sudden charm and nostalgia, a manufactured emergency, a guilt campaign, or anger and threats when the softer approaches don't work. It frequently lands right when you were starting to feel steady, because your stability is exactly what it's reacting to.",
+          "The hoover is not evidence that things have changed or that you were wrong to leave — it's the pattern reasserting itself. The most reliable defense is to decide your response before it comes, while you're clear-headed: that you won't reply, or that you'll keep it strictly logistical, or that you'll route it to a friend or a lawyer. A boundary you set in advance is far easier to hold than one you have to improvise mid-pull.",
+          "Then there's the urge that comes from your own side — the lonely night when you want to break no-contact yourself, just to feel connected again. That urge is normal and it passes. Make the relapse harder than the resolve: keep them blocked, tell a friend to talk you down, and write the message you want to send into a notes app instead of the chat. If you do slip and reach out, treat it as a stumble rather than a failure, and pick the line back up. Holding distance is a skill you build, not a test you pass once.",
+        ],
+      },
+      {
+        heading: "Rebuilding after, and how long it takes",
+        body: [
+          "There's no fixed timeline, and anyone who gives you a clean number is guessing. Healing tends to track the length and intensity of the relationship, how enmeshed your lives were, and how much support you have — but it's measured in months and seasons, not days, and it rarely moves in a straight line. A common and frustrating truth is that you can feel mostly fine for weeks and then get ambushed by grief out of nowhere. That's normal, not regression.",
+          "The space that opens up after no-contact can feel strangely empty at first, because managing the relationship took up real room in your life. Rebuilding is largely about filling that space with things that are yours: reconnecting with people who drifted away, restarting habits and interests you let go, and slowly relearning your own opinions and preferences after a long stretch of editing them. Many people are surprised, months on, by how much quieter their own head becomes.",
+          "Watch, too, for the way these dynamics can recalibrate your sense of normal, so that calm relationships feel boring or untrustworthy for a while. That usually settles with time and distance. Working with a licensed therapist can speed all of this up — both processing what happened and recognizing the early signs sooner next time. Going no-contact isn't the end of the story; it's the part where you get to write a different one.",
         ],
       },
       {
         heading: "Doing it as safely as you can",
         body: [
-          "If the relationship has involved any controlling or abusive behavior, the period of leaving can be the most volatile, and it deserves planning rather than improvisation. Line up your support system, think through practical and financial logistics, and consider talking to a professional before you act.",
-          "You do not have to do this alone or figure it out perfectly. A licensed therapist can help you plan and process it. And if you are dealing with abuse or feel unsafe, reach out for specialized help — in the United States, the National Domestic Violence Hotline is available at 1-800-799-7233, or text START to 88788. If you are in immediate danger, contact your local emergency services.",
+          "If the relationship has involved any controlling or abusive behavior, the period of leaving can be the most volatile, and it deserves planning rather than improvisation. Line up your support system, think through practical and financial logistics, secure your accounts and devices, and consider talking to a professional before you act rather than after.",
+          "You do not have to do this alone or figure it out perfectly. This guide is informational and not a substitute for professional advice; a licensed therapist or counselor can help you plan and process it, and a domestic violence advocate can help with safety planning if that's what your situation calls for.",
+          "And if you are dealing with abuse or feel unsafe, reach out for specialized help — in the United States, the National Domestic Violence Hotline is available at 1-800-799-7233, or text START to 88788. If you are in immediate danger, contact your local emergency services.",
         ],
       },
     ],
