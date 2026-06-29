@@ -182,6 +182,10 @@ export default function Resources() {
             Guides
           </a>
           {" · "}
+          <a href="/glossary" style={{ color: "#9ca3af", textDecoration: "underline" }}>
+            Glossary
+          </a>
+          {" · "}
           <a href="/privacy" style={{ color: "#9ca3af", textDecoration: "underline" }}>
             Privacy Policy
           </a>
