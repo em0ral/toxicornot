@@ -1021,6 +1021,275 @@ export const guides = [
     ],
     related: ["setting-boundaries", "toxic-or-rough-patch"],
   },
+
+  {
+    slug: "toxic-family-members",
+    emoji: "👨‍👩‍👧",
+    title: "Toxic Family Members: Spotting the Patterns and Protecting Yourself",
+    description:
+      "Family toxicity is uniquely hard because of obligation and history. How to spot the patterns, set limits, survive the holidays, and grieve a parent who won't change.",
+    readingTime: "11 min read",
+    intro:
+      "Toxicity inside a family is its own particular kind of hard. With a partner you can, in theory, leave; with a friend you can drift; but a parent or a sibling is wound into your history, your holidays, and your sense of who you are. The very people who hurt you are often the ones you're told you owe the most to, and 'but they're family' is a sentence that can keep you absorbing things you'd never accept from anyone else. This guide covers why family toxicity is so uniquely difficult, the patterns it most often takes, how to set limits and go low- or no-contact with relatives, how to survive holidays and family events, and the quiet grief of accepting that a parent may never change.",
+    sections: [
+      {
+        heading: "Why family toxicity is uniquely hard",
+        body: [
+          "Most of the usual advice about toxic relationships quietly assumes you can walk away. With family, that assumption breaks down. These are the people who were there before you had words for what was happening, whose version of your childhood often overrides your own, and whose approval most of us are wired to want long into adulthood. You're not evaluating a relationship you chose; you're untangling one you were born into.",
+          "Then there's obligation. From a young age many of us are taught that family comes first, that blood is thicker than water, that you forgive your parents no matter what — and that questioning any of it makes you ungrateful or cold. That training runs deep, which is why a limit that would feel obvious with a coworker can feel like a betrayal when it's aimed at your mother. The guilt isn't a sign you're doing something wrong; it's often the exact thing that's kept the pattern going.",
+          "History is the other weight. A toxic dynamic with a parent can be thirty or forty years deep, so worn-in that it doesn't register as a dynamic at all — it just feels like how things are. \"That's not how it happened,\" said with total certainty by someone who's been saying it your whole life, can override your own memory in a way a stranger never could. Recognizing the pattern at all is often the hardest and most important step.",
+        ],
+      },
+      {
+        heading: "Common patterns: the critical parent",
+        body: [
+          "One of the most common shapes family toxicity takes is the chronically critical parent — the one for whom nothing is ever quite good enough. The criticism is often dressed up as 'just being honest,' 'high standards,' or 'I only say it because I care,' which makes it hard to name and harder to push back on. The grade was good but not the highest; the job is fine but not the one they'd have picked; the weight, the partner, the parenting, the house — all gently, persistently found wanting.",
+          "What makes it corrosive isn't any single comment but the accumulation. Grow up with a running commentary on your shortcomings and you tend to internalize the voice, so that long after you've moved out, you're still measuring yourself against a standard you can never meet. Many adults are surprised to realize the harshest critic in their own head sounds exactly like a parent.",
+          "Naming it helps. A critical parent is describing their own anxiety and need for control far more than they're describing you. You don't have to win the argument or earn the approval that was never really available — \"I'm not looking for feedback on this\" is a complete response to unsolicited criticism, even from a parent.",
+        ],
+      },
+      {
+        heading: "The golden child and the scapegoat",
+        body: [
+          "In some families, especially ones organized around a self-centered or volatile parent, the children get sorted into roles — and the most recognizable split is the golden child and the scapegoat. One child can do little wrong, is held up as proof of the family's success, and absorbs the praise. Another can do little right, becomes the explanation for whatever's wrong, and absorbs the blame. The roles are assigned, not earned, and they often have very little to do with the actual children.",
+          "This split does damage on both sides. The scapegoat grows up carrying a sense of being fundamentally defective, often doubting their own memory of events because the whole family agrees they were the problem. The golden child pays a quieter price — love that was conditional on performance, a self built around a role, and guilt or confusion later when they begin to see how unfairly their sibling was treated. The two are frequently set against each other, which keeps them from comparing notes and recognizing the shared source.",
+          "If you grew up in one of these roles, it can be clarifying simply to see it as a role the family needed someone to play, not a verdict on who you are. Siblings who can eventually step out of the assigned parts and talk honestly often discover their memories line up far better than the family story allowed.",
+        ],
+      },
+      {
+        heading: "Enmeshment and guilt as currency",
+        body: [
+          "Not all family toxicity looks like coldness or criticism — some of it looks like too much closeness. Enmeshment is when the boundaries between family members collapse: a parent who treats your private life as their business, who is wounded by your independence, who frames any separateness as rejection. Love and control get braided so tightly that pulling away at all feels like cruelty. \"We're just so close\" can describe a healthy bond, or it can describe a parent who never let you become a separate person.",
+          "Guilt is the currency that keeps these systems running. Instead of asking directly, an enmeshing or controlling family member makes you feel responsible for their feelings: the heavy sigh, \"after everything I sacrificed for you,\" the reminder of their health or their loneliness, the implication that a normal adult choice is abandonment. Each move transfers the discomfort onto you, so that doing the reasonable thing comes with a tax of feeling like a bad son or daughter.",
+          "The way out isn't to stop loving your family; it's to learn that you can love someone and still be a separate person with your own life and limits. Guilt that's manufactured to control you is different from guilt that signals you've genuinely done wrong — and learning to tell them apart is much of the work.",
+        ],
+        list: [
+          "Your ordinary adult choices are treated as betrayals or abandonment",
+          "Requests come wrapped in guilt rather than asked for directly",
+          "Privacy is framed as secrecy, and independence as rejection",
+          "One person's feelings set the emotional weather for the whole family",
+          "\"After everything I've done for you\" is a recurring refrain",
+        ],
+      },
+      {
+        heading: "Setting boundaries when 'but they're family' is the trump card",
+        body: [
+          "Boundaries with family follow the same core rule as anywhere else: a boundary is about what you'll do, not what they must do. \"Stop criticizing my parenting\" depends on their cooperation; \"If my parenting gets criticized, we'll head home early\" depends only on you. With family, that shift matters even more, because you're rarely going to win the argument about whether you're allowed to have the boundary at all.",
+          "Expect the trump card. The moment you set a limit, you may hear that family doesn't do that, that you're tearing the family apart, that you've changed, that you're being selfish or cold. A chorus of relatives may line up to talk you out of it in the name of keeping the peace. None of that means you're wrong — it means you're changing a pattern that was working for someone else, and the pushback is the pattern defending itself.",
+          "Because announcing boundaries to family can trigger a whole-system backlash, many of the most durable ones are behavioral rather than declared. Shorter visits. Staying at a hotel instead of the house. Steering off certain topics and leaving when they're forced. Sharing less of your private life with someone who uses it against you. You don't owe a speech or a justification; you can simply, quietly, give difficult people less access.",
+        ],
+        list: [
+          "State the limit as your own next action, not their required behavior",
+          "Keep visits shorter and on your terms — your own transport, your own lodging",
+          "Decide topics that are off the table, and exit calmly when they come up",
+          "Share less with anyone who turns your private life into ammunition",
+          "Expect guilt and backlash, and treat them as the pattern resisting, not proof you erred",
+        ],
+      },
+      {
+        heading: "Going low-contact or no-contact with family",
+        body: [
+          "Distance with family exists on a spectrum, and most people land somewhere in the middle rather than at the extremes. Low-contact might mean seeing a parent twice a year instead of every week, keeping calls short and surface-level, or only gathering in groups where no one person can corner you. No-contact — ending communication entirely — is a heavier step that some people reach only after years of trying everything else, and it's a legitimate choice, not a moral failure.",
+          "Cutting off a parent carries a particular social weight that cutting off a friend doesn't. People who haven't lived it may struggle to understand, and you may face judgment from relatives or even strangers who assume no reason could be good enough. That outside pressure is its own burden, on top of the loss itself. It can help to remember that the people judging weren't in the room for the thirty years that led you here.",
+          "Whatever distance you choose, you don't owe the wider family a detailed case file. \"We're not close right now, and I'd rather not get into it\" is a complete answer. And distance can be adjusted: many people move between low- and no-contact over time as circumstances and their own capacity change. The goal isn't to win or to punish — it's to give yourself enough room to be okay.",
+        ],
+      },
+      {
+        heading: "Surviving holidays and family events",
+        body: [
+          "Holidays concentrate everything hard about family into a few high-pressure days: forced proximity, old roles snapping back into place, alcohol, exhaustion, and an audience that raises the cost of any conflict. A dynamic you've managed to keep at arm's length all year can come roaring back at one dinner table. Going in with a plan, rather than hope, makes an enormous difference.",
+          "The single most protective move is your own exit. Drive yourself or keep a way to leave, so you're never trapped for a weekend at someone else's mercy. Stay at a hotel or an Airbnb instead of the family home if you can — a door you can close and a place to decompress changes the whole experience. Decide in advance how long you'll stay and what you'll do when a familiar button gets pushed, because nobody improvises well in the middle of an old wound.",
+          "In the moment, a few tools help: keep an ally on your team if you have one, step outside or volunteer for a task when the temperature rises, and lean on grey-rock brevity for the predictable provocations rather than taking the bait. You're allowed to give a flat \"I'm not getting into that today\" and change the subject. And it's worth deciding ahead of time that protecting your peace outranks performing the perfect holiday — leaving early is always on the table.",
+        ],
+        list: [
+          "Drive yourself or keep an independent way to leave at any time",
+          "Stay somewhere you can retreat to, not under the same roof, when possible",
+          "Set a planned arrival and departure — and let yourself leave early",
+          "Pre-decide your responses to the predictable jabs, and keep them short",
+          "Take breaks: a walk, a task in another room, a few minutes alone outside",
+          "Bring or keep an ally, and agree on a signal for when you need backup",
+        ],
+      },
+      {
+        heading: "The grief of accepting a parent won't change",
+        body: [
+          "Underneath a lot of struggle with a toxic parent is a hope that's hard to give up: that one day they'll finally see it, apologize, and become the parent you needed. That hope can keep you trying long past the point where the evidence supports it, because letting go of it means grieving something you never actually had. The hardest acceptance isn't that they hurt you — it's that they may never change, and that the parent you longed for isn't coming.",
+          "This is a real grief, and a strange one, because the person is often still alive. You can find yourself mourning a relationship that exists only as a possibility, while the actual person is sitting across the table at Thanksgiving. That ambiguity — grieving someone who hasn't died — is genuinely disorienting, and it deserves to be treated as the loss it is rather than something you should just be over.",
+          "Acceptance isn't approval, and it isn't giving up on yourself. It's stopping the exhausting work of trying to extract from someone what they've shown they can't give, and redirecting that energy toward your own life, your chosen family, and the relationships that do reach back. Many people find that grieving the parent they wished for is exactly what finally lets them stop chasing — and start healing.",
+          "This guide is informational and not a substitute for professional advice. A licensed therapist — especially one who works with family-of-origin issues — can be enormously helpful for untangling this and recognizing what's yours to carry and what isn't. And if a family relationship involves control, intimidation, or fear for your safety, that changes the picture — in the United States you can reach the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788, and if you are in immediate danger, contact your local emergency services.",
+        ],
+      },
+    ],
+    related: ["setting-boundaries", "going-no-contact"],
+  },
+
+  {
+    slug: "toxic-workplace",
+    emoji: "💼",
+    title: "Toxic Workplaces and Bosses: How to Recognize and Survive Them",
+    description:
+      "A toxic boss isn't the same as a demanding one. How to spot workplace gaslighting and credit-stealing, build a paper trail, understand HR, and protect yourself.",
+    readingTime: "11 min read",
+    intro:
+      "A toxic workplace is its own special trap, because the thing harming you is also the thing paying your rent. You can't easily walk away from a job the way you can a bad date, and a toxic boss holds real structural power over your income, your reputation, and your daily peace of mind. That power changes the rules: the usual advice about open communication and clear boundaries runs into the hard fact that the other person can affect your livelihood. This guide covers how to tell a toxic boss from a demanding-but-fair one, the manipulation tactics that show up at work, why documentation matters so much, what HR actually does, how to use grey rock on the job, when to leave, and how to protect your mental health while you're still there.",
+    sections: [
+      {
+        heading: "A toxic boss vs. a demanding-but-fair one",
+        body: [
+          "Not every hard boss is a toxic one. Plenty of excellent managers are demanding: they hold a high bar, give blunt feedback, and expect a lot — and working for them can be stressful without being harmful. The difference isn't how much they ask; it's whether they're fair, consistent, and respectful while they ask it. A demanding boss pushes you toward your best work. A toxic boss makes you doubt yourself, fear for your standing, and dread the next interaction.",
+          "A fair-but-tough manager has recognizable traits: expectations are clear and stable, feedback is about the work rather than your character, credit flows to the people who did it, and mistakes are treated as problems to solve rather than ammunition. You may be tired, but you know where you stand. A toxic manager runs on the opposite: shifting expectations, criticism aimed at you as a person, credit that migrates upward, and mistakes stored away to be used later.",
+          "The clearest tell is how you feel over time. Working for a demanding boss, you tend to grow more capable and confident. Working for a toxic one, you tend to shrink — more anxious, more self-doubting, more convinced the problem is you. If a calm week still leaves you bracing for the next blow, that's information about the dynamic, not about your competence.",
+        ],
+        list: [
+          "Demanding-but-fair: clear, stable expectations — Toxic: goalposts that move so you can't win",
+          "Demanding-but-fair: feedback about the work — Toxic: criticism aimed at who you are",
+          "Demanding-but-fair: credit goes to who earned it — Toxic: your wins quietly become theirs",
+          "Demanding-but-fair: you grow more confident — Toxic: you shrink and doubt yourself",
+        ],
+      },
+      {
+        heading: "Gaslighting, credit-stealing, and moving goalposts at work",
+        body: [
+          "Workplace manipulation tends to be quieter than the romantic kind, but the moves are familiar. Gaslighting at work sounds like \"I never told you to do it that way\" about an instruction you clearly received, or \"that was never the deadline,\" or a documented agreement reframed as your misunderstanding. Because a boss's version carries institutional weight, it's especially easy to start doubting your own memory — which is exactly why writing things down matters so much.",
+          "Credit-stealing is another classic. Your idea gets presented in the meeting as theirs; your work ships under someone else's name; the praise for a project you carried lands on the manager who supervised it from a distance. Done once it might be an accident. Done repeatedly, it's a pattern that quietly starves your career of the recognition it's earning.",
+          "Then there are the moving goalposts: you hit the target and the target moves, you meet the criteria for the promotion and new criteria appear, you fix the thing you were told to fix and the complaint shifts to something else. The effect is that you can never quite succeed, which keeps you anxious, over-working, and easy to control. Naming these to yourself — \"this is the goalpost moving again\" — is the first step to not being destabilized by them.",
+        ],
+        list: [
+          "Work gaslighting: instructions, deadlines, or agreements later denied or rewritten",
+          "Credit-stealing: your ideas and output presented as someone else's",
+          "Moving goalposts: targets that shift the moment you reach them",
+          "Blame-shifting: failures roll downhill to you; successes roll up to them",
+          "Public criticism, private promises: humiliation in the open, reassurance with no witnesses",
+        ],
+      },
+      {
+        heading: "The paper trail: why documentation matters",
+        body: [
+          "In a personal relationship, documentation is mostly about protecting your own grip on reality. At work, it's that and more — it's protection for your job, your reputation, and any future dispute. When power is structural and someone can rewrite events with the weight of authority behind them, a contemporaneous written record is the single most valuable thing you can build.",
+          "The practical version is simple. Move important conversations into writing: after a verbal instruction or agreement, send a short \"just to confirm what we discussed\" email so there's a record. Keep your own dated notes of incidents — what happened, when, who was present, what was said — written close to the time. Save relevant emails, messages, and performance reviews somewhere you'll still have access if you lose your work accounts, which often means forwarding key items to a personal email rather than storing everything on company systems you can be locked out of.",
+          "A paper trail isn't about being litigious or paranoid; it's about not being defenseless against a rewritten story. If a problem ever escalates to HR, a manager, or beyond, the person with calm, dated, specific records is in a far stronger position than the person relying on memory. Keep it factual and unemotional — dates, quotes, and events — because that's what holds up and what reads as credible later.",
+        ],
+        list: [
+          "Confirm verbal agreements in a follow-up email — \"just to recap what we discussed…\"",
+          "Keep dated, factual notes of incidents written close to when they happened",
+          "Save key emails, messages, and reviews to a personal account you control",
+          "Stick to facts — dates, quotes, who was present — not feelings or characterizations",
+          "Note patterns, not just one-offs; a record of repetition is what carries weight",
+        ],
+      },
+      {
+        heading: "HR realities: who they actually work for",
+        body: [
+          "It's worth being clear-eyed about this, because a lot of people learn it the hard way. HR's core job is to protect the company, not you. That doesn't make HR your enemy, and many HR professionals are decent people who genuinely want to help — but when your interests and the company's interests diverge, HR is structurally aligned with the company. Walking in expecting a neutral advocate can leave you exposed.",
+          "That reality should shape how you use them, not whether. HR is most useful when your interest and the company's interest line up — for clear policy violations, harassment, discrimination, or legal-risk issues the company genuinely wants to avoid, reporting can work and sometimes must happen for you to be protected later. It's far less reliable for fuzzy interpersonal problems with a valued manager, where the company's easiest path may be to manage you rather than the boss.",
+          "So go in prepared. Put complaints in writing and keep your own copy, stick to specific documented facts rather than general grievances, and understand that what you say may get back to the person you're reporting. For anything involving potential illegality — discrimination, harassment, retaliation, wage violations — it can be worth getting outside advice from an employment lawyer before or alongside going to HR, since they answer to you in a way HR does not.",
+        ],
+      },
+      {
+        heading: "Grey rock at work: staying flat and professional",
+        body: [
+          "You can't go no-contact with a boss you see every day, so the workplace version of self-protection is closer to grey rock: become calm, brief, neutral, and hard to provoke. Manipulation runs on your reaction — the flustered defense, the emotional outburst, the over-explanation — and a flat, professional surface starves it of fuel while keeping you looking like the reasonable one.",
+          "In practice that means keeping exchanges businesslike and on-topic, not sharing personal vulnerabilities that can be used against you, and resisting the urge to JADE — justify, argue, defend, explain — when you're baited. \"Thanks, I'll take that into account\" and \"I'll follow up in writing\" are complete, unprovokable responses. You don't reveal your stress, your job search, or your feelings about the manager to people who'll relay them. The goal is to be competent, polite, and impossible to bait.",
+          "Grey rock at work is a survival tool, not a way to thrive, and it has a cost — it's draining, and it's not a substitute for fixing or leaving a genuinely bad situation. But for getting through the days while you build your paper trail, line up your next move, or wait out a reorganization, a calm professional flatness protects both your standing and your nervous system.",
+        ],
+      },
+      {
+        heading: "When to leave",
+        body: [
+          "Sometimes the healthiest career move is the exit, and it's worth naming the signs honestly rather than white-knuckling indefinitely. No single one is decisive, but when several persist despite real effort, they point toward the door. A job is supposed to cost you work, not your health.",
+          "Watch for the toll bleeding into the rest of your life: Sunday-night dread that swallows the weekend, sleep and health declining, the stress following you home and souring your relationships. Watch, too, for the structural signs — nothing changes no matter what you try, the toxic behavior comes from the top so there's no one above it to appeal to, good people keep quietly leaving, and you've stopped growing because all your energy goes to surviving.",
+          "Leaving well usually means leaving strategically rather than in a blaze. Where you can, line up the next thing before you go, keep your documentation, and resist the urge to torch bridges on the way out — a calm, professional exit protects your reputation and your references. Your mental health is worth more than any single job, and choosing to leave a toxic workplace is a sign of good judgment, not of failure.",
+        ],
+        list: [
+          "Nothing changes despite genuine, repeated attempts to address the problem",
+          "The toxicity comes from the top, with no one to escalate to",
+          "Your sleep, health, or relationships are visibly suffering",
+          "Sunday dread and chronic anxiety have become your normal",
+          "You've stopped growing because all your energy goes to surviving",
+          "Good colleagues keep leaving, and the ones who stay seem worn down",
+        ],
+      },
+      {
+        heading: "Protecting your mental health while still employed",
+        body: [
+          "Often you can't leave immediately — you need the income, the timing's wrong, the search takes months. So a big part of surviving a toxic workplace is protecting yourself inside it, while you plan your exit. The first move is a mental reframe: this job does not define your worth, and the way you're being treated is about the environment, not your value as a person. Toxic workplaces are very good at convincing you otherwise.",
+          "Practically, defend the edges of your life. Protect your time off — real breaks, lunch away from your desk, weekends and evenings that aren't swallowed by work or dread. Keep your identity and your sense of competence anchored outside the job, in relationships and interests that remind you who you are. Build and lean on a support network: trusted colleagues who see what you see (which also counters the gaslighting), friends and family outside the company, and a therapist if you can access one. And remember that an outside read can cut through the fog — a tool like toxicornot.ai can give a calm, structured read of a manipulative message thread when you can't tell anymore if it's you or them.",
+          "Help exists for this, and using it is a strength, not a weakness. Many employers offer an Employee Assistance Program with free confidential counseling sessions; a licensed therapist can help you manage the stress and think clearly about your options. This guide is informational and not a substitute for professional or legal advice — for anything involving discrimination, harassment, or retaliation, an employment lawyer can advise you on rights HR won't. And if workplace conflict ever crosses into threats, intimidation, or fear for your safety, take that seriously and reach out for appropriate help; in the United States, if you are in immediate danger, contact your local emergency services.",
+        ],
+      },
+    ],
+    related: ["recognizing-manipulation", "setting-boundaries"],
+  },
+
+  {
+    slug: "toxic-friendships",
+    emoji: "🫂",
+    title: "Toxic Friendships: When a Friend Is Draining You",
+    description:
+      "Friendships can be toxic too. How to spot the one-sided friend, the competitor, the drama magnet, and the frenemy — and how to address it or let it fade.",
+    readingTime: "10 min read",
+    intro:
+      "We talk endlessly about toxic partners and toxic families, but a draining friendship can quietly cost you just as much — and it gets far less attention. Maybe you've noticed you feel worse after seeing a certain friend, or that the relationship only ever seems to flow one direction, and you've wondered whether you're being unfair for even thinking it. You're not. Friendships are supposed to be a source of support and ease, and when one consistently leaves you depleted, that's worth taking seriously. This guide covers the common shapes a toxic friendship takes, how it differs from romantic toxicity, how to address a friend directly, and how to let a friendship fade or end when it's time.",
+    sections: [
+      {
+        heading: "The one-sided friendship",
+        body: [
+          "The most common toxic friendship isn't dramatic at all — it's just lopsided. You're the one who always reaches out, always listens, always shows up, always remembers the birthday and the big day. They surface when they need something — a vent, a favor, an audience for their crisis — and recede when you do. Over time you realize the friendship runs almost entirely on your effort.",
+          "The tell is often in the conversations themselves. You can talk to a one-sided friend for an hour and realize afterward they never once asked how you were. Your news gets a quick acknowledgment before the subject swings back to them; your hard week can't get a word in past their hard day. It's not that they're cruel — it's that the relationship is organized around their needs, and yours are background noise.",
+          "It's worth checking the pattern against reality before concluding anything; everyone goes through stretches where they take more than they give, and a good friend in a genuine crisis deserves slack. But if you tally an honest average and the imbalance is the steady state rather than a rough season, that's real. A friendship where you're always the giver and never the gotten-to isn't a friendship so much as unpaid support.",
+        ],
+      },
+      {
+        heading: "The competitive or jealous friend",
+        body: [
+          "Some friendships carry an undercurrent that good news isn't safe to share. You get the promotion, the relationship, the win — and instead of celebration you get a flat \"that's nice,\" a quick pivot to their own news, or a subtle dig that takes the shine off. A competitive friend experiences your success as a threat rather than a joy, and you slowly learn to downplay your wins around them to keep the peace.",
+          "It can show up as one-upping (every story of yours is met with a bigger one of theirs), as quiet sabotage or 'forgetting' to include you, or as backhanded compliments — \"wow, I'm surprised they picked you\" — that congratulate and cut in the same breath. Underneath is usually their own insecurity, which explains it but doesn't make it feel any better to be on the receiving end.",
+          "A real friend roots for you, full stop. The clearest test is to notice how you feel sharing something good: if you find yourself hiding your wins, minimizing your happiness, or bracing before you tell a friend something that went right, that instinct is data. Friendship is supposed to be one of the safest places to be glad about your own life.",
+        ],
+      },
+      {
+        heading: "The drama magnet and the frenemy",
+        body: [
+          "Some friends bring a permanent weather system of crisis with them. The drama magnet is always in the middle of a catastrophe — a feud, an emergency, a fresh betrayal — and being their friend means being perpetually on call as therapist, audience, and emergency responder. A genuine hard time deserves your support; the pattern to watch is the friend whose life is a rolling series of self-generated emergencies that quietly take over every interaction and leave no room for anything else, including you.",
+          "The frenemy is trickier, because the hostility hides under a friendly surface. This is the friend who undermines you with a smile — the cutting 'joke' at your expense in front of others, the 'helpful' warning that plants a doubt, the compliment with a hook in it. When you flinch, you're told you can't take a joke or you're being too sensitive, which makes the unease hard to name. You often leave time with a frenemy vaguely worse about yourself without being able to point to exactly why.",
+          "Both share a signature: you feel drained, anxious, or diminished afterward rather than supported. That after-feeling is one of the most reliable readings you have. A friendship that consistently leaves you depleted or subtly worse about yourself is doing the opposite of what friendship is for.",
+        ],
+        list: [
+          "You're cast as the permanent audience or rescuer for someone's nonstop crises",
+          "Jokes at your expense land often, then get waved off as you being too sensitive",
+          "Compliments arrive with a hook; warnings arrive that conveniently plant doubt",
+          "You leave time together drained or vaguely worse about yourself, not lifted",
+          "There's rarely room for your life, your news, or your hard days",
+        ],
+      },
+      {
+        heading: "How friendships differ from romantic toxicity",
+        body: [
+          "The underlying tactics are similar — guilt, competition, one-sidedness, the occasional manipulation — but friendships have a different texture, and a few things make toxic ones easier to overlook. There's usually less daily entanglement than with a partner, no shared home or finances, which can make the harm feel smaller and easier to tolerate for years. Precisely because the stakes seem lower, we tend to give a draining friend a very long leash.",
+          "Friendships also lack the formal structures that force a reckoning. There's no breakup conversation expected, no relationship status, no holidays that demand a decision — so a toxic friendship can simply drift on indefinitely, sustained by history and habit long after it stopped being good. Many people stay in a depleting friendship for years not because it's worth it but because there was never an obvious moment to stop.",
+          "And we apply a strange double standard. People who'd quickly flag a partner who never asked about their day, or who dimmed at their good news, will excuse the exact same behavior in a friend of fifteen years. Loyalty and history are real and worth honoring — but they're not a reason to accept treatment from a friend that you'd never accept from anyone else. The same question applies: across an honest average, do you leave this person better or worse?",
+        ],
+      },
+      {
+        heading: "How to address it directly",
+        body: [
+          "Not every troubled friendship needs to end — some are worth a direct, honest conversation, especially long ones where the other person may not realize the imbalance. A good friend who genuinely didn't see it will often respond with real care; how someone reacts to being told they've hurt you is itself a lot of information about whether the friendship can grow.",
+          "Keep it specific, recent, and about your own experience rather than a sweeping indictment of their character. \"I've noticed I do most of the reaching out lately, and I've been feeling a bit one-sided — I miss feeling like we're both in it\" is far easier to hear than \"you're a selfish friend.\" Name a concrete pattern, say how it lands for you, and say what you'd like instead. You're inviting a repair, not delivering a verdict.",
+          "Then watch the response, because it tells you most of what you need to know. A friend worth keeping might be surprised or a little defensive at first, but ultimately takes it in and adjusts. A toxic dynamic shows itself in the reaction: you get DARVO (suddenly they're the wounded party and you're the bad friend), dismissal (\"you're too sensitive\"), or a brief change that fades back within weeks. If raising a gentle, specific concern reliably gets turned around onto you, that response is your answer.",
+        ],
+      },
+      {
+        heading: "Letting a friendship fade or end",
+        body: [
+          "Friendships have a quieter set of off-ramps than romantic relationships, and you're allowed to use them. Not every friendship needs a dramatic ending or a confrontation; many simply taper — you reach out less, accept fewer invitations, let the contact thin out naturally until it settles at a distance that costs you less. The fade is a legitimate and often kind choice, especially when a direct conversation isn't safe, isn't welcome, or just isn't worth it.",
+          "Sometimes a cleaner ending serves better. If a friend has been genuinely manipulative, or if fading hasn't worked and you need a clear stop, you can say it plainly — \"I've realized this friendship isn't working for me anymore, and I'm going to step back\" — and then actually step back. You don't owe a detailed prosecution. The same grey-rock and low-contact tools that apply elsewhere apply here when someone won't take the hint or escalates when you pull away.",
+          "Expect the loss to land harder than its size suggests. Letting go of a friendship — even a draining one — can bring real grief, especially with long history, shared friend groups, or the loneliness of an empty spot where someone used to be. That grief is normal and doesn't mean you were wrong. Making room by ending a friendship that depletes you is what lets the friendships that actually nourish you have the space they deserve.",
+          "This guide is informational and not a substitute for professional advice. If a friendship has you consistently anxious, diminished, or doubting yourself, talking it through with a trusted person or a licensed therapist can help you see it clearly — and an outside read of a confusing exchange, whether from a friend or a tool like toxicornot.ai, can cut through the fog when you can't tell if it's you or them.",
+        ],
+      },
+    ],
+    related: ["recognizing-manipulation", "healthy-vs-toxic-communication"],
+  },
 ]
 
 export function getGuide(slug) {
