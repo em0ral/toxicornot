@@ -129,15 +129,15 @@ export const guides = [
     emoji: "💔",
     title: "Love Bombing: Why It Feels Amazing and Why It Can Be a Red Flag",
     description:
-      "Love bombing is intense affection and attention used to gain control. Learn the signs that early intensity is a warning rather than a fairy tale.",
-    readingTime: "6 min read",
+      "Love bombing is intense early affection used to gain control. Learn to tell it from real chemistry, why it works on anyone, and how to recover from it.",
+    readingTime: "11 min read",
     intro:
-      "Love bombing is an overwhelming display of affection, attention, and grand gestures early in a relationship — used, intentionally or not, to gain influence over another person. It can feel like the most romantic experience of your life, which is exactly why it is so easy to miss. The problem is not affection itself; it is affection deployed at a speed and intensity designed to skip past the trust that healthy relationships build gradually.",
+      "Love bombing is an overwhelming display of affection, attention, and grand gestures early in a relationship — used, intentionally or not, to gain influence over another person. It can feel like the most romantic experience of your life, which is exactly why it is so easy to miss. The problem is not affection itself; it is affection deployed at a speed and intensity designed to skip past the trust that healthy relationships build gradually. This guide covers what it looks like, how to tell it apart from real early chemistry, why it works on grounded people, the cycle it tends to run, where it shows up outside of romance, and the slow work of recovering from it.",
     sections: [
       {
         heading: "What love bombing looks like",
         body: [
-          "Early intensity is not automatically a red flag — chemistry is real, and some couples simply click. Love bombing is distinguished by its pace, its pressure, and what happens when you try to slow things down.",
+          "Early intensity is not automatically a red flag — chemistry is real, and some couples simply click. Love bombing is distinguished by its pace, its pressure, and what happens when you try to slow things down. The gestures themselves can look like the stuff of any new romance; it's the volume, the speed, and the strings attached that set it apart.",
         ],
         list: [
           "Constant texting and calling, with frustration if you don't reply quickly",
@@ -145,27 +145,88 @@ export const guides = [
           "Expensive gifts or extravagant plans very early on",
           "Pressure to commit, move in, or define the relationship fast",
           "Wanting all of your time, often at the cost of friends and family",
+          "Sweeping promises about a shared future before they really know you",
+          "Mirroring you so perfectly — same tastes, same dreams, same wounds — that it feels like fate",
+        ],
+      },
+      {
+        heading: "Love bombing vs. genuine early chemistry",
+        body: [
+          "This is the question that matters most, because real new love is also intense, also a little reckless, and also full of grand feelings. The difference isn't how strong the early emotion is — it's how the other person treats your separateness. Genuine chemistry wants to get closer to who you actually are; love bombing wants to close the distance so fast that you don't have room to stay a separate person at all.",
+          "The cleanest test is what happens when you set even a small limit. Say you can't text back until after work, or that you'd like to keep your Friday with friends, or simply \"this is moving a little fast for me — can we slow down?\" Real chemistry hears that and adjusts, maybe with a little disappointment, because it respects that you're a person with a life. Love bombing treats the same sentence as a threat: you get sulking, guilt, an argument, a sudden chill, or a redoubled push. The affection that seemed unconditional turns out to have had a condition all along — your compliance.",
+        ],
+        list: [
+          "Real chemistry accepts a no and slows down — love bombing punishes a no until it becomes a yes",
+          "Real chemistry is curious about the real you — love bombing floods you before it knows you",
+          "Real chemistry leaves your other relationships intact — love bombing competes with them",
+          "Real chemistry's warmth is steady — love bombing's runs hot and cold to keep you reaching",
+          "After real chemistry you feel grounded and chosen — after love bombing you feel high, then anxious",
         ],
       },
       {
         heading: "Why it works on smart, grounded people",
         body: [
           "Love bombing is effective because it gives you something genuinely good — feeling chosen, adored, and prioritized. Intense attention triggers a real emotional and chemical high, and that high can override the part of your brain that would otherwise notice the pace is unusual.",
-          "It is a mistake to think only naive people fall for it. Love bombing works precisely because it meets a normal human desire to be loved. The issue is not the target's judgment; it is that the affection is being used as leverage rather than offered freely.",
+          "There's biology underneath the feeling. Sudden, intense affection drives a surge of dopamine — the brain's reward and craving chemical — along with the bonding hormones that early attraction runs on. It is, neurologically, close to the loop that makes other compulsive rewards hard to step away from: the hit feels wonderful, and you start orienting your day around getting the next one. When the attention then becomes unpredictable — adoring one day, distant the next — that intermittent pattern doesn't weaken the pull, it strengthens it, the same way a reward that only sometimes arrives is far harder to walk away from than one that always does.",
+          "It is a mistake to think only naive people fall for it. Love bombing works precisely because it meets a normal human desire to be loved. The issue is not the target's judgment; it is that the affection is being used as leverage rather than offered freely. People going through loneliness, grief, a recent breakup, or low self-worth can be more vulnerable simply because the contrast is so powerful — but no one is immune, and being swept up is not a character flaw.",
         ],
       },
       {
-        heading: "The turn: what often comes next",
+        heading: "The cycle: idealize, devalue, discard",
         body: [
-          "In manipulative dynamics, the love-bombing phase frequently gives way to control. Once the relationship is established, the same person may become critical, jealous, or withdrawn — and the early adoration becomes something you feel pressure to earn back.",
-          "This whiplash between intense warmth and sudden coldness can be deeply confusing and is itself a recognized warning sign. A healthy partner's affection stays relatively stable; it does not run hot and cold as a way of keeping you off balance.",
+          "In manipulative dynamics, love bombing is usually the opening move in a longer cycle rather than a standalone phase. The pattern researchers and clinicians describe runs in three stages — idealize, devalue, discard — and recognizing the shape can help you locate where you are, because stage one feels so good that it's nearly impossible to read as a warning while you're inside it.",
+          "In the idealize phase, you are perfect: the most beautiful, the most understood, the one they've waited their whole life for. Then comes devalue, often gradual — small criticisms, comparisons, withdrawals of the warmth that once flowed freely — and the adoration you were given for free becomes something you now have to earn back. Finally, discard: they pull away, end it, or check out emotionally, often abruptly and often blaming you. For some the cycle doesn't end there but loops, with a fresh burst of love bombing pulling you back in just as you're about to leave.",
+        ],
+        list: [
+          "Idealize: intense affection, future-talk, you can do no wrong",
+          "Devalue: creeping criticism, coldness, walking on eggshells to get the warmth back",
+          "Discard: sudden withdrawal or exit, often with the blame placed on you",
+          "Hoover: a renewed love-bomb that pulls you back in right when you're pulling away",
+        ],
+      },
+      {
+        heading: "Love bombing after a fight: the reset and the hoover",
+        body: [
+          "One of the most confusing places love bombing shows up is right after a blowup or a betrayal. You raise a serious problem, or you finally start to pull away, and instead of accountability you get an avalanche of affection — flowers, tearful apologies, grand promises, a weekend away, \"I'll change, I swear, you mean everything to me.\" It can feel like proof of how much they care. Often it functions as a reset that wipes the original issue off the table without anything actually changing.",
+          "When this move is aimed at someone who's already leaving, it has a name: hoovering — pulling you back in like a vacuum. The tell is the gap between the gestures and the follow-through. Real repair after a fight involves understanding what went wrong, owning a specific part of it, and changing the behavior over time. A love-bomb reset skips straight to the romance and the promises, peaks, and then quietly fades back to the same pattern — until the next rupture, when the cycle runs again.",
+          "A useful question to hold afterward: did the actual problem get addressed, or did it just get buried under affection? \"I'll believe the change when I see it sustained\" is not coldness here. It's refusing to let the size of a gesture substitute for the substance of a repair.",
+        ],
+      },
+      {
+        heading: "An annotated love-bomb message",
+        body: [
+          "It's easier to recognize the pattern when you watch it run. Here is the kind of message that can arrive just days in, with the moves named as they happen — followed by what genuine early warmth tends to sound like instead.",
+          "The message: \"I have never felt this way about anyone in my entire life. You're my soulmate, I knew it the second I saw you. I deleted all my apps — I don't need anyone else now that I have you. I was thinking we should plan a trip, just us, somewhere with no distractions. Btw you didn't text back for three hours today, is everything okay? I just hate being apart from you.\" Read it again with the moves underlined: instant soulmate certainty before you've really met (idealization), \"I don't need anyone else\" (isolation, dressed as devotion), the no-distractions trip (cutting you off from your world), and the gentle audit of your three-hour silence (monitoring, dressed as longing). Each line is flattering. Together they describe someone trying to become your whole world in a week.",
+          "Compare a genuinely warm early message: \"I had such a good time last night — I've been smiling about it all day. No rush to reply, I know you're at work. Are you still good for Saturday?\" It's affectionate and clearly interested, but it leaves you room: no audit of your response time, no campaign against your other relationships, no pressure to match an intensity you didn't sign up for. Warmth that respects your separateness reads completely differently from warmth that's trying to dissolve it.",
+        ],
+      },
+      {
+        heading: "It's not only romantic: friends, family, work, and high-control groups",
+        body: [
+          "The same mechanics work outside of dating, because the underlying move — overwhelming someone with affection or approval to gain influence — isn't specific to romance. Once you can see the shape, you'll notice it in places that don't look like love at all.",
+          "A new friend who fast-tracks intimacy, showers you with attention, and then expects total loyalty and gets wounded when you have other friends. A parent or family member whose warmth surges when you're compliant and vanishes when you assert yourself — affection used as a leash. A boss or mentor who singles you out, lavishes praise and special access, and uses that glow to extract long hours, loyalty, or silence. Most starkly, high-control groups and cults use a documented version of this also called 'love bombing,' where newcomers are flooded with attention and belonging that is then made conditional on staying and conforming. In all of these, the warmth is real enough to feel — but it has a price, and the price is your autonomy.",
         ],
       },
       {
         heading: "How to protect yourself",
         body: [
-          "You do not have to accuse anyone of anything to keep yourself safe. Simply let the relationship unfold at a pace you are comfortable with and watch how the other person reacts to that pace.",
-          "A trustworthy partner respects your boundaries, your need for space, and your other relationships. Someone who responds to a reasonable \"let's slow down\" with guilt, anger, or withdrawal is showing you important information. Keep your friendships active, stay connected to people who knew you before, and trust their observations — outside perspectives often see patterns the heart is reluctant to.",
+          "You do not have to accuse anyone of anything to keep yourself safe. Simply let the relationship unfold at a pace you are comfortable with and watch how the other person reacts to that pace. Pace is the single best diagnostic you have, and it costs you nothing to insist on it.",
+          "A trustworthy partner respects your boundaries, your need for space, and your other relationships. Someone who responds to a reasonable \"let's slow down\" with guilt, anger, or withdrawal is showing you important information. Keep your friendships active, stay connected to people who knew you before, and trust their observations — outside perspectives often see patterns the heart is reluctant to. A few concrete habits make this easier to actually do, rather than just intend:",
+        ],
+        list: [
+          "Set one small limit early and watch the reaction — it tells you more than any grand gesture",
+          "Keep your own routines, friends, and time; notice if they're framed as obstacles",
+          "Slow the timeline on big commitments — moving in, merging finances, marriage talk",
+          "Tell a trusted friend the real story and listen if it worries them",
+          "Track actions over words: are the promises matched by sustained, ordinary follow-through?",
+        ],
+      },
+      {
+        heading: "Recovering after love bombing",
+        body: [
+          "If you've come out the other side of a love-bombing dynamic, the aftermath can be disorienting in a specific way: you may miss the high even while you know the relationship hurt you, and that pull can feel like evidence you should go back. It usually isn't. What you're feeling is partly the chemistry of an intermittent reward that hasn't fully unwound yet — your nervous system still reaching for a hit that came at a real cost.",
+          "Be patient with the part of you that grieves the idealize phase; it was, for a while, genuinely wonderful, and missing it doesn't mean it was healthy. A few things reliably help: go no-contact or low-contact if you can, because each renewed love-bomb resets the clock on your recovery. Reconnect with the people the relationship pushed to the margins. Write down the hard parts while they're clear, so a future hoover can't quietly rewrite the history. And go gently on the self-blame — falling for love bombing means you were capable of love and trust, not that you were foolish.",
+          "This guide is informational and not a substitute for professional advice. A licensed therapist can help you make sense of the cycle, rebuild your footing, and recognize the pattern sooner next time. And if the relationship involved control, intimidation, or fear, that changes the picture — in the United States you can reach the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788, and if you are in immediate danger, contact your local emergency services.",
         ],
       },
     ],
@@ -519,10 +580,10 @@ export const guides = [
     emoji: "🧱",
     title: "Stonewalling and the Silent Treatment: What They Are and How to Respond",
     description:
-      "Withdrawal and silence can be self-protection — or a way to punish and control. Learn to tell the difference and how to respond to the silent treatment.",
-    readingTime: "6 min read",
+      "Withdrawal and silence can be self-protection — or a way to punish and control. Learn to tell the difference, take breaks well, and respond to the freeze-out.",
+    readingTime: "11 min read",
     intro:
-      "Stonewalling is shutting down and refusing to engage — going silent, walking out, or answering everything with a wall of indifference. Sometimes it is a genuine attempt to cool off when emotions run high. Other times it is the silent treatment: withdrawal used deliberately as punishment to make you anxious, apologetic, and willing to do anything to restore contact. The behavior can look identical from the outside, so the difference is in the intent and the pattern.",
+      "Stonewalling is shutting down and refusing to engage — going silent, walking out, or answering everything with a wall of indifference. Sometimes it is a genuine attempt to cool off when emotions run high, and sometimes it is a real physiological need to pause. Other times it is the silent treatment: withdrawal used deliberately as punishment to make you anxious, apologetic, and willing to do anything to restore contact. The behavior can look identical from the outside, so the difference is in the intent and the pattern. This guide covers how to tell those apart, what flooding actually is, how to take a break the healthy way, what to do when you're the one shutting down, the toll silence takes on the receiving end, and where it crosses into abuse.",
     sections: [
       {
         heading: "Healthy withdrawal vs. the silent treatment",
@@ -539,10 +600,59 @@ export const guides = [
         ],
       },
       {
+        heading: "Flooding: when a pause is a real physiological need",
+        body: [
+          "There is a version of shutting down that isn't a tactic at all — it's biology. When a conflict gets intense enough, the nervous system can tip into what researchers call 'flooding': heart rate climbs, stress hormones spike, and the thinking, problem-solving part of the brain goes partly offline. In that state, a person genuinely cannot process what you're saying or respond well, no matter how much they want to. Pushing harder just floods them further.",
+          "Flooding is a big part of why people stonewall in the first place, and it's worth taking seriously rather than dismissing as an excuse. The body really is overwhelmed. But — and this is the whole distinction — flooding explains the urge to retreat; it does not excuse retreating without a word and never coming back. A flooded person who handles it well says so and sets a time to return. A flooded person who handles it badly disappears. The same physiology, two completely different effects on the person across from them.",
+          "It's also true that 'I was flooded' can be claimed dishonestly, as cover for the silent treatment. The way to tell them apart isn't the moment of withdrawal — it's everything after. Does the person come back and re-engage once they're calm, or does the silence stretch on as long as it takes to make you crack? Flooding ends when the body settles. Punishment ends when you give in.",
+        ],
+      },
+      {
+        heading: "A self-requested break done right vs. stonewalling",
+        body: [
+          "The difference between a healthy timeout and stonewalling is almost entirely in three things: whether you name it, whether you give a return time, and whether you actually come back. Same act of stepping away, but those three details flip it from abandonment into care.",
+          "Compare them in real sentences. The healthy break: \"I'm getting too worked up to think straight. I need twenty minutes, then I want to come back and finish this — okay?\" Then they take the twenty minutes, do something genuinely calming, and return to the conversation. Stonewalling: silence, a turned back, a phone suddenly fascinating, one-word answers, or walking out of the room with no word about when or whether they'll be back — leaving you to sit in the not-knowing. The first protects both people from saying things they'll regret. The second uses your discomfort as leverage.",
+        ],
+        list: [
+          "Healthy break: names it out loud — Stonewalling: goes silent with no explanation",
+          "Healthy break: gives a return time — Stonewalling: open-ended, ends only when you cave",
+          "Healthy break: actually comes back to the topic — Stonewalling: the issue never gets resolved",
+          "Healthy break: meant to cool down — Stonewalling: meant to make you feel the freeze-out",
+          "Healthy break: you feel respected — Stonewalling: you feel punished and anxious",
+        ],
+      },
+      {
+        heading: "How to take a break the healthy way",
+        body: [
+          "If you tend to get overwhelmed in conflict, the answer isn't to white-knuckle your way through every argument — it's to learn to pause without abandoning the other person. A good break has a simple, repeatable shape, and it's worth practicing before you need it, because nobody improvises well while flooded.",
+          "The core move is to name it, give a return time, and come back. Out loud: \"I'm too flooded to do this well right now. Give me half an hour and I'll come back to it.\" Then genuinely down-regulate — a walk, slow breathing, anything that isn't rehearsing your next argument — because a break spent stewing isn't a break. Researchers suggest it often takes at least twenty minutes for a flooded body to actually settle, so don't rush back in at minute five still buzzing. And then return, even if it's just to say \"I'm calmer now — can we pick this up?\" The return is the part that separates a healthy pause from a freeze-out.",
+        ],
+        list: [
+          "Name it: \"I need a break\" — don't just go silent or walk off",
+          "Give a time: \"twenty minutes,\" \"after dinner,\" \"tomorrow morning\" — not open-ended",
+          "Actually calm down: a walk or slow breathing, not silently rehearsing your case",
+          "Come back: re-open the conversation yourself, so the other person isn't left chasing",
+        ],
+      },
+      {
         heading: "Why the silent treatment hurts so much",
         body: [
           "Social rejection registers in the brain much like physical pain, which is why being frozen out by someone close can feel genuinely distressing rather than merely annoying. When a person controls all contact and withholds it, they hold real power over your emotional state.",
-          "That is exactly what makes it effective as a control tactic. The discomfort pushes you to apologize, chase, and concede — often for things you did not actually do wrong — just to make the silence end.",
+          "That is exactly what makes it effective as a control tactic. The discomfort pushes you to apologize, chase, and concede — often for things you did not actually do wrong — just to make the silence end. Over time, anticipating the freeze-out is enough to keep you in line: you start pre-editing yourself, dropping concerns before you raise them, and agreeing to things you don't agree with, all to avoid being shut out again.",
+        ],
+      },
+      {
+        heading: "The toll on the person on the receiving end",
+        body: [
+          "Being on the other side of chronic silence is not a minor inconvenience — it wears on you in measurable ways. The uncertainty is its own kind of stress: not knowing what you did, how long it will last, or whether the relationship is even intact keeps your nervous system on alert, and that sustained low-grade alarm is exhausting to live with.",
+          "People who endure repeated silent treatment often describe a familiar cluster: anxiety that ramps up the moment the other person goes quiet, a creeping sense that they're always somehow in the wrong, plummeting self-worth, hypervigilance to the other person's moods, and trouble sleeping or concentrating while the freeze-out drags on. None of this is oversensitivity. Being deliberately and repeatedly shut out by someone you depend on is a genuine stressor, and your body treats it like one.",
+        ],
+      },
+      {
+        heading: "What a parent's silent treatment does to a child",
+        body: [
+          "The silent treatment is especially damaging when the silent one is a parent and the target is a child. A child can't shrug off a parent's withdrawal the way an adult might walk away from a difficult friend — the parent is their entire source of safety, and being frozen out by that person reads, to a young nervous system, as a threat to survival itself.",
+          "Children rarely have the words to understand what's happening, so they fill the silence with the only explanation available: I am bad, I caused this, I have to fix it. Used as discipline — the parent who stops speaking to a child for hours or days to punish them — it teaches a set of lessons that tend to last: that love is conditional and can be switched off, that their own needs are dangerous, and that keeping a relationship means abandoning themselves to avoid the freeze. Many adults who grew up this way carry it forward as anxious people-pleasing, a terror of conflict, or a deep flinch at any sign of a partner going quiet. Naming it later — recognizing that the silence was about the parent's coping, not the child's worth — is often a real part of healing.",
         ],
       },
       {
@@ -550,13 +660,22 @@ export const guides = [
         body: [
           "The instinct is to pursue: to text again, to apologize, to fix it. But chasing rewards the behavior and teaches the other person that withdrawal works. The stronger move is to stay calm and refuse to be destabilized by the silence.",
           "Name it without accusation — \"I notice you've gone quiet; I'm here when you're ready to talk\" — and then genuinely go on with your day. You are allowed to ask for a timeline once. After that, fill your time with other people and activities rather than waiting by the phone. You are not obligated to grovel your way back into someone's good graces.",
+          "It also helps to distinguish, out loud if you can, between a break and a freeze-out — and to ask for the thing that makes a break healthy. \"If you need to step away, that's fine — just tell me roughly when you'll be ready to come back\" invites the cooling-off without conceding to the punishment. Someone who's genuinely flooded will usually take that offer. Someone using silence as leverage won't, and that refusal tells you which one you're dealing with.",
         ],
       },
       {
-        heading: "When it's a pattern, not a moment",
+        heading: "When you're the one who shuts down",
         body: [
-          "An occasional shutdown during a heated fight is human. A repeated cycle — where silence is the standard punishment whenever you assert a need or disagree — is a form of emotional control, and it tends to escalate if it keeps working.",
-          "If you find yourself constantly walking on eggshells to avoid triggering the freeze-out, that is worth taking seriously. Talking it through with a trusted friend or a licensed therapist can help you see the pattern clearly and decide what you are willing to accept.",
+          "Plenty of people who stonewall aren't trying to punish anyone — they shut down because they're overwhelmed, because they never learned another way to handle conflict, or because speaking up got punished somewhere in their past. If you recognize yourself as the one who goes quiet, walks off, or stares at your phone when things get heated, the good news is that this is a skill you can change, not a fixed trait.",
+          "Start by noticing the early body signals — the tight chest, the racing heart, the urge to flee — because catching the flood early gives you a chance to name it instead of just vanishing into it. Then use the break the right way: say you need one, say when you'll be back, and come back. \"I shut down when I'm overwhelmed, and I'm working on telling you instead of just going quiet\" is a powerful thing to say to someone who's been on the receiving end of your silence. And if the shutdown is deep and automatic — if you genuinely go blank and can't find words — a therapist can help you understand where it comes from and build a different response. Owning your part of the pattern doesn't make you the villain; it's exactly what someone who isn't using silence as a weapon does.",
+        ],
+      },
+      {
+        heading: "When it's a pattern — and when it's abuse",
+        body: [
+          "An occasional shutdown during a heated fight is human. A repeated cycle — where silence is the standard punishment whenever you assert a need or disagree — is a form of emotional control, and it tends to escalate if it keeps working. The line to watch is whether silence is something that occasionally happens to your partner, or something they reliably do to you.",
+          "There's a point where the silent treatment stops being a bad habit and becomes part of an abusive pattern. Prolonged, deliberate freeze-outs — days of refusing to acknowledge your existence, ignoring you in your own home, withholding all warmth until you submit — are a recognized form of emotional and psychological abuse, especially when paired with other control tactics. If you find yourself constantly walking on eggshells to avoid triggering the freeze-out, monitoring your every word, or apologizing for things you didn't do just to end the silence, that is worth taking seriously.",
+          "This guide is informational and not a substitute for professional advice. Talking it through with a trusted friend or a licensed therapist can help you see the pattern clearly and decide what you are willing to accept. And if the silence is part of a broader dynamic of control, intimidation, or fear, that changes the picture — in the United States you can reach the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788, and if you are in immediate danger, contact your local emergency services.",
         ],
       },
     ],
