@@ -289,14 +289,14 @@ export const guides = [
     title: "Healthy vs. Toxic Communication: How to Tell the Difference",
     description:
       "Every relationship has conflict. The difference is how it's handled. A side-by-side look at what healthy and toxic communication actually sound like.",
-    readingTime: "6 min read",
+    readingTime: "11 min read",
     intro:
-      "Conflict is not the same as toxicity. Every close relationship includes disagreement, frustration, and the occasional bad day. What separates a healthy relationship from a toxic one is not the absence of conflict but the way conflict is handled. Understanding the difference helps you judge a rough patch against a genuine pattern.",
+      "Conflict is not the same as toxicity. Every close relationship includes disagreement, frustration, and the occasional bad day. What separates a healthy relationship from a toxic one is not the absence of conflict but the way conflict is handled. This guide gives you a working vocabulary for that difference — the patterns researchers find most corrosive, what their healthier opposites sound like in real sentences, and how to tell an ordinary rough conversation from a dynamic that's slowly grinding you down.",
     sections: [
       {
         heading: "What healthy communication sounds like",
         body: [
-          "Healthy communication is rooted in respect even during disagreement. Both people can express needs, hear hard feedback, and repair after a fight without one person being made to feel worthless.",
+          "Healthy communication is rooted in respect even during disagreement. Both people can express needs, hear hard feedback, and repair after a fight without one person being made to feel worthless. It isn't soft or conflict-free — two people can argue hard and still be communicating well, as long as the goal stays mutual understanding rather than winning.",
         ],
         list: [
           'Using "I feel" statements instead of blame ("I felt hurt when…")',
@@ -310,7 +310,7 @@ export const guides = [
       {
         heading: "What toxic communication sounds like",
         body: [
-          "Toxic communication tends to prioritize winning, control, or self-protection over understanding. Researchers who study relationships have identified contempt — sarcasm, mockery, eye-rolling, name-calling — as one of the strongest predictors that a relationship is in trouble.",
+          "Toxic communication tends to prioritize winning, control, or self-protection over understanding. Researchers who study relationships have identified contempt — sarcasm, mockery, eye-rolling, name-calling — as one of the strongest predictors that a relationship is in trouble. The other patterns below tend to travel with it.",
         ],
         list: [
           "Contempt: mockery, sarcasm, name-calling, or eye-rolling",
@@ -322,17 +322,86 @@ export const guides = [
         ],
       },
       {
-        heading: "The repair test",
+        heading: "The four patterns that predict trouble",
         body: [
-          "One of the most reliable ways to tell healthy and toxic dynamics apart is to look at what happens after a conflict. In healthy relationships, people repair: they cool down, circle back, apologize, and reconnect. The fight ends and the bond stays intact.",
-          "In toxic dynamics, conflicts rarely resolve cleanly. They get buried, weaponized later, or end with one person surrendering just to make it stop. If you regularly give in not because you were persuaded but because the alternative is too painful, that is worth paying attention to.",
+          "The marriage researcher John Gottman found that four specific communication habits were so reliable at predicting relationship breakdown that he nicknamed them the 'Four Horsemen': criticism, contempt, defensiveness, and stonewalling. They matter because they tend to feed each other — one person's criticism invites the other's defensiveness, which curdles into contempt, which finally triggers stonewalling — and a conversation can cycle through all four in a few minutes.",
+          "The useful part is that each horseman has a known antidote. You don't have to eliminate conflict; you have to swap the corrosive move for the constructive one. The next four sections take them one at a time, with what each sounds like and what to reach for instead.",
         ],
       },
       {
-        heading: "A realistic standard",
+        heading: "Criticism — and the antidote",
         body: [
-          "No relationship communicates well all the time. The goal is not perfection but direction: are both people generally trying, taking responsibility, and treating each other with basic respect — even imperfectly?",
-          "If the answer is yes, occasional rough conversations are normal and workable. If the answer is consistently no, and you leave most disagreements feeling smaller, that pattern matters more than any single argument.",
+          "There's a difference between a complaint and a criticism. A complaint is about a specific thing that happened: \"I was frustrated that the dishes didn't get done.\" A criticism aims past the behavior at the person's character: \"You never lift a finger around here. You're so lazy and selfish.\" The first is a problem you can solve together; the second is an indictment, and it puts the other person on trial for who they are.",
+          "Criticism almost always starts with 'you' and reaches for absolutes — 'you always,' 'you never,' 'you're the kind of person who.' Once a conversation is about your partner's defective character rather than the actual dishes, there's nothing to fix, only a verdict to fight.",
+          "The antidote is what Gottman calls a 'gentle start-up': raise the issue as a feeling plus a specific need, without the character verdict. Before: \"You never think about anyone but yourself.\" After: \"I'm worn out tonight, and I'd really appreciate help with the kitchen.\" Same underlying complaint, but the second one is answerable.",
+        ],
+      },
+      {
+        heading: "Contempt — and the antidote",
+        body: [
+          "Contempt is criticism delivered from above — with mockery, sarcasm, an eye-roll, a sneer, name-calling, or that particular tone that says 'you're beneath me.' It's the single strongest predictor researchers have found that a relationship is in serious trouble, because it communicates not just 'I'm upset with you' but 'I have contempt for you as a person.'",
+          "It sounds like: \"Oh, great idea, genius.\" \"Wow, you actually remembered to call. Should I throw a party?\" \"You're pathetic.\" The eye-roll when they speak. The mocking imitation of their voice. Even when no slur is used, the disgust comes through, and it lands as humiliation rather than feedback.",
+          "The antidote is the slow, deliberate work of building a culture of appreciation — noticing and naming what you value in the other person often enough that it becomes the baseline. In the moment, it means catching the urge to sneer and choosing to state the actual hurt instead: not \"You're useless,\" but \"I'm hurt, and I need to feel like we're on the same team here.\" Contempt is the hardest horseman to walk back, and the most important to take seriously when it's a steady feature rather than a rare slip.",
+        ],
+      },
+      {
+        heading: "Defensiveness — and the antidote",
+        body: [
+          "Defensiveness is what most of us do automatically when we feel accused: we deny, we make excuses, we counter-attack, or we play the innocent victim. \"It's not my fault.\" \"Well, I only did that because you—\" \"I did so call you, your phone must have been off.\" It feels like self-protection, but its real message is 'the problem isn't me, it's you,' which guarantees the other person feels unheard and the fight escalates.",
+          "The trap is that defensiveness can feel completely justified — sometimes you really are being unfairly accused. But meeting a complaint with a wall of excuses, even good ones, reliably makes things worse rather than better.",
+          "The antidote is to take responsibility for even a small piece of the problem. You don't have to accept blame you don't own; you just have to find the part that's fair and acknowledge it. Before: \"I would have called if you weren't always nagging me about it.\" After: \"You're right, I forgot to call and I said I would. I'll set a reminder next time.\" Owning even ten percent of it can drain the tension out of an entire argument.",
+        ],
+      },
+      {
+        heading: "Stonewalling — and the antidote",
+        body: [
+          "Stonewalling is shutting down and withdrawing from the conversation entirely — going silent, looking away, giving one-word answers, or physically leaving. It usually arrives later in a fight, when one person is so overwhelmed that they stop responding altogether. From the inside it often feels like the only way to avoid making things worse; from the outside it reads as cold indifference, which tends to make the other person chase harder.",
+          "Sometimes stonewalling is genuine emotional flooding — a racing heart and a flooded nervous system that truly can't process more right now. The problem is when shutting down becomes the standard exit from every hard conversation, or when silence gets used deliberately as a punishment.",
+          "The antidote is the self-soothing break, done out loud. Instead of vanishing, you name it and set a return time: \"I'm too flooded to think straight right now. Give me twenty minutes and I'll come back to this.\" Then you actually take the break, do something genuinely calming, and actually return. The difference between healthy withdrawal and stonewalling is almost entirely those two things — saying so, and coming back.",
+        ],
+      },
+      {
+        heading: "\"I\" statements vs. \"you\" statements",
+        body: [
+          "One small grammatical shift does a surprising amount of the work in the antidotes above. Statements that start with 'you' tend to land as accusations and invite defense; statements that start with 'I' describe your own experience, which is much harder to argue with and much easier to hear.",
+          "It's not a magic phrase, and \"I feel like you're a jerk\" is still a 'you' statement wearing a costume. A real 'I' statement names what you felt and what you need, and leaves the other person room to respond rather than defend. Here are a few before-and-after rewrites:",
+        ],
+        list: [
+          'Before: "You\'re always on your phone and you ignore me." After: "I feel lonely in the evenings, and I\'d love some time with just us."',
+          'Before: "You made us late again." After: "I get really stressed when we leave late — can we plan to head out by seven?"',
+          'Before: "You never listen to me." After: "I don\'t feel heard right now, and it matters to me that you get what I\'m saying."',
+          'Before: "You\'re so controlling." After: "I need a little more say in how we make plans together."',
+        ],
+      },
+      {
+        heading: "Repair attempts: the real difference-maker",
+        body: [
+          "If you want one thing to watch instead of a checklist, watch what happens after things heat up. Researchers call the small gestures that interrupt a fight 'repair attempts' — a joke, a softened tone, a hand on the shoulder, an \"okay, this is getting out of hand, can we start over?\" They're bids to stop the spiral and reconnect, and how well a couple makes and receives them predicts their future better than how often or how loudly they fight.",
+          "In a healthy dynamic, repair attempts get received. They don't have to be graceful — one person reaches, the other takes the hand, and the temperature drops. \"I'm sorry, that came out harsher than I meant. Can we rewind?\" \"Yeah. I got heated too. Let's start over.\" The fight ends and the bond is still intact.",
+          "In a toxic dynamic, repair attempts get rejected or punished. You try to soften and you're told you're not taking it seriously; you apologize and it's held over you as a confession; you reach out a hand and it's slapped away to keep the upper hand. When nothing you do can bring a conflict to a clean close, that's a louder signal than the conflict itself.",
+        ],
+      },
+      {
+        heading: "How to raise a hard topic well",
+        body: [
+          "A surprising amount of how a conversation ends is decided in its first sixty seconds. Gottman's research found that the way a discussion begins predicts how it finishes with striking accuracy — a harsh start-up almost always produces a harsh ending. So the most useful skill isn't winning the argument; it's opening it gently.",
+          "A soft start-up has a simple shape: describe the situation without blame, say how you feel, and state a positive need — what you do want, rather than what they keep doing wrong. \"Lately the evenings have felt disconnected [situation]. I've been missing you [feeling]. Could we carve out a little time after dinner that's just ours [need]?\" It's the same conversation a harsh start-up would have, minus the ambush.",
+          "Timing helps too. Raising something heavy when one of you is exhausted, hungry, half-out-the-door, or already flooded stacks the odds against you. \"Is now an okay time, or should we talk after dinner?\" costs nothing and changes a lot.",
+        ],
+      },
+      {
+        heading: "Conflict that's normal vs. conflict that corrodes",
+        body: [
+          "It bears repeating, because people who worry about their communication are often worrying about ordinary friction. Healthy couples argue — sometimes a lot. Disagreement, frustration, even the occasional raised voice or clumsy, regrettable sentence is part of two real people sharing a life. The presence of conflict tells you almost nothing on its own.",
+          "What distinguishes corrosive conflict is direction and aftermath. Normal conflict is about a problem, stays mostly on topic, and ends with the two of you more or less back on the same side. Corrosive conflict is about your character, drags in everything you've ever done wrong, and ends with you feeling smaller, foggier, or quietly defeated. If you regularly give in not because you were persuaded but because the alternative is too painful, that's worth paying attention to.",
+        ],
+      },
+      {
+        heading: "When good communication isn't enough",
+        body: [
+          "Here is the hard part most communication advice skips: all of these skills assume two people who are both, even imperfectly, trying. The 'I' statements, the soft start-ups, the repair attempts — they work as a shared project, not as something one person performs at another. You cannot communicate your way out of a dynamic where only one of you is doing the work.",
+          "If you find that you're the only one softening your start-ups, the only one taking responsibility, the only one offering repair — and your efforts are consistently met with contempt, deflection, or punishment — the problem may not be a communication gap you can close with better technique. Pouring more careful, generous communication into a one-sided relationship often just trains you to absorb more while the other person changes nothing.",
+          "No relationship communicates well all the time, and the goal is direction, not perfection: across a typical month, are both people generally trying, taking responsibility, and treating each other with basic respect? If the answer is consistently no — and you leave most disagreements feeling smaller — that pattern matters more than any single argument. This guide is informational and not a substitute for professional advice; a couples therapist can help two willing people build these skills, and an individual therapist can help you think clearly when only one of you is trying. And if any part of this involves fear, intimidation, or abuse, that changes the picture — in the United States you can reach the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788, and if you are in immediate danger, contact your local emergency services.",
         ],
       },
     ],
@@ -344,22 +413,22 @@ export const guides = [
     emoji: "🛡️",
     title: "How to Respond to a Toxic Message Without Making It Worse",
     description:
-      "When a message is manipulative or cruel, your response matters. Practical strategies for setting boundaries, de-escalating, or stepping away.",
-    readingTime: "7 min read",
+      "When a message is manipulative or cruel, your response matters. Scripted ways to set a boundary, de-escalate, seek clarity, or step away cleanly.",
+    readingTime: "11 min read",
     intro:
-      "Getting a message that is cruel, manipulative, or designed to provoke you puts you in a difficult spot. React on instinct and you may escalate the conflict; say nothing and you may feel walked over. The good news is that you have more than two options. The right response depends on the relationship, the stakes, and what you actually want the outcome to be.",
+      "Getting a message that is cruel, manipulative, or designed to provoke you puts you in a difficult spot. React on instinct and you may escalate the conflict; say nothing and you may feel walked over. The good news is that you have more than two options. This guide walks through how to slow down, pick a goal, and then say something that actually serves it — with scripted wording for each goal, ready replies for the most common types of toxic message, and a clear sense of when to stop replying altogether.",
     sections: [
       {
         heading: "First, slow down",
         body: [
-          "The single most useful thing you can do with a provoking message is not respond immediately. Manipulative messages are often engineered to trigger a fast, emotional reaction — and that reaction usually serves the sender, not you.",
-          "Give yourself permission to wait. Draft a reply and don't send it. Take a walk. The message will still be there in an hour, and you will respond from a much stronger position once the initial surge of anger or anxiety has passed.",
+          "The single most useful thing you can do with a provoking message is not respond immediately. Manipulative messages are often engineered to trigger a fast, emotional reaction — and that reaction usually serves the sender, not you. A reply fired off in anger or panic is exactly the raw material a bad-faith person wants: something to screenshot, quote back, or use to make you look like the unreasonable one.",
+          "Give yourself permission to wait. Draft a reply in your notes app and don't send it. Take a walk. The message will still be there in an hour, and you'll respond from a much stronger position once the initial surge of anger or anxiety has passed. 'Seen' does not obligate you to answer, and \"I'll reply when I've had a chance to think\" is itself a complete and reasonable response.",
         ],
       },
       {
         heading: "Choose your goal before you choose your words",
         body: [
-          "Different situations call for different responses, and naming your goal first makes the wording obvious. Broadly, you have a few clear options:",
+          "Different situations call for different responses, and naming your goal first makes the wording obvious. Before you type anything, decide which of these you're actually trying to do — because a single message often can't do two at once, and reaching for all of them is how replies turn into essays. Broadly, you have a few clear options:",
         ],
         list: [
           "Set a boundary — state clearly what you will and won't accept",
@@ -370,24 +439,75 @@ export const guides = [
         ],
       },
       {
+        heading: "Scripts for each goal",
+        body: [
+          "Once you know your goal, the wording gets much easier, and short is almost always better. Here's sample language for each — not to copy word for word, but to show the shape. Notice that every one of them is brief, calm, and free of justification.",
+          "To set a boundary, name the behavior and what you'll do about it, not what they must stop doing: \"I'm not going to keep talking while I'm being spoken to like this. I'm happy to pick it up when things are calmer.\" To de-escalate without conceding, acknowledge the feeling and lower the temperature: \"I can tell you're really upset. I want to sort this out, but not like this.\" To seek clarity instead of assuming the worst, ask a plain question: \"What do you actually want to happen here?\" or \"I'm not sure what you mean — can you say it straight?\"",
+          "To disengage, close the loop without a fight: \"I don't think we're going to agree on this, and that's okay. I'm going to leave it here.\" To exit, be brief and final, and then follow through: \"I'm not able to continue this conversation.\" The exit line only works if you actually stop replying after it — a goodbye you take back thirty seconds later just teaches the other person that your limits are negotiable.",
+        ],
+      },
+      {
+        heading: "The grey rock reply",
+        body: [
+          "When a message is pure bait — designed to get a rise out of you so the sender has something to react to — one of the most effective responses is to become deliberately boring. This is sometimes called 'grey rock': you make yourself as interesting as a grey rock, giving flat, brief, neutral replies that offer nothing to grab onto. Manipulation runs on your reaction, and grey rock starves it.",
+          "In practice that means short, affectless answers that don't defend, explain, or emote. \"Okay.\" \"Noted.\" \"That works.\" \"I'll have it to you Friday.\" No feelings, no plans, no wins or wounds shared — because each of those is a handle someone can pull. It's especially useful with people you can't fully avoid, like a co-parent or a coworker, where silence isn't an option but engagement just feeds the cycle.",
+          "Grey rock is a tool, not a personality. It can be draining to keep up, and you shouldn't owe it to people who treat you well. But for a message clearly built to provoke, a flat non-reaction is often the single most deflating response you can give.",
+        ],
+      },
+      {
         heading: "Language that holds a boundary",
         body: [
           "Boundary-setting language is short, calm, and free of justification. The more you explain, the more surface area you give for the other person to argue. Compare a long defensive paragraph to a simple line like \"I'm not going to discuss this while I'm being spoken to that way.\"",
-          "Effective boundary statements describe what you will do, not what the other person must do — \"I'll step away if this keeps up\" is enforceable in a way that \"Stop being toxic\" is not. You are not responsible for managing their reaction to a reasonable limit.",
+          "Effective boundary statements describe what you will do, not what the other person must do — \"I'll step away if this keeps up\" is enforceable in a way that \"Stop being toxic\" is not. You are not responsible for managing their reaction to a reasonable limit. And the boundary only means something if you keep it: if you said you'd step away, step away when the line is crossed, calmly and without a fresh lecture.",
+        ],
+      },
+      {
+        heading: "Don't take the bait: JADE",
+        body: [
+          "The most common way people make a toxic exchange worse is by over-explaining themselves. There's a useful acronym for the trap: JADE — Justify, Argue, Defend, Explain. When you feel a pull to do any of those, that pull is usually the message working as intended, because each one drags you onto the sender's turf and hands them more to pick apart.",
+          "You do not owe a detailed defense of a reasonable decision, and an accusation is not automatically a question that requires an answer. \"I can't make it Saturday\" is a complete sentence; it does not need three paragraphs proving how busy you are. The moment you start justifying, the conversation stops being about their behavior and becomes a debate about whether your reasons are good enough — a debate you can't win, because the goalposts will just move.",
+          "Watch for these JADE traps, and for the cleaner alternative: instead of justifying, state the decision once. Instead of arguing the accusation, decline the premise. Instead of defending your character, let it stand. Instead of over-explaining, stop talking a sentence sooner than feels comfortable.",
+        ],
+        list: [
+          "Justify: \"I would have called but work was insane and then traffic and then—\" → just: \"I should have called. I didn't.\"",
+          "Argue: \"That is NOT what happened, you said—\" → just: \"We remember it differently.\"",
+          "Defend: \"I'm not a selfish person, I do tons for you—\" → just: silence, or \"I'm not going to defend my character here.\"",
+          "Explain: a paragraph proving your reasons are valid → just: \"That doesn't work for me.\"",
+        ],
+      },
+      {
+        heading: "Responding to specific message types",
+        body: [
+          "Most toxic messages fall into a handful of recognizable shapes, and once you can name the shape, the response gets easier. The thread that runs through all of them: name the move to yourself, don't take the bait, and answer the smallest reasonable version of what was said.",
+          "The point isn't to have a perfect comeback. It's to step out of the role the message is trying to assign you — the guilty one, the one who owes an explanation, the one who chases. Here's how a few of the most common types tend to look, and a clean way to meet each:",
+        ],
+        list: [
+          "The guilt-trip (\"Don't worry about me, I'll just sit here alone like always 🙂\"): acknowledge without taking the false responsibility — \"I'm sorry you're disappointed. I'm still not able to make it tonight.\"",
+          "The insult (\"You're pathetic and everyone knows it\"): don't dignify the content; address the behavior or go grey rock — \"I'm not going to talk while I'm being insulted,\" then disengage.",
+          "The silent-treatment breaker (a cold \"k\" or a pointed \"...\" after a freeze-out): don't grovel back in — \"I'm here when you're ready to actually talk,\" then go on with your day.",
+          "The bait (an absurd accusation or a jab clearly built to provoke): refuse to chase it — a flat \"Okay\" or no reply at all denies it the reaction it needs.",
+          "The wall of text (paragraphs of grievance designed to overwhelm you): don't answer line by line — \"There's a lot here. The one thing I'll respond to is ___,\" and leave the rest.",
         ],
       },
       {
         heading: "When not to respond at all",
         body: [
-          "Sometimes the strongest response is none. If a message is purely designed to bait you, if the person has shown they argue in bad faith, or if engaging puts you at risk, silence is a legitimate and often powerful choice.",
-          "Not every message deserves your energy, and not every accusation needs a defense. Protecting your peace is a valid goal in itself.",
+          "Sometimes the strongest response is none. If a message is purely designed to bait you, if the person has shown they argue in bad faith, or if engaging puts you at risk, silence is a legitimate and often powerful choice. Not replying is not the same as losing — it's declining to play a game that was rigged before you opened the app.",
+          "Not every message deserves your energy, and not every accusation needs a defense. Protecting your peace is a valid goal in itself. Watch, too, for the point where replies stop helping entirely: if you've stated your position clearly and each new message just recycles the same provocation, more words won't fix it. That's the moment to stop — and, if the contact is unwanted or frightening, to mute, block, or report rather than reply.",
+        ],
+      },
+      {
+        heading: "Save the thread; get an outside read",
+        body: [
+          "Before you clear an ugly exchange out of sight, consider keeping it. The instinct after a brutal thread is to delete it, but those messages can matter later — as a record for yourself when the story gets rewritten, and as documentation if things ever escalate. You can mute or archive a conversation to get it out of view without destroying the record, and it's worth noting dates on anything threatening.",
+          "It also helps to remember that you're never a neutral reader of a message aimed at you — you're tired, you're hurt, and it was engineered to hit your specific buttons. That's exactly why an outside read so often catches what the moment obscures. A trusted friend can do this, and so can a tool like toxicornot.ai, where you paste in the exchange and get a calm, structured read of the dynamics at play. The goal isn't to outsource your judgment; it's to break the spell of a provoking message long enough to respond from a clearer place.",
         ],
       },
       {
         heading: "A note on safety",
         body: [
-          "These strategies assume a difficult but fundamentally safe situation. If you are dealing with threats, intimidation, or any form of abuse, your safety comes first and the usual advice about engaging or setting boundaries may not apply.",
-          "In that case, reach out to a trusted person and to professional support. In the United States, you can contact the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788. If you are in immediate danger, contact your local emergency services.",
+          "These strategies assume a difficult but fundamentally safe situation. If you are dealing with threats, intimidation, or any form of abuse, your safety comes first and the usual advice about engaging or setting boundaries may not apply — in some situations, calmly setting a limit can actually escalate things, so trust what you know about the person.",
+          "This guide is informational and not a substitute for professional advice. If messages involve threats, abuse, or make you fear for your safety, reach out to a trusted person and to professional support. In the United States, you can contact the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788. If you are in immediate danger, contact your local emergency services.",
         ],
       },
     ],
