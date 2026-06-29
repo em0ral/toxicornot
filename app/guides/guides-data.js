@@ -9,16 +9,32 @@ export const guides = [
     emoji: "🧠",
     title: "What Is Gaslighting? Signs, Examples, and How to Respond",
     description:
-      "Gaslighting makes you doubt your own memory and judgment. Learn how to recognize it, see real examples, and find out how to respond when someone twists the truth.",
-    readingTime: "7 min read",
+      "Gaslighting makes you doubt your own memory and judgment. Learn the signs, see annotated examples, and find out how to respond when someone twists the truth.",
+    readingTime: "11 min read",
     intro:
-      "Gaslighting is a form of psychological manipulation where one person tries to make another doubt their own memory, perception, or sanity. The term comes from the 1944 film Gaslight, in which a husband slowly convinces his wife she is losing her mind by dimming the gas lights in their home and insisting nothing has changed. Today the word describes a very real pattern that shows up in romantic relationships, families, friendships, and workplaces.",
+      "Gaslighting is a form of psychological manipulation where one person tries to make another doubt their own memory, perception, or sanity. The term comes from the 1944 film Gaslight, in which a husband slowly convinces his wife she is losing her mind by dimming the gas lights in their home and insisting nothing has changed. Today the word describes a very real pattern that shows up in romantic relationships, families, friendships, and workplaces. This guide covers how it works, how it escalates, what it looks like in different settings, how to tell it apart from an honest disagreement, and the slow work of rebuilding trust in your own mind.",
     sections: [
       {
         heading: "How gaslighting actually works",
         body: [
           "Gaslighting rarely happens in a single dramatic moment. It builds slowly through repeated small denials, contradictions, and reframings until you stop trusting your own version of events. Because each individual comment can seem minor, it is easy to dismiss — which is exactly what makes the pattern so corrosive over time.",
           "The goal, whether conscious or not, is control. If someone can make you unsure of what you saw, heard, or felt, they gain the power to define reality on their terms. Over months or years this can leave a person anxious, second-guessing, and unusually dependent on the other person to tell them what is true.",
+          "What makes it especially confusing is that it usually comes from someone you trust, mixed in with real affection. You are not being lied to by a stranger; you are being told you're wrong by the person whose read on you you most rely on. When the people closest to us insist we are misremembering, most of us — reasonably — give them the benefit of the doubt. Gaslighting exploits exactly that decent instinct.",
+        ],
+      },
+      {
+        heading: "The escalation arc: how it builds over time",
+        body: [
+          "Gaslighting tends to follow a rough progression. Naming the stages can help you locate where you are, because the early steps look so much like an ordinary disagreement that they're easy to wave off.",
+          "It usually starts small and deniable, then widens. Each stage hands the other person a little more authority over what's real, and takes a little more away from you — until your default move, when memories clash, is to assume you're the one who got it wrong.",
+        ],
+        list: [
+          "Small denials: \"I never said that\" about minor things, easy to let slide",
+          "Repetition: the same denials, often enough that you start pre-doubting yourself",
+          "Reframing your reactions: your hurt becomes 'oversensitivity,' your concern becomes 'craziness'",
+          "Isolation by reputation: \"your friends agree you've been irrational lately\"",
+          "Dependence: you start running your own perceptions past them to check if they're 'allowed'",
+          "Internalized doubt: you no longer need them to question your memory — you do it yourself",
         ],
       },
       {
@@ -33,6 +49,29 @@ export const guides = [
           '"I never said that. You\'re making things up."',
           '"Everyone agrees you\'re overreacting."',
           '"You\'re crazy. You need help."',
+          '"I only did that because you made me."',
+          '"Stop being so dramatic — nobody else has a problem with me."',
+        ],
+      },
+      {
+        heading: "An annotated gaslighting exchange",
+        body: [
+          "It's easier to recognize the pattern when you watch it run. Here's a short exchange with the moves named as they happen, followed by what an honest version of the same conversation sounds like.",
+          "You say: \"Last night you told me I could take the car today, and now you're saying you never did.\" They reply: \"I would never have said that — you know I need it. You've been so forgetful lately, it's honestly a little worrying.\" That single reply does three things: it denies the event (\"I would never\"), it rewrites you as unreliable (\"so forgetful lately\"), and it dresses control up as concern (\"a little worrying\"). If you press, you get: \"See, this is what I mean. You get so worked up over nothing.\" — which reframes your reasonable frustration as instability, so the original question quietly disappears.",
+          "A healthier version of the same disagreement: \"Hm, I genuinely don't remember saying that, but I might have — let me check my calendar. Either way, let's figure out the car.\" Notice the difference. An honest person can be wrong about what was said without needing you to be broken. They stay on the actual problem (the car) instead of redirecting the whole conversation onto your sanity.",
+        ],
+      },
+      {
+        heading: "Gaslighting vs. an honest disagreement or a faulty memory",
+        body: [
+          "Not every clash about what happened is gaslighting. Human memory is genuinely unreliable — two people can leave the same conversation with honestly different accounts, and sometimes you really did misremember. Calling every disagreement 'gaslighting' drains the word of meaning. The distinction is in the pattern and the purpose, not in any single 'I don't remember it that way.'",
+          "The honest version is symmetrical and stays anchored to the event: both people allow that they could be the one who's mistaken, the goal is to figure out what actually happened, and your character isn't on trial. The gaslighting version is one-directional and drifts away from the event: you are reliably the one who's wrong, the topic slides from the facts to your stability, and you come away doubting yourself rather than any clearer about the disagreement.",
+        ],
+        list: [
+          "Honest: \"I might be misremembering too\" — Gaslighting: \"you always get this wrong\"",
+          "Honest: stays on what happened — Gaslighting: shifts onto whether you're sane",
+          "Honest: you both end up clearer — Gaslighting: you end up foggier and apologizing",
+          "Honest: happens occasionally, in both directions — Gaslighting: one-directional, and a pattern",
         ],
       },
       {
@@ -40,14 +79,45 @@ export const guides = [
         body: [
           "Because gaslighting targets your perception, the clearest signals are often internal rather than in the other person's words. You might notice that you constantly apologize, that you keep a mental log to prove things to yourself, or that you feel confused and foggy after conversations that should have been simple.",
           "Many people who are being gaslit describe a persistent sense that something is wrong combined with an inability to name it. They may withhold their real opinions to avoid an argument, or feel they have become a more anxious, less confident version of themselves since the relationship began.",
+          "A few specific tells are worth watching for: you start every account with \"maybe I'm crazy, but…\"; you save texts and screenshots not to win arguments but just to reassure yourself that things really happened; you feel relieved when a third person confirms your version of events, because part of you had genuinely stopped trusting it. That last one is significant — needing outside confirmation to believe your own clear memory is one of gaslighting's signature effects.",
         ],
       },
       {
-        heading: "How to respond to gaslighting",
+        heading: "Where it shows up: partners, family, work, and beyond",
+        body: [
+          "The mechanics are the same everywhere, but the texture and the leverage change depending on the relationship.",
+          "In romantic relationships, gaslighting often braids together with affection, so the denials land harder — the person rewriting your reality is also the person you turn to for comfort. With a parent or family member, it can be decades deep and feel like simple fact: \"that's not how you were as a child,\" \"we never did that to you,\" said with such certainty that questioning it can feel like betraying the family. Childhood gaslighting is especially disorienting because you may have no pre-gaslit self to compare against — the doubt is your baseline.",
+          "At work, it goes 'institutional': a boss insists a promise was never made, credit for your work quietly migrates elsewhere, or a documented problem is reframed as your 'attitude' or 'perception.' Because the power is structural, the cost of pushing back is real, which is why documentation matters so much in that setting. Two narrower but well-documented forms are worth naming: medical gaslighting, where real symptoms are dismissed as anxiety or exaggeration, and racial gaslighting, where someone's lived experience of discrimination is reframed as oversensitivity or misreading. In all of these, the core move is the same — your direct experience is overruled by someone else's insistence that it isn't real.",
+        ],
+      },
+      {
+        heading: "The long-term cost to self-trust",
+        body: [
+          "The deepest damage gaslighting does isn't about any single argument you 'lost.' It's that, repeated over time, it erodes the thing underneath all of your decisions: your confidence that you can perceive the world accurately. When you can no longer trust your own read, every choice gets harder, and you grow dependent on someone else to tell you what's true — which is precisely the dependence the pattern was building toward.",
+          "People who've lived through it often describe lasting after-effects even once they're out: chronic self-doubt, difficulty making decisions without seeking reassurance, anxiety, and a reflex to over-document and over-explain. None of this means you're 'broken' or that your judgment is actually poor. It means a normal mind was trained, through repetition, to distrust itself — and what was trained in can, with time and support, be trained back out.",
+        ],
+      },
+      {
+        heading: "How to respond in the moment",
         body: [
           "You cannot argue someone out of a strategy they are using to control the conversation, so the most effective responses focus on protecting your own grip on reality rather than winning the debate.",
           "Keep a private record of events as they happen — notes, messages, dates — so your memory has an anchor that cannot be rewritten. Use calm, firm statements that hold your ground without escalating, such as \"I remember it differently, and I trust my memory.\" And give yourself permission to end conversations that go in circles; you are not obligated to keep defending the truth to someone committed to denying it.",
-          "If the pattern is persistent and is affecting your wellbeing, talking with a licensed therapist or counselor can help you rebuild confidence in your own judgment and decide what you want to do next.",
+          "A handful of short lines can help you hold steady without getting dragged into a debate you can't win:",
+        ],
+        list: [
+          "\"I remember it differently, and I'm comfortable with my memory.\"",
+          "\"We see this differently. I'm not going to keep arguing about it.\"",
+          "\"You don't have to agree with me for my experience to be valid.\"",
+          "\"I'm not going to discuss whether I'm crazy. That's not up for debate.\"",
+          "\"Let's drop it\" — and then actually disengaging, out loud or just internally",
+        ],
+      },
+      {
+        heading: "Rebuilding your reality",
+        body: [
+          "Recovering from gaslighting is largely the work of relearning to trust yourself, and it tends to happen gradually rather than in a single realization. The first and strangest step is often just letting yourself believe that what you remember probably happened — and that the fog you feel is a result of the manipulation, not evidence of your unreliability.",
+          "A few things reliably help. Keep an external record so your memory has an anchor outside your own head. Reconnect with people who knew you before the relationship and can mirror back who you actually are. Practice making small, low-stakes decisions on your own and noticing that they turn out fine. And get an outside read when you can't trust your own — a trusted friend, or a tool like toxicornot.ai that lays out the dynamics in an exchange — not to outsource your judgment, but to break the spell long enough to find it again.",
+          "This guide is informational and not a substitute for professional advice. A licensed therapist can be especially valuable here, both for rebuilding confidence in your own judgment and for recognizing the pattern sooner next time. And if gaslighting is part of a relationship that also involves control, intimidation, or fear, that changes the picture — in the United States you can reach the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788, and if you are in immediate danger, contact your local emergency services.",
         ],
       },
     ],
@@ -107,10 +177,10 @@ export const guides = [
     emoji: "🎭",
     title: "Recognizing Manipulation: 10 Tactics and How to Counter Them",
     description:
-      "Manipulation works by bypassing honest conversation. Learn ten of the most common tactics — guilt-tripping, deflection, the silent treatment — and how to respond.",
-    readingTime: "8 min read",
+      "Manipulation bypasses honest conversation. Learn ten tactics — DARVO, triangulation, future faking, the silent treatment — with examples and how to counter each.",
+    readingTime: "11 min read",
     intro:
-      "Manipulation is the attempt to influence someone's behavior through indirect, deceptive, or unfair tactics rather than honest, direct communication. Almost everyone is manipulative occasionally — a sulk here, an exaggeration there — but a pattern of manipulation in a close relationship is a meaningful red flag. Learning to name the tactics is the first step to not being controlled by them.",
+      "Manipulation is the attempt to influence someone's behavior through indirect, deceptive, or unfair tactics rather than honest, direct communication. Almost everyone is manipulative occasionally — a sulk here, an exaggeration there — but a pattern of manipulation in a close relationship is a meaningful red flag. Learning to name the tactics is the first step to not being controlled by them. This guide walks through ten of the most common ones, gives several of the trickiest their own deeper treatment, and lays out how to counter each without getting pulled in.",
     sections: [
       {
         heading: "Ten common manipulation tactics",
@@ -131,10 +201,68 @@ export const guides = [
         ],
       },
       {
+        heading: "Manipulation vs. healthy influence",
+        body: [
+          "Influencing other people is not inherently wrong — we do it constantly, and so do healthy relationships. Persuading a friend to try your favorite restaurant, asking a partner directly for what you need, making your case in a disagreement: that's all ordinary, aboveboard influence. The line that separates it from manipulation isn't whether you're trying to affect someone's behavior, but how.",
+          "Healthy influence is direct and leaves your choice intact: it states what it wants openly, gives you real information, and accepts a no. Manipulation is indirect and works by disabling your choice: it hides its true aim, distorts the facts, and treats a no as a problem to be overridden. The simplest test is to ask what happens when you say no. Honest persuasion is disappointed but accepts it; manipulation escalates — with guilt, pressure, sulking, or punishment — because your refusal was never supposed to be an option.",
+        ],
+        list: [
+          "Healthy: states the request openly — Manipulation: hides the real goal behind another one",
+          "Healthy: gives you accurate information — Manipulation: distorts or withholds to steer you",
+          "Healthy: accepts a no — Manipulation: punishes a no until it becomes a yes",
+          "Healthy: you feel respected afterward — Manipulation: you feel confused, guilty, or small",
+        ],
+      },
+      {
+        heading: "DARVO, up close",
+        body: [
+          "DARVO is one of the most disorienting tactics because it flips an entire confrontation on its head. The acronym stands for Deny, Attack, and Reverse Victim and Offender — and it tends to fire the moment you raise a legitimate complaint. First they deny it happened, then they attack you for bringing it up, and finally they reposition themselves as the real victim and you as the real offender.",
+          "It looks like this. You say: \"It hurt me when you read my texts.\" The DARVO response: \"I didn't go through your phone — and honestly, the fact that you'd accuse me of that is the real problem here. Do you know how hurtful it is to be treated like a criminal by someone I love? I can't believe you're doing this to me.\" In three sentences the original issue — the snooping — has vanished, and you're now apologizing for the accusation. That reversal is the whole point.",
+          "The counter is to refuse the reversal and stay on the original issue. Notice the move out loud or just to yourself — \"this is getting turned around onto me\" — and return calmly to the point: \"We can talk about how I raised it, but I'm not going to drop the actual issue, which is that my texts were read.\" You don't have to win the meta-argument about who's the victim. You just have to decline to be recruited into it.",
+        ],
+      },
+      {
+        heading: "Triangulation, up close",
+        body: [
+          "Triangulation brings a third person into a two-person conflict to gain leverage. Instead of working out a disagreement with you directly, the manipulator invokes someone else — a friend, a family member, an ex, a coworker, sometimes a person who has no idea they're being used — to pressure, compare, or outnumber you.",
+          "It shows up in a few recognizable forms: \"Everyone in the family thinks you've been impossible lately,\" which conjures an invisible jury you can't cross-examine; \"My ex never had a problem with this,\" which sets up a comparison designed to make you feel deficient; or relaying messages back and forth between you and a third party so that misunderstandings multiply and the manipulator stays in control of the narrative. The shared effect is that you stop feeling like you're in a fair one-on-one conversation and start feeling like you're arguing against a crowd.",
+          "Counter it by collapsing the triangle back to a line. Be skeptical of secondhand consensus — \"everyone agrees\" is a claim you're almost never allowed to verify, so don't accept it as evidence. Decline the comparison rather than competing with it: \"I'm not interested in how this went with someone else.\" And when possible, take the real conversation directly to whoever it actually concerns, where there's no audience to perform for.",
+        ],
+      },
+      {
+        heading: "Future faking and the role of intermittent reinforcement",
+        body: [
+          "Future faking is the use of vivid promises about the future — the engagement, the move, the dramatic change, the apology that fixes everything — to extract something from you in the present. The promise feels real because it's specific and emotional, and it does its job the moment you act on it. Whether it's ever delivered is, to the future faker, beside the point.",
+          "What makes future faking so effective is usually a second mechanism running underneath it: intermittent reinforcement. If every promise were always broken, you'd stop believing them. But manipulative dynamics typically mix broken promises with occasional real follow-through and genuine warmth — the change does happen, once, just often enough to keep hope alive. Psychologists note that unpredictable, intermittent rewards are among the most powerful at sustaining a behavior; it's the same mechanism that makes a slot machine hard to walk away from. The gap between the promises and the pattern is where you keep getting caught.",
+          "The counter is to weigh actions over words, and to weigh the pattern over the highlight reel. When someone has a track record of promising change that never lands, treat the next promise as information about what they want you to feel, not a prediction of what they'll do. \"I'll believe it when I see it sustained\" is not cynicism — it's just calibrating your trust to the evidence instead of to the pitch.",
+        ],
+      },
+      {
+        heading: "Countering the rest, by category",
+        body: [
+          "The remaining tactics sort into a few families, and each family has a reliable counter. You don't have to memorize a response to all ten; you mostly have to recognize which kind of move is being run, and stop supplying what it needs.",
+        ],
+        list: [
+          "Guilt-based (guilt-tripping, playing the victim): refuse the false responsibility — \"I understand you're upset, and this is still my decision.\"",
+          "Withdrawal-based (the silent treatment, love withdrawal): name it once, don't chase — \"I'm here when you're ready to talk,\" then go on with your day.",
+          "Confusion-based (deflection, DARVO, moving the goalposts): return to the original point and stop chasing the new one they keep introducing.",
+          "Erosion-based (negging): name the dig plainly — \"That landed as an insult\" — instead of accepting the 'compliment' frame.",
+          "Pressure-based (triangulation, future faking): be skeptical of secondhand consensus and unkept promises; weigh actions over words.",
+        ],
+      },
+      {
         heading: "Why manipulation is hard to spot from the inside",
         body: [
           "Manipulation is easiest to see in hindsight and hardest to see while it is happening to you. Skilled manipulators mix genuine warmth with the tactics above, so you are rarely dealing with an obvious villain — you are dealing with someone you care about who occasionally makes you feel confused, guilty, or small.",
-          "It also tends to escalate gradually. Each request or boundary-push is only slightly beyond the last, so there is never a single obvious line being crossed. This is why writing things down and checking your perceptions with trusted friends can be so clarifying.",
+          "It also tends to escalate gradually. Each request or boundary-push is only slightly beyond the last, so there is never a single obvious line being crossed. The earlier compliance makes the next ask feel normal, and over time the baseline of what you'll accept quietly shifts — which is why you can end up somewhere you'd never have agreed to go in one step.",
+          "This is why writing things down and checking your perceptions with trusted friends can be so clarifying. An outside read — a friend, or a tool like toxicornot.ai that lays out the dynamics in an exchange — often catches the pattern the fog hides, not because your judgment is poor but because you're too close, too tired, and too invested to be a neutral reader of your own situation.",
+        ],
+      },
+      {
+        heading: "When the manipulator doesn't know they're doing it",
+        body: [
+          "Not all manipulation is a calculated scheme. Plenty of people run these tactics without a conscious plan — they learned them growing up, they're driven by anxiety or fear of abandonment, and the guilt-trip or the sulk is simply the move that has always worked for them. They may genuinely experience themselves as the wronged party even as they reverse victim and offender.",
+          "This matters for compassion, but it changes less than you'd think about how you respond. Intent affects whether a relationship can grow — someone who, once it's named, is genuinely willing to look at the pattern and work on it is in a very different category from someone who isn't. But intent does not change the effect on you. You are allowed to hold a boundary against a behavior that's hurting you whether or not the other person meant to hurt you. \"You probably don't realize you're doing this, and I still need it to stop\" is a complete and fair position.",
         ],
       },
       {
@@ -148,7 +276,7 @@ export const guides = [
         heading: "When to take it seriously",
         body: [
           "Occasional manipulation in an otherwise healthy relationship can often be addressed by talking about it directly. A persistent pattern — especially one paired with control, isolation, or fear — is different, and it is worth taking seriously.",
-          "If you feel anxious, diminished, or unsafe in a relationship, that feeling is data. A licensed therapist or a confidential helpline can help you sort out what you are experiencing and what you want to do about it.",
+          "If you feel anxious, diminished, or unsafe in a relationship, that feeling is data. This guide is informational and not a substitute for professional advice; a licensed therapist can help you sort out what you're experiencing and decide what you want to do about it. And if manipulation is part of a dynamic that involves control, intimidation, or fear, that changes the picture — in the United States you can reach the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788, and if you are in immediate danger, contact your local emergency services.",
         ],
       },
     ],
