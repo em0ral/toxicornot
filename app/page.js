@@ -509,13 +509,25 @@ export default function Home() {
 
       {/* SEO Landing Section */}
       <section className="w-full max-w-4xl relative z-10 pt-12 pb-8 text-center">
-        <div className="flex justify-end mb-4">
-          <button onClick={() => setDarkMode(!darkMode)}
-            className="text-xs px-3 py-1.5 rounded-full transition-all font-medium"
-            style={{ background: "rgba(168,85,247,0.12)", border: "1px solid rgba(168,85,247,0.3)", color: textMuted }}>
-            {darkMode ? "☀️ Light" : "🌙 Dark"}
-          </button>
-        </div>
+        {/* Top navigation */}
+        <nav className="flex flex-wrap items-center justify-between gap-3 mb-8">
+          <a href="/" className="flex items-center gap-2" style={{ textDecoration: "none" }}>
+            <span className="text-lg">🚩</span>
+            <span className="text-sm font-bold" style={{ color: textPrimary }}>toxicornot.ai</span>
+          </a>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-medium">
+            <a href="/guides" style={{ color: textMuted, textDecoration: "none" }}>Guides</a>
+            <a href="/quiz" style={{ color: textMuted, textDecoration: "none" }}>Quiz</a>
+            <a href="/glossary" style={{ color: textMuted, textDecoration: "none" }}>Glossary</a>
+            <a href="/faq" style={{ color: textMuted, textDecoration: "none" }}>FAQ</a>
+            <a href="/resources" style={{ color: textMuted, textDecoration: "none" }}>Resources</a>
+            <button onClick={() => setDarkMode(!darkMode)}
+              className="text-xs px-3 py-1.5 rounded-full transition-all font-medium"
+              style={{ background: "rgba(168,85,247,0.12)", border: "1px solid rgba(168,85,247,0.3)", color: textMuted }}>
+              {darkMode ? "☀️ Light" : "🌙 Dark"}
+            </button>
+          </div>
+        </nav>
         <span className="text-5xl">🚩</span>
         <h1 className="text-5xl font-bold mt-3 mb-3" style={gradientText}>toxicornot.ai</h1>
         <p className="text-xl font-medium mb-3" style={{ color: textPrimary }}>
